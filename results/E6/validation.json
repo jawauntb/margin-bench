@@ -1,0 +1,35 @@
+{
+  "errors": [],
+  "exclusions": [],
+  "replications_completed": 280,
+  "replications_planned": 280,
+  "reproducibility": {
+    "arms": {
+      "P0": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P2": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P4": {
+        "event_hash": true,
+        "ledger_hash": true
+      }
+    },
+    "replication": 0,
+    "status": "REPRODUCED",
+    "world": "M_275"
+  },
+  "run_status": "VALID",
+  "world_status": {
+    "M_275": "VALID",
+    "M_90": "VALID",
+    "beta_x2": "VALID",
+    "default": "VALID",
+    "negligence_0": "VALID",
+    "negligence_0.5": "VALID",
+    "retention_null": "VALID"
+  }
+}

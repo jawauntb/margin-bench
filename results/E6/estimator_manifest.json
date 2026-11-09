@@ -1,0 +1,29 @@
+{
+  "estimator_hashes": {
+    "M_275": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "M_90": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "beta_x2": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "default": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "negligence_0": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "negligence_0.5": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "retention_null": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a"
+  },
+  "estimator_paths": {
+    "M_275": "/home/user/margin-bench/models/estimator_v1.json",
+    "M_90": "/home/user/margin-bench/models/estimator_v1.json",
+    "beta_x2": "/home/user/margin-bench/models/estimator_v1.json",
+    "default": "/home/user/margin-bench/models/estimator_v1.json",
+    "negligence_0": "/home/user/margin-bench/models/estimator_v1.json",
+    "negligence_0.5": "/home/user/margin-bench/models/estimator_v1.json",
+    "retention_null": "/home/user/margin-bench/models/estimator_v1.json"
+  },
+  "labels": {
+    "M_275": "estimator_v1",
+    "M_90": "estimator_v1",
+    "beta_x2": "estimator_v1",
+    "default": "estimator_v1",
+    "negligence_0": "estimator_v1",
+    "negligence_0.5": "estimator_v1",
+    "retention_null": "estimator_v1"
+  }
+}
