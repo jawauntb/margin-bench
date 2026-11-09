@@ -1,0 +1,62 @@
+{
+  "class_shares": {
+    "class_P2_P0": {
+      "ALIGNMENT_SUPPORTED": {
+        "count": 13,
+        "share_of_tested_design_points": 0.2708333333333333
+      },
+      "EQUIVALENCE_SUPPORTED": {
+        "count": 5,
+        "share_of_tested_design_points": 0.10416666666666667
+      },
+      "INCONCLUSIVE": {
+        "count": 10,
+        "share_of_tested_design_points": 0.20833333333333334
+      },
+      "REVERSAL_SUPPORTED": {
+        "count": 20,
+        "share_of_tested_design_points": 0.4166666666666667
+      }
+    },
+    "class_P4_P2": {
+      "EQUIVALENCE_SUPPORTED": {
+        "count": 8,
+        "share_of_tested_design_points": 0.16666666666666666
+      },
+      "INCONCLUSIVE": {
+        "count": 15,
+        "share_of_tested_design_points": 0.3125
+      },
+      "VALUE_HIGHER_SUPPORTED": {
+        "count": 20,
+        "share_of_tested_design_points": 0.4166666666666667
+      },
+      "VALUE_LOWER_SUPPORTED": {
+        "count": 5,
+        "share_of_tested_design_points": 0.10416666666666667
+      }
+    }
+  },
+  "label": "shares are shares of TESTED DESIGN POINTS, not real-world probabilities",
+  "n_points": 48,
+  "spearman_rho_vs_dJ_P2_P0": {
+    "H_plan_days": 0.07148672865115067,
+    "arrival_rate_multiplier": 0.20147633521493705,
+    "beta_multiplier": -0.4434433347807208,
+    "capacity_multiplier": -0.39361702127659576,
+    "discount_rate": 0.03397742075553625,
+    "m_close": -0.028006947459835,
+    "m_sev_scale": -0.24001302648719064,
+    "price_quality_corr": -0.161202778983934,
+    "report_delay_scale_days": 0.17477203647416412,
+    "severe_hazard_multiplier": -0.48013460703430305,
+    "speed_quality_corr": -0.04038211029092487,
+    "success_dispersion": 0.21189752496743378,
+    "verification_cost": 0.5777247069040382,
+    "verification_sensitivity": -0.05557967867998263
+  },
+  "top_dimensions": [
+    "verification_cost",
+    "severe_hazard_multiplier"
+  ]
+}

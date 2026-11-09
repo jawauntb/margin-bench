@@ -1,0 +1,253 @@
+{
+  "H_override": null,
+  "K_override": null,
+  "config_hashes": {
+    "point_43": "728efaba88ca66e5b773bc5fd950346852bb7f7888d1a59e23d6483057eb1f94"
+  },
+  "estimator_hashes": {
+    "point_43": "d5b41a79105ba25af5cfe508cf9bf68cfc9b348d41c661165dd393884eca0fbc"
+  },
+  "experiment": "SENS-43",
+  "git_commit": "53cc0011c8656542b298532310d71231e400680b",
+  "git_dirty": false,
+  "hash_excluded_fields": [
+    "utc_started",
+    "utc_finished"
+  ],
+  "label": "OPEN_PREREGISTERED",
+  "lock_hash": "0cdf8c836e8b5c280f39925e67d4ffa4c8688b50d54cf75e232b4e53b4271dcb",
+  "materiality_dollars": 1000.0,
+  "metric_definition_version": "metric-1.0",
+  "n_replications": 50,
+  "partition": "sens",
+  "plan_hash": "93ea13f04d138ff5c09d8b86c253aaa2742fc0b1e2f7c2891d3ad8af33873fe6",
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "policies": [
+    "P0",
+    "P2",
+    "P4"
+  ],
+  "policy_version": "pol-1.0",
+  "proxy_version": "proxy_v1",
+  "python": "3.12.13",
+  "random_stream_schema": "stream-1",
+  "replication_offset": 43000,
+  "reproducibility_status": "REPRODUCED",
+  "run_id": "SENS-43-19f524642196",
+  "run_status": "VALID",
+  "seed_manifest": {
+    "master_seed": 6606,
+    "nonce_key": 918273645,
+    "partition": "sens",
+    "replications": [
+      {
+        "replication": 43000,
+        "run_nonce": 10455959899130869481
+      },
+      {
+        "replication": 43001,
+        "run_nonce": 10009058426625759253
+      },
+      {
+        "replication": 43002,
+        "run_nonce": 17248356716103132382
+      },
+      {
+        "replication": 43003,
+        "run_nonce": 14507830973420982058
+      },
+      {
+        "replication": 43004,
+        "run_nonce": 77608181774433023
+      },
+      {
+        "replication": 43005,
+        "run_nonce": 3627354692338880065
+      },
+      {
+        "replication": 43006,
+        "run_nonce": 14986260210685060546
+      },
+      {
+        "replication": 43007,
+        "run_nonce": 17131049939896726387
+      },
+      {
+        "replication": 43008,
+        "run_nonce": 571480914532374925
+      },
+      {
+        "replication": 43009,
+        "run_nonce": 15004887550614531207
+      },
+      {
+        "replication": 43010,
+        "run_nonce": 5604066719675672270
+      },
+      {
+        "replication": 43011,
+        "run_nonce": 15125843488707139952
+      },
+      {
+        "replication": 43012,
+        "run_nonce": 4260709296316555867
+      },
+      {
+        "replication": 43013,
+        "run_nonce": 9740879359511710078
+      },
+      {
+        "replication": 43014,
+        "run_nonce": 2964769699341687961
+      },
+      {
+        "replication": 43015,
+        "run_nonce": 1454336274514738422
+      },
+      {
+        "replication": 43016,
+        "run_nonce": 10795967334388229110
+      },
+      {
+        "replication": 43017,
+        "run_nonce": 6346367217365222993
+      },
+      {
+        "replication": 43018,
+        "run_nonce": 12296720210125669665
+      },
+      {
+        "replication": 43019,
+        "run_nonce": 6989568765105313432
+      },
+      {
+        "replication": 43020,
+        "run_nonce": 5489512861603837816
+      },
+      {
+        "replication": 43021,
+        "run_nonce": 5856221794176215134
+      },
+      {
+        "replication": 43022,
+        "run_nonce": 1762932452646755626
+      },
+      {
+        "replication": 43023,
+        "run_nonce": 8193063984539372161
+      },
+      {
+        "replication": 43024,
+        "run_nonce": 9595883167440125998
+      },
+      {
+        "replication": 43025,
+        "run_nonce": 5463199340743349019
+      },
+      {
+        "replication": 43026,
+        "run_nonce": 13806913966086398116
+      },
+      {
+        "replication": 43027,
+        "run_nonce": 6635791996187185299
+      },
+      {
+        "replication": 43028,
+        "run_nonce": 6108379882716750815
+      },
+      {
+        "replication": 43029,
+        "run_nonce": 602264266797550862
+      },
+      {
+        "replication": 43030,
+        "run_nonce": 17908293483387787382
+      },
+      {
+        "replication": 43031,
+        "run_nonce": 1404637563713703043
+      },
+      {
+        "replication": 43032,
+        "run_nonce": 8996406594335615651
+      },
+      {
+        "replication": 43033,
+        "run_nonce": 17030102399189566380
+      },
+      {
+        "replication": 43034,
+        "run_nonce": 7662383763227563911
+      },
+      {
+        "replication": 43035,
+        "run_nonce": 9028896103528016788
+      },
+      {
+        "replication": 43036,
+        "run_nonce": 7609895466983620635
+      },
+      {
+        "replication": 43037,
+        "run_nonce": 8306079612897952225
+      },
+      {
+        "replication": 43038,
+        "run_nonce": 4830292420245535307
+      },
+      {
+        "replication": 43039,
+        "run_nonce": 17304811613396736798
+      },
+      {
+        "replication": 43040,
+        "run_nonce": 10451536597582158231
+      },
+      {
+        "replication": 43041,
+        "run_nonce": 2767569518787422688
+      },
+      {
+        "replication": 43042,
+        "run_nonce": 7624815742835351069
+      },
+      {
+        "replication": 43043,
+        "run_nonce": 13970917463546785182
+      },
+      {
+        "replication": 43044,
+        "run_nonce": 201469696239326178
+      },
+      {
+        "replication": 43045,
+        "run_nonce": 15151860514863912687
+      },
+      {
+        "replication": 43046,
+        "run_nonce": 1578358497994492948
+      },
+      {
+        "replication": 43047,
+        "run_nonce": 9945725245956345476
+      },
+      {
+        "replication": 43048,
+        "run_nonce": 13683641911470002704
+      },
+      {
+        "replication": 43049,
+        "run_nonce": 4772233570048830269
+      }
+    ],
+    "sim_version": "sim-1.0",
+    "stream_schema": "stream-1"
+  },
+  "sim_version": "sim-1.0",
+  "utc_finished": "2026-11-09T06:34:20Z",
+  "utc_started": "2026-11-09T06:33:15Z",
+  "world_status": {
+    "point_43": "VALID"
+  }
+}

@@ -119,6 +119,8 @@ def build_report(out: Path) -> Path:
         if rid:
             extra.append({"alt": f"Decision-to-cash provenance trace for one request ({pick.name}, modeled dependency)", "b64": _b64(p)})
     sens_p = out / "sensitivity_panel.png"
+    if not sens_p.exists() and man["experiment"] == "PRIMARY":
+        sens_p = REPO_ROOT / "results" / "sensitivity" / "sensitivity_panel.png"
     if sens_p.exists():
         extra.append({"alt": "Sensitivity panels on the two dimensions most correlated with ΔJ(P2,P0)", "b64": _b64(sens_p)})
     xf = (REPO_ROOT / "tests" / "XFAIL_REASONS.txt")

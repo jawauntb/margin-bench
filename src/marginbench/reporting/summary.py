@@ -34,8 +34,8 @@ def write_documents(root: Path) -> None:
     res = root / RESULTS
     runs = {}
     for p in sorted(res.rglob("run_manifest.json")):
-        if "/dev/" in str(p) or "/calib/" in str(p):
-            continue
+        if "/dev/" in str(p) or "/calib/" in str(p) or "/sensitivity/" in str(p):
+            continue  # sensitivity points are summarized as model-family evidence, not as separate claims
         man = json.loads(p.read_text())
         runs[str(p.parent.relative_to(root))] = (man, json.loads((p.parent / "metrics.json").read_text()))
     write_claims(root, runs)

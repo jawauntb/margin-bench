@@ -1,0 +1,76 @@
+{
+  "claims": [
+    {
+      "artifact": "results/sensitivity/point_46/run/metrics.json",
+      "ci": [
+        -4282.952903167347,
+        -1534.6238968326545
+      ],
+      "ci_level": 0.95,
+      "claim": "P2 raised the proxy and lowered simulated operator contribution relative to P0 (scenario point_46, experiment SENS-46)",
+      "classification": "REVERSAL_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P2-P0",
+      "dG_ci": [
+        0.29421066517479266,
+        0.3132342200460867
+      ],
+      "dG_estimate": 0.3037224426104397,
+      "estimate": -2908.788400000001,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1000.0,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 50,
+      "p_value": 9.42840330673275e-05,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "SENS-46-ba2931267613",
+      "scenario": "point_46",
+      "strong": true,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/sensitivity/point_46/run/metrics.json",
+      "ci": [
+        -560.0155408077201,
+        2556.6067408077215
+      ],
+      "ci_level": 0.95,
+      "claim": "the contrast P4 vs P2 was inconclusive (scenario point_46, experiment SENS-46)",
+      "classification": "INCONCLUSIVE",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P4-P2",
+      "dG_ci": [
+        -0.016059715229791712,
+        -0.002191402690889875
+      ],
+      "dG_estimate": -0.009125558960340794,
+      "estimate": 998.2956000000006,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1000.0,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 50,
+      "p_value": 0.20400707591481718,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "SENS-46-ba2931267613",
+      "scenario": "point_46",
+      "strong": false,
+      "supported": false,
+      "units": "USD (J), dimensionless (G)"
+    }
+  ],
+  "cross_world_exploratory": {},
+  "experiment": "SENS-46",
+  "never_claimed": [
+    "Level 3 external validation",
+    "real-world probability of any class",
+    "deployability of any oracle"
+  ],
+  "run_id": "SENS-46-ba2931267613"
+}
