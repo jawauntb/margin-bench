@@ -184,6 +184,8 @@ class AttemptView:
     report: Optional[str]  # "complete" / "needs_return" once reported
     verify_result: Optional[str]  # "ok" / "fail" when verified
     invoice_cents: Optional[int]
+    closed_tick: Optional[int] = None  # administrative close that followed this attempt, if any
+    callback_tick: Optional[int] = None  # callback that reopened the request after that close
 
 
 @dataclass(frozen=True)

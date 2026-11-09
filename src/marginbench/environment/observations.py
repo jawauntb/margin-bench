@@ -42,6 +42,8 @@ ALLOWLIST: dict[type, dict[str, tuple[type, tuple[str, ...]]]] = {
         "report": (AttemptRecord, ("report",)),
         "verify_result": (AttemptRecord, ("verify_result",)),
         "invoice_cents": (AttemptRecord, ("invoice_cents",)),
+        "closed_tick": (AttemptRecord, ("closed_tick",)),
+        "callback_tick": (AttemptRecord, ("callback_tick",)),
     },
     RequestView: {
         "request_id": (RequestState, ("request_id",)),
@@ -150,6 +152,8 @@ def attempt_view(a: AttemptRecord) -> AttemptView:
         report=a.report,
         verify_result=a.verify_result,
         invoice_cents=a.invoice_cents,
+        closed_tick=a.closed_tick,
+        callback_tick=a.callback_tick,
     )
 
 

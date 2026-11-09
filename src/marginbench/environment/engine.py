@@ -405,6 +405,8 @@ class Engine:
         unverified = a.stage == Stage.WORK_REPORTED
         req.stage = Stage.CLOSED
         req.last_close_unverified = unverified
+        if req.attempts:
+            req.attempts[-1].closed_tick = t
         if req.first_closure_tick is None:
             req.first_closure_tick = t
         rid = req.request_id
@@ -646,6 +648,8 @@ class Engine:
         self.tenants[req.tenant_id].complaint_count += 1
         if req.attempts:
             self.contractors[req.attempts[-1].contractor].observed_callbacks += 1
+            if req.attempts[-1].callback_tick is None:
+                req.attempts[-1].callback_tick = it.tick
         req.stage = Stage.DISPATCH_READY
         self._enter_dispatch_ready(req, it.tick, it.priority)
 

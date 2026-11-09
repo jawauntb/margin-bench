@@ -97,6 +97,8 @@ class AttemptRecord:
     report: Optional[str] = vf(O, None)
     verify_result: Optional[str] = vf(O, None)
     invoice_cents: Optional[int] = vf(O, None)
+    closed_tick: Optional[int] = vf(O, None)
+    callback_tick: Optional[int] = vf(O, None)
     success: Optional[bool] = vf(E, None)
 
 
