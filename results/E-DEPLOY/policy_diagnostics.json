@@ -1,0 +1,29 @@
+{
+  "deploy": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 133211,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 28726464,
+      "valued_decisions": 133153,
+      "wall_seconds": 249.406
+    },
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 136767,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 29608032,
+      "valued_decisions": 136110,
+      "wall_seconds": 258.535
+    }
+  }
+}
