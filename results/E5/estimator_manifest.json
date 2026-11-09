@@ -1,0 +1,20 @@
+{
+  "estimator_hashes": {
+    "acc_0.6": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "acc_0.8": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "acc_0.95": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "acc_1.0": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a"
+  },
+  "estimator_paths": {
+    "acc_0.6": "/home/user/margin-bench/models/estimator_v1.json",
+    "acc_0.8": "/home/user/margin-bench/models/estimator_v1.json",
+    "acc_0.95": "/home/user/margin-bench/models/estimator_v1.json",
+    "acc_1.0": "/home/user/margin-bench/models/estimator_v1.json"
+  },
+  "labels": {
+    "acc_0.6": "estimator_v1",
+    "acc_0.8": "estimator_v1",
+    "acc_0.95": "estimator_v1",
+    "acc_1.0": "estimator_v1"
+  }
+}
