@@ -1,0 +1,253 @@
+{
+  "H_override": null,
+  "K_override": null,
+  "config_hashes": {
+    "point_13": "f7f7f819f549ab90d0469da826c94036fada5e2070ff4d6f170607a0e6594866"
+  },
+  "estimator_hashes": {
+    "point_13": "d6088fadf4f09cd592dcbe95f4ed25a7c93ade0ba503561e33c31a9c21b1bee5"
+  },
+  "experiment": "SENS-13",
+  "git_commit": "9fdc9b852a452903dd9e989f29aab9fc46fed81c",
+  "git_dirty": false,
+  "hash_excluded_fields": [
+    "utc_started",
+    "utc_finished"
+  ],
+  "label": "OPEN_PREREGISTERED",
+  "lock_hash": "0cdf8c836e8b5c280f39925e67d4ffa4c8688b50d54cf75e232b4e53b4271dcb",
+  "materiality_dollars": 1000.0,
+  "metric_definition_version": "metric-1.0",
+  "n_replications": 50,
+  "partition": "sens",
+  "plan_hash": "93ea13f04d138ff5c09d8b86c253aaa2742fc0b1e2f7c2891d3ad8af33873fe6",
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "policies": [
+    "P0",
+    "P2",
+    "P4"
+  ],
+  "policy_version": "pol-1.0",
+  "proxy_version": "proxy_v1",
+  "python": "3.12.13",
+  "random_stream_schema": "stream-1",
+  "replication_offset": 13000,
+  "reproducibility_status": "REPRODUCED",
+  "run_id": "SENS-13-6e743b7229d8",
+  "run_status": "VALID",
+  "seed_manifest": {
+    "master_seed": 6606,
+    "nonce_key": 918273645,
+    "partition": "sens",
+    "replications": [
+      {
+        "replication": 13000,
+        "run_nonce": 8679542710939446751
+      },
+      {
+        "replication": 13001,
+        "run_nonce": 17905541709986098506
+      },
+      {
+        "replication": 13002,
+        "run_nonce": 6328019988430490744
+      },
+      {
+        "replication": 13003,
+        "run_nonce": 11734850211770420405
+      },
+      {
+        "replication": 13004,
+        "run_nonce": 2824012232222066089
+      },
+      {
+        "replication": 13005,
+        "run_nonce": 9579252351223590604
+      },
+      {
+        "replication": 13006,
+        "run_nonce": 3620883539573775741
+      },
+      {
+        "replication": 13007,
+        "run_nonce": 6317223709539051488
+      },
+      {
+        "replication": 13008,
+        "run_nonce": 3122179605214781962
+      },
+      {
+        "replication": 13009,
+        "run_nonce": 16088274652704173972
+      },
+      {
+        "replication": 13010,
+        "run_nonce": 4103915228172625096
+      },
+      {
+        "replication": 13011,
+        "run_nonce": 13433005473954935894
+      },
+      {
+        "replication": 13012,
+        "run_nonce": 12412769886735942702
+      },
+      {
+        "replication": 13013,
+        "run_nonce": 6908344600610125228
+      },
+      {
+        "replication": 13014,
+        "run_nonce": 14858929642707297422
+      },
+      {
+        "replication": 13015,
+        "run_nonce": 9727691166873788768
+      },
+      {
+        "replication": 13016,
+        "run_nonce": 859515791571850824
+      },
+      {
+        "replication": 13017,
+        "run_nonce": 6213283923182919824
+      },
+      {
+        "replication": 13018,
+        "run_nonce": 14357996343240179487
+      },
+      {
+        "replication": 13019,
+        "run_nonce": 14241240250040706133
+      },
+      {
+        "replication": 13020,
+        "run_nonce": 10167417351902267465
+      },
+      {
+        "replication": 13021,
+        "run_nonce": 5497882094988225152
+      },
+      {
+        "replication": 13022,
+        "run_nonce": 9752466368924978101
+      },
+      {
+        "replication": 13023,
+        "run_nonce": 12769023461847503070
+      },
+      {
+        "replication": 13024,
+        "run_nonce": 17161588077178409682
+      },
+      {
+        "replication": 13025,
+        "run_nonce": 2387629096607634668
+      },
+      {
+        "replication": 13026,
+        "run_nonce": 4417543338882168967
+      },
+      {
+        "replication": 13027,
+        "run_nonce": 9019156324652713281
+      },
+      {
+        "replication": 13028,
+        "run_nonce": 7155392715410243931
+      },
+      {
+        "replication": 13029,
+        "run_nonce": 12273284244633659393
+      },
+      {
+        "replication": 13030,
+        "run_nonce": 17615123026341204342
+      },
+      {
+        "replication": 13031,
+        "run_nonce": 17579216767594557020
+      },
+      {
+        "replication": 13032,
+        "run_nonce": 4245295645509151628
+      },
+      {
+        "replication": 13033,
+        "run_nonce": 12243521540222026445
+      },
+      {
+        "replication": 13034,
+        "run_nonce": 10529209503065030958
+      },
+      {
+        "replication": 13035,
+        "run_nonce": 7941377213444432482
+      },
+      {
+        "replication": 13036,
+        "run_nonce": 6709917231346335919
+      },
+      {
+        "replication": 13037,
+        "run_nonce": 1277482815788167666
+      },
+      {
+        "replication": 13038,
+        "run_nonce": 8437225337746398728
+      },
+      {
+        "replication": 13039,
+        "run_nonce": 7282346099815728134
+      },
+      {
+        "replication": 13040,
+        "run_nonce": 18223794839591372348
+      },
+      {
+        "replication": 13041,
+        "run_nonce": 4173787390301107953
+      },
+      {
+        "replication": 13042,
+        "run_nonce": 5778548798039204550
+      },
+      {
+        "replication": 13043,
+        "run_nonce": 6821112666284541546
+      },
+      {
+        "replication": 13044,
+        "run_nonce": 8367151036966243011
+      },
+      {
+        "replication": 13045,
+        "run_nonce": 14433724369415197402
+      },
+      {
+        "replication": 13046,
+        "run_nonce": 9253380395142804009
+      },
+      {
+        "replication": 13047,
+        "run_nonce": 6661788829636601534
+      },
+      {
+        "replication": 13048,
+        "run_nonce": 1929973349649320596
+      },
+      {
+        "replication": 13049,
+        "run_nonce": 17461943471709539745
+      }
+    ],
+    "sim_version": "sim-1.0",
+    "stream_schema": "stream-1"
+  },
+  "sim_version": "sim-1.0",
+  "utc_finished": "2026-11-09T05:18:24Z",
+  "utc_started": "2026-11-09T05:16:42Z",
+  "world_status": {
+    "point_13": "VALID"
+  }
+}

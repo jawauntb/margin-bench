@@ -1,0 +1,76 @@
+{
+  "claims": [
+    {
+      "artifact": "results/sensitivity/point_06/run/metrics.json",
+      "ci": [
+        -5826.438322784593,
+        -1924.1016772154062
+      ],
+      "ci_level": 0.95,
+      "claim": "P2 raised the proxy and lowered simulated operator contribution relative to P0 (scenario point_06, experiment SENS-06)",
+      "classification": "REVERSAL_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P2-P0",
+      "dG_ci": [
+        0.12389570205898885,
+        0.14984949275522153
+      ],
+      "dG_estimate": 0.1368725974071052,
+      "estimate": -3875.2699999999995,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1000.0,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 50,
+      "p_value": 0.00021948487598269945,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "SENS-06-3472cd7ac242",
+      "scenario": "point_06",
+      "strong": true,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/sensitivity/point_06/run/metrics.json",
+      "ci": [
+        -515.8450110539659,
+        1852.4502110539672
+      ],
+      "ci_level": 0.95,
+      "claim": "the contrast P4 vs P2 was inconclusive (scenario point_06, experiment SENS-06)",
+      "classification": "INCONCLUSIVE",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P4-P2",
+      "dG_ci": [
+        -0.03417643967561444,
+        -0.02184253409270527
+      ],
+      "dG_estimate": -0.028009486884159857,
+      "estimate": 668.3026000000007,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1000.0,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 50,
+      "p_value": 0.26224865801868524,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "SENS-06-3472cd7ac242",
+      "scenario": "point_06",
+      "strong": false,
+      "supported": false,
+      "units": "USD (J), dimensionless (G)"
+    }
+  ],
+  "cross_world_exploratory": {},
+  "experiment": "SENS-06",
+  "never_claimed": [
+    "Level 3 external validation",
+    "real-world probability of any class",
+    "deployability of any oracle"
+  ],
+  "run_id": "SENS-06-3472cd7ac242"
+}

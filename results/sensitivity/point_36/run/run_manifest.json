@@ -1,0 +1,253 @@
+{
+  "H_override": null,
+  "K_override": null,
+  "config_hashes": {
+    "point_36": "05ca85cfcc3636f9c9719262ee2d43978bfee932d0cfac02831fc23a7b0b879b"
+  },
+  "estimator_hashes": {
+    "point_36": "da6c41d970182e3b8eb2f57d0af9538f72845a8d5f846b4e6a30f951d52b15c3"
+  },
+  "experiment": "SENS-36",
+  "git_commit": "53cc0011c8656542b298532310d71231e400680b",
+  "git_dirty": false,
+  "hash_excluded_fields": [
+    "utc_started",
+    "utc_finished"
+  ],
+  "label": "OPEN_PREREGISTERED",
+  "lock_hash": "0cdf8c836e8b5c280f39925e67d4ffa4c8688b50d54cf75e232b4e53b4271dcb",
+  "materiality_dollars": 1000.0,
+  "metric_definition_version": "metric-1.0",
+  "n_replications": 50,
+  "partition": "sens",
+  "plan_hash": "93ea13f04d138ff5c09d8b86c253aaa2742fc0b1e2f7c2891d3ad8af33873fe6",
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "policies": [
+    "P0",
+    "P2",
+    "P4"
+  ],
+  "policy_version": "pol-1.0",
+  "proxy_version": "proxy_v1",
+  "python": "3.12.13",
+  "random_stream_schema": "stream-1",
+  "replication_offset": 36000,
+  "reproducibility_status": "REPRODUCED",
+  "run_id": "SENS-36-bd09113150c0",
+  "run_status": "VALID",
+  "seed_manifest": {
+    "master_seed": 6606,
+    "nonce_key": 918273645,
+    "partition": "sens",
+    "replications": [
+      {
+        "replication": 36000,
+        "run_nonce": 12943159968867383690
+      },
+      {
+        "replication": 36001,
+        "run_nonce": 6758994330611537162
+      },
+      {
+        "replication": 36002,
+        "run_nonce": 4223455467486973547
+      },
+      {
+        "replication": 36003,
+        "run_nonce": 10640687079042357142
+      },
+      {
+        "replication": 36004,
+        "run_nonce": 4740153442123362943
+      },
+      {
+        "replication": 36005,
+        "run_nonce": 10214107916882709483
+      },
+      {
+        "replication": 36006,
+        "run_nonce": 3450614541335642846
+      },
+      {
+        "replication": 36007,
+        "run_nonce": 11130705704877219488
+      },
+      {
+        "replication": 36008,
+        "run_nonce": 7688247945533949732
+      },
+      {
+        "replication": 36009,
+        "run_nonce": 3080894933559542608
+      },
+      {
+        "replication": 36010,
+        "run_nonce": 8446212115003828854
+      },
+      {
+        "replication": 36011,
+        "run_nonce": 18222879264874559593
+      },
+      {
+        "replication": 36012,
+        "run_nonce": 8267168867751238556
+      },
+      {
+        "replication": 36013,
+        "run_nonce": 3413099323487235635
+      },
+      {
+        "replication": 36014,
+        "run_nonce": 13746946798702791758
+      },
+      {
+        "replication": 36015,
+        "run_nonce": 13909772113778200735
+      },
+      {
+        "replication": 36016,
+        "run_nonce": 15229888328064609636
+      },
+      {
+        "replication": 36017,
+        "run_nonce": 8905733637205609821
+      },
+      {
+        "replication": 36018,
+        "run_nonce": 16559518531544423583
+      },
+      {
+        "replication": 36019,
+        "run_nonce": 14653581058772877709
+      },
+      {
+        "replication": 36020,
+        "run_nonce": 3269932657157629292
+      },
+      {
+        "replication": 36021,
+        "run_nonce": 4280482150301786413
+      },
+      {
+        "replication": 36022,
+        "run_nonce": 13254467921688969126
+      },
+      {
+        "replication": 36023,
+        "run_nonce": 5177471437911738734
+      },
+      {
+        "replication": 36024,
+        "run_nonce": 13125592512670293630
+      },
+      {
+        "replication": 36025,
+        "run_nonce": 17721700083122897521
+      },
+      {
+        "replication": 36026,
+        "run_nonce": 14294848936037569869
+      },
+      {
+        "replication": 36027,
+        "run_nonce": 13876109713135691580
+      },
+      {
+        "replication": 36028,
+        "run_nonce": 8055335993946519739
+      },
+      {
+        "replication": 36029,
+        "run_nonce": 12456409413402783032
+      },
+      {
+        "replication": 36030,
+        "run_nonce": 8022845659429729305
+      },
+      {
+        "replication": 36031,
+        "run_nonce": 12097650561365805878
+      },
+      {
+        "replication": 36032,
+        "run_nonce": 16818082480465914635
+      },
+      {
+        "replication": 36033,
+        "run_nonce": 2340405686111121355
+      },
+      {
+        "replication": 36034,
+        "run_nonce": 737119608170897106
+      },
+      {
+        "replication": 36035,
+        "run_nonce": 2889260791620181999
+      },
+      {
+        "replication": 36036,
+        "run_nonce": 8791754531227811235
+      },
+      {
+        "replication": 36037,
+        "run_nonce": 17483725512828440510
+      },
+      {
+        "replication": 36038,
+        "run_nonce": 5958613959069394534
+      },
+      {
+        "replication": 36039,
+        "run_nonce": 14556060370830742718
+      },
+      {
+        "replication": 36040,
+        "run_nonce": 16080468693713273766
+      },
+      {
+        "replication": 36041,
+        "run_nonce": 13656021076699989640
+      },
+      {
+        "replication": 36042,
+        "run_nonce": 12158999495656378623
+      },
+      {
+        "replication": 36043,
+        "run_nonce": 10798888582507419476
+      },
+      {
+        "replication": 36044,
+        "run_nonce": 13378286877316540739
+      },
+      {
+        "replication": 36045,
+        "run_nonce": 13649132793700959377
+      },
+      {
+        "replication": 36046,
+        "run_nonce": 4374886355796042507
+      },
+      {
+        "replication": 36047,
+        "run_nonce": 15754124644852595550
+      },
+      {
+        "replication": 36048,
+        "run_nonce": 1984152758423926037
+      },
+      {
+        "replication": 36049,
+        "run_nonce": 11602341667982180492
+      }
+    ],
+    "sim_version": "sim-1.0",
+    "stream_schema": "stream-1"
+  },
+  "sim_version": "sim-1.0",
+  "utc_finished": "2026-11-09T06:16:19Z",
+  "utc_started": "2026-11-09T06:14:20Z",
+  "world_status": {
+    "point_36": "VALID"
+  }
+}

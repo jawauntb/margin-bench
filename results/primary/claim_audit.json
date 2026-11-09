@@ -1,0 +1,300 @@
+{
+  "claims": [
+    {
+      "artifact": "results/primary/metrics.json",
+      "ci": [
+        -659.6269982492278,
+        205.7221982492265
+      ],
+      "ci_level": 0.95,
+      "claim": "P2 and P0 were equivalent in simulated operator contribution within the materiality band (scenario default, experiment PRIMARY)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P2-P0",
+      "dG_ci": [
+        0.21691600298186853,
+        0.22851810516387072
+      ],
+      "dG_estimate": 0.22271705407286962,
+      "estimate": -226.95240000000064,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "PRIMARY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 200,
+      "p_value": 0.3022243511443137,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "PRIMARY-e85fc6d05ce0",
+      "scenario": "default",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/primary/metrics.json",
+      "ci": [
+        -60.23017129337563,
+        752.3304712933771
+      ],
+      "ci_level": 0.9833333333333333,
+      "claim": "P4 and P2 were equivalent in simulated operator contribution within the materiality band (scenario default, experiment PRIMARY)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P4-P2",
+      "dG_ci": [
+        0.005569850147522475,
+        0.011351133232693048
+      ],
+      "dG_estimate": 0.008460491690107761,
+      "estimate": 346.0501500000007,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "CONFIRMATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 200,
+      "p_value": 0.04104306863913727,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "PRIMARY-e85fc6d05ce0",
+      "scenario": "default",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/primary/metrics.json",
+      "ci": [
+        -7744.403895357367,
+        -5437.944004642633
+      ],
+      "ci_level": 0.99,
+      "claim": "P1 did not improve the proxy over P0, so no proxy-reversal claim is made (scenario default, experiment PRIMARY)",
+      "classification": "PROXY_NOT_IMPROVED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P1-P0",
+      "dG_ci": [
+        -0.07713590653155998,
+        -0.053937968959832674
+      ],
+      "dG_estimate": -0.06553693774569633,
+      "estimate": -6591.17395,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "CONFIRMATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 200,
+      "p_value": 4.141884399959859e-34,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "PRIMARY-e85fc6d05ce0",
+      "scenario": "default",
+      "strong": false,
+      "supported": false,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/primary/metrics.json",
+      "ci": [
+        1025.602112633571,
+        2211.7676873664277
+      ],
+      "ci_level": 0.9875,
+      "claim": "the contrast P3 vs P1 was inconclusive (scenario default, experiment PRIMARY)",
+      "classification": "INCONCLUSIVE",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P3-P1",
+      "dG_ci": [
+        -0.1449855675326234,
+        -0.13197359822037444
+      ],
+      "dG_estimate": -0.13847958287649892,
+      "estimate": 1618.6848999999993,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "CONFIRMATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 200,
+      "p_value": 7.62049287330691e-11,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "PRIMARY-e85fc6d05ce0",
+      "scenario": "default",
+      "strong": false,
+      "supported": false,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/primary/metrics.json",
+      "ci": [
+        -514.3033033755759,
+        265.27190337557425
+      ],
+      "ci_level": 0.975,
+      "claim": "P5 and P4 were equivalent in simulated operator contribution within the materiality band (scenario default, experiment PRIMARY)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P5-P4",
+      "dG_ci": [
+        -0.11472899068020313,
+        -0.103989173761863
+      ],
+      "dG_estimate": -0.10935908222103306,
+      "estimate": -124.51570000000079,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "CONFIRMATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 200,
+      "p_value": 0.47147143816323434,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "PRIMARY-e85fc6d05ce0",
+      "scenario": "default",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/primary/metrics.json",
+      "ci": [
+        -341.5433474722789,
+        579.7388474722791
+      ],
+      "ci_level": 0.95,
+      "claim": "P4 and P0 were equivalent in simulated operator contribution within the materiality band (scenario default, experiment PRIMARY)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P4-P0",
+      "dG_ci": [
+        0.22513957477787622,
+        0.23721551674807856
+      ],
+      "dG_estimate": 0.2311775457629774,
+      "estimate": 119.09775000000009,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "CONFIRMATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 200,
+      "p_value": 0.6107249885145937,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "PRIMARY-e85fc6d05ce0",
+      "scenario": "default",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/primary/metrics.json",
+      "ci": [
+        -5746.198273848214,
+        -4198.779826151788
+      ],
+      "ci_level": 0.95,
+      "claim": "P3 had lower simulated operator contribution than P0 (scenario default, experiment PRIMARY)",
+      "classification": "VALUE_LOWER_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P3-P0",
+      "dG_ci": [
+        -0.21472926941870135,
+        -0.19330377182568914
+      ],
+      "dG_estimate": -0.20401652062219525,
+      "estimate": -4972.489050000001,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 200,
+      "p_value": 2.2612322880472293e-27,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "PRIMARY-e85fc6d05ce0",
+      "scenario": "default",
+      "strong": true,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/primary/metrics.json",
+      "ci": [
+        -342.14115271413186,
+        331.30525271413046
+      ],
+      "ci_level": 0.95,
+      "claim": "P5 and P0 were equivalent in simulated operator contribution within the materiality band (scenario default, experiment PRIMARY)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P5-P0",
+      "dG_ci": [
+        0.11471897868429558,
+        0.1289179483995931
+      ],
+      "dG_estimate": 0.12181846354194434,
+      "estimate": -5.41795000000071,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 200,
+      "p_value": 0.9747197988293146,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "PRIMARY-e85fc6d05ce0",
+      "scenario": "default",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/primary/metrics.json",
+      "ci": [
+        -136.45844788234433,
+        579.5273478823442
+      ],
+      "ci_level": 0.95,
+      "claim": "P5 and P2 were equivalent in simulated operator contribution within the materiality band (scenario default, experiment PRIMARY)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P5-P2",
+      "dG_ci": [
+        -0.105674672492895,
+        -0.09612250856895557
+      ],
+      "dG_estimate": -0.10089859053092529,
+      "estimate": 221.53444999999994,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 200,
+      "p_value": 0.22379781723871084,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "PRIMARY-e85fc6d05ce0",
+      "scenario": "default",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    }
+  ],
+  "cross_world_exploratory": {},
+  "experiment": "PRIMARY",
+  "never_claimed": [
+    "Level 3 external validation",
+    "real-world probability of any class",
+    "deployability of any oracle"
+  ],
+  "run_id": "PRIMARY-e85fc6d05ce0"
+}

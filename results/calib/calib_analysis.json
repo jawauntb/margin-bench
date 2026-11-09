@@ -1,0 +1,103 @@
+{
+  "achieved_power": {
+    "effect_2m": 1.0,
+    "effect_m": 0.5
+  },
+  "calib_wall_seconds": 16.58152925000013,
+  "capped": false,
+  "materiality_dollars": 1774.97285,
+  "mean_J_P0": 177497.285,
+  "mean_dJ_P2_P0": 431.6760000000024,
+  "n": 20,
+  "n_eval": 200,
+  "n_req": 12,
+  "per_replication_seconds": {
+    "P0": 0.7574000000000001,
+    "P2": 2.2443
+  },
+  "power_note": "At |dJ| = m exactly, power is about 50% by construction (the point estimate must pass m).",
+  "replication_hashes": {
+    "0": {
+      "P0": "388cbeb6245a073c62469a833aa0a99c46b7ba93a1ff7bc5948d66f59a7079a7",
+      "P2": "1a2ba613de5b781ac961e84e390702a9f38076e65c173dc05e944062522f56bf"
+    },
+    "1": {
+      "P0": "9dfec2164ed722d44bfabcbfad76693299bb6aad382cca8a084cd5c4a5376f36",
+      "P2": "c9d557e270db3d900e4662f79a24fe99755c6bd5608cb50de8127fb0d7bcc00d"
+    },
+    "10": {
+      "P0": "f234cff65a7043a36b1c067262c58f8caf98a87666c9ec224b001ec2a7a222f7",
+      "P2": "79ee03e8864625a7d864ba8b786a9d2796244e2002f1f9a0fe31bcdf36da79da"
+    },
+    "11": {
+      "P0": "39466b398d615f06fd2c7dacbdb31d548fbb671355d2e79b094bb5ad5b1d4170",
+      "P2": "5f9e424468cf0159e649f54c31eb5c2d584a74bca91b087c9391729458d611be"
+    },
+    "12": {
+      "P0": "40d33bcc88a677efd980dabf4d1fe4e5080eade03ee65a63a165eff3da0f9c8b",
+      "P2": "ccfd2f1d4345a34b8c009ba41934b24cf9ac2156fe5908ef3f62fdc755098fba"
+    },
+    "13": {
+      "P0": "e86953e0f562f58c41901bffeca582e46b137db02c2e6d92505568586972b12e",
+      "P2": "e30e98d5a0f7864a1788c0fe0058ae6a06c2659454916f1a8601e964b85c5bca"
+    },
+    "14": {
+      "P0": "7c382a380b988599ed2858d4f358b150c5c0554160cd3a0a755efa4d0830a4af",
+      "P2": "1bcc96c04746bd8838982b5fadbcbf037c0ae01933765311759764ea1ac58891"
+    },
+    "15": {
+      "P0": "8f1c7b318b50b248ee1bf492c4b0f5a9fcdaed4c45c3162d97335608e22a8f01",
+      "P2": "475f561f20bddafb0d427b09d93cae421d52fa19f9ca13c7ed1bdb74a1a15eed"
+    },
+    "16": {
+      "P0": "72693e598c64d57788bca032d5c5dce739c370d361e6b4bdc63d337b57650258",
+      "P2": "04052199403064332fbefc919bd802031b8b3465f6fbb4ffe0f21185d9697234"
+    },
+    "17": {
+      "P0": "9f05cc718a8ea4bff84ad37436c937963e3cd7a4b7b2e70947fb6327c264ff7c",
+      "P2": "ac7defe9958e6ca9d2085c317dadaa3d76d87984195162a1132d1a4167e0f643"
+    },
+    "18": {
+      "P0": "df7ed0a820e343fd40b6078280cffba8512b29276ba7d9139af4766e28582f4a",
+      "P2": "77eb2edc5a0b45360d6c14863e8b597008869d6933fdc9e78e9dfbb88468298d"
+    },
+    "19": {
+      "P0": "7acc5b9a94cacf89152e7d289f3e5cc9a5392e1d5f48dc6984d0117d3040b637",
+      "P2": "ad172aa4c6ffa6dbadb08177c1d20a0fa834e382b0cb7787608aad247c9f54bc"
+    },
+    "2": {
+      "P0": "3d404817a2c5d2d47127f7f651c89921538f418d7561f53eb2b6250b05ce298d",
+      "P2": "18d57fdd491966b63bfad6fc88917d3d6f76d1fba72ebd560e24131f57ee722a"
+    },
+    "3": {
+      "P0": "a16162fa8c3cdc0ef7a46b7feff46c6d484cff9de992c25ae3b3aac412f17c57",
+      "P2": "010858b86b046df4d91006aa2807b03fad479d7151af4513bf9147c18f8bff97"
+    },
+    "4": {
+      "P0": "4b168229a5d142fb4901c893ce4277520b776cc7cb06e5978b95fb94be8285a9",
+      "P2": "3eb6d8bce79bded5d34e2f6cd33601debf39a656f6c632dcefb542abdc3beb58"
+    },
+    "5": {
+      "P0": "88a9e661b9b7573117c9b11cb109b5b59c73508185794c7b43adb639d1b04848",
+      "P2": "7ce8f8db000585a708840f6a023f363408feaf88f8f5e923d59900f11e8ad6e7"
+    },
+    "6": {
+      "P0": "8c0464c579d428b53668835122f1bfe1c53456597229fc16fbcdc89e4f83a899",
+      "P2": "20bf20600bb276154706b39300140cf0aa39969911ca852ecbcc00f552d39c09"
+    },
+    "7": {
+      "P0": "07e43fb5425b6b20529d71e2d6a40a4edfa8ee446417164ba3897e9ad466f2c1",
+      "P2": "00af55633923278416e7a288c37f77e8e6d9acf62512f4f294bd04c911e58a36"
+    },
+    "8": {
+      "P0": "c2ee7b51b355ebe51cc50fc57bba8d2066493b7a3a30edafda8c37d85b2f4aab",
+      "P2": "c46de97d4a8e0c7f661dd7f5fb762ba9c0dff9eace5dec04c65878dcf8f29f29"
+    },
+    "9": {
+      "P0": "6073f4f75a7beecb284e8f130f02b3dce27896709d7f20f9813e5ba43a604a28",
+      "P2": "a3be0c2d6cff8e2f40fda6cb1d1a1e7bb4b29f858b631dcd948802a4c2e39312"
+    }
+  },
+  "sd_dJ_P2_P0": 2176.6237647411135,
+  "status": "VALID"
+}

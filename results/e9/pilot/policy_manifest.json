@@ -1,0 +1,198 @@
+{
+  "H_plan_days": 60,
+  "K": 32,
+  "feasible": [
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "V01",
+    "V02",
+    "V03",
+    "V04",
+    "V05",
+    "V06",
+    "V07",
+    "V08",
+    "V09",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15"
+  ],
+  "matched_pairs": [
+    [
+      "P1",
+      "P3"
+    ],
+    [
+      "P2",
+      "P4"
+    ],
+    [
+      "P4",
+      "P5"
+    ]
+  ],
+  "non_deployable": [],
+  "policies": [
+    {
+      "name": "P0"
+    },
+    {
+      "name": "P1"
+    },
+    {
+      "name": "P2"
+    },
+    {
+      "name": "P3"
+    },
+    {
+      "name": "P4"
+    },
+    {
+      "name": "P5"
+    },
+    {
+      "name": "V01",
+      "variant": {
+        "H_plan_days": 0,
+        "close_tau": 0.1,
+        "objective": "proxy",
+        "verify_bonus": 0.0
+      }
+    },
+    {
+      "name": "V02",
+      "variant": {
+        "H_plan_days": 0,
+        "close_tau": 0.1,
+        "objective": "proxy",
+        "verify_bonus": 0.1
+      }
+    },
+    {
+      "name": "V03",
+      "variant": {
+        "H_plan_days": 0,
+        "close_tau": 0.3,
+        "objective": "proxy",
+        "verify_bonus": 0.1
+      }
+    },
+    {
+      "name": "V04",
+      "variant": {
+        "H_plan_days": 15,
+        "close_tau": null,
+        "objective": "proxy",
+        "verify_bonus": 0.0
+      }
+    },
+    {
+      "name": "V05",
+      "variant": {
+        "H_plan_days": 15,
+        "close_tau": null,
+        "objective": "proxy",
+        "verify_bonus": 0.1
+      }
+    },
+    {
+      "name": "V06",
+      "variant": {
+        "H_plan_days": 15,
+        "close_tau": 0.1,
+        "objective": "proxy",
+        "verify_bonus": 0.0
+      }
+    },
+    {
+      "name": "V07",
+      "variant": {
+        "H_plan_days": 15,
+        "close_tau": 0.1,
+        "objective": "proxy",
+        "verify_bonus": 0.3
+      }
+    },
+    {
+      "name": "V08",
+      "variant": {
+        "H_plan_days": 30,
+        "close_tau": 0.1,
+        "objective": "proxy",
+        "verify_bonus": 0.3
+      }
+    },
+    {
+      "name": "V09",
+      "variant": {
+        "H_plan_days": 30,
+        "close_tau": 0.3,
+        "objective": "proxy",
+        "verify_bonus": 0.1
+      }
+    },
+    {
+      "name": "V10",
+      "variant": {
+        "H_plan_days": 30,
+        "close_tau": 0.3,
+        "objective": "proxy",
+        "verify_bonus": 0.3
+      }
+    },
+    {
+      "name": "V11",
+      "variant": {
+        "H_plan_days": 15,
+        "close_tau": null,
+        "objective": "econ",
+        "verify_bonus": 5.0
+      }
+    },
+    {
+      "name": "V12",
+      "variant": {
+        "H_plan_days": 15,
+        "close_tau": 0.1,
+        "objective": "econ",
+        "verify_bonus": 5.0
+      }
+    },
+    {
+      "name": "V13",
+      "variant": {
+        "H_plan_days": 15,
+        "close_tau": 0.3,
+        "objective": "econ",
+        "verify_bonus": 5.0
+      }
+    },
+    {
+      "name": "V14",
+      "variant": {
+        "H_plan_days": 15,
+        "close_tau": 0.3,
+        "objective": "econ",
+        "verify_bonus": 15.0
+      }
+    },
+    {
+      "name": "V15",
+      "variant": {
+        "H_plan_days": 30,
+        "close_tau": 0.3,
+        "objective": "econ",
+        "verify_bonus": 0.0
+      }
+    }
+  ],
+  "policy_version": "pol-1.0"
+}

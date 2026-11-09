@@ -1,0 +1,253 @@
+{
+  "H_override": null,
+  "K_override": null,
+  "config_hashes": {
+    "point_24": "be14d5fd0b55423b2b380765d783e8e9a96980d8eecfc8bb4a0467f6121f5ac0"
+  },
+  "estimator_hashes": {
+    "point_24": "02a7a22b30e2aafd8af7b62d2b2d20ec0edeb9bc92868fa73629b16269f047ff"
+  },
+  "experiment": "SENS-24",
+  "git_commit": "2b0693a7a0b655fd560921ae5c9393cf655998c8",
+  "git_dirty": false,
+  "hash_excluded_fields": [
+    "utc_started",
+    "utc_finished"
+  ],
+  "label": "OPEN_PREREGISTERED",
+  "lock_hash": "0cdf8c836e8b5c280f39925e67d4ffa4c8688b50d54cf75e232b4e53b4271dcb",
+  "materiality_dollars": 1000.0,
+  "metric_definition_version": "metric-1.0",
+  "n_replications": 50,
+  "partition": "sens",
+  "plan_hash": "93ea13f04d138ff5c09d8b86c253aaa2742fc0b1e2f7c2891d3ad8af33873fe6",
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "policies": [
+    "P0",
+    "P2",
+    "P4"
+  ],
+  "policy_version": "pol-1.0",
+  "proxy_version": "proxy_v1",
+  "python": "3.12.13",
+  "random_stream_schema": "stream-1",
+  "replication_offset": 24000,
+  "reproducibility_status": "REPRODUCED",
+  "run_id": "SENS-24-1534adef6e31",
+  "run_status": "VALID",
+  "seed_manifest": {
+    "master_seed": 6606,
+    "nonce_key": 918273645,
+    "partition": "sens",
+    "replications": [
+      {
+        "replication": 24000,
+        "run_nonce": 16024462927362403931
+      },
+      {
+        "replication": 24001,
+        "run_nonce": 2955568268529047275
+      },
+      {
+        "replication": 24002,
+        "run_nonce": 3651737997888876469
+      },
+      {
+        "replication": 24003,
+        "run_nonce": 3314981159784342497
+      },
+      {
+        "replication": 24004,
+        "run_nonce": 11572457440978583946
+      },
+      {
+        "replication": 24005,
+        "run_nonce": 9706528144352560338
+      },
+      {
+        "replication": 24006,
+        "run_nonce": 9883075902275598788
+      },
+      {
+        "replication": 24007,
+        "run_nonce": 9958404740998586904
+      },
+      {
+        "replication": 24008,
+        "run_nonce": 11568058488021495142
+      },
+      {
+        "replication": 24009,
+        "run_nonce": 1271870694227170819
+      },
+      {
+        "replication": 24010,
+        "run_nonce": 17037725760757943305
+      },
+      {
+        "replication": 24011,
+        "run_nonce": 6025298956779430833
+      },
+      {
+        "replication": 24012,
+        "run_nonce": 14297579429767651942
+      },
+      {
+        "replication": 24013,
+        "run_nonce": 12910499459264968852
+      },
+      {
+        "replication": 24014,
+        "run_nonce": 67650234491324287
+      },
+      {
+        "replication": 24015,
+        "run_nonce": 15545918068612657534
+      },
+      {
+        "replication": 24016,
+        "run_nonce": 12882145909826247342
+      },
+      {
+        "replication": 24017,
+        "run_nonce": 13760296582306105690
+      },
+      {
+        "replication": 24018,
+        "run_nonce": 17603692765011144212
+      },
+      {
+        "replication": 24019,
+        "run_nonce": 17830153972059442038
+      },
+      {
+        "replication": 24020,
+        "run_nonce": 10588751965897111869
+      },
+      {
+        "replication": 24021,
+        "run_nonce": 7722930998586603645
+      },
+      {
+        "replication": 24022,
+        "run_nonce": 4611277185779098137
+      },
+      {
+        "replication": 24023,
+        "run_nonce": 2420588145231387089
+      },
+      {
+        "replication": 24024,
+        "run_nonce": 642753694823408563
+      },
+      {
+        "replication": 24025,
+        "run_nonce": 11196882057122344344
+      },
+      {
+        "replication": 24026,
+        "run_nonce": 3052023206652366499
+      },
+      {
+        "replication": 24027,
+        "run_nonce": 15444672945722103620
+      },
+      {
+        "replication": 24028,
+        "run_nonce": 1674746188793264305
+      },
+      {
+        "replication": 24029,
+        "run_nonce": 5099898627356627530
+      },
+      {
+        "replication": 24030,
+        "run_nonce": 5976974849390094897
+      },
+      {
+        "replication": 24031,
+        "run_nonce": 17229154604110124536
+      },
+      {
+        "replication": 24032,
+        "run_nonce": 190236484785391037
+      },
+      {
+        "replication": 24033,
+        "run_nonce": 8004863556053317808
+      },
+      {
+        "replication": 24034,
+        "run_nonce": 9446710240370323966
+      },
+      {
+        "replication": 24035,
+        "run_nonce": 3096607647962522898
+      },
+      {
+        "replication": 24036,
+        "run_nonce": 8455431553470447030
+      },
+      {
+        "replication": 24037,
+        "run_nonce": 12191683663590909036
+      },
+      {
+        "replication": 24038,
+        "run_nonce": 15988779643194072161
+      },
+      {
+        "replication": 24039,
+        "run_nonce": 8495893975192645111
+      },
+      {
+        "replication": 24040,
+        "run_nonce": 13167191273239856677
+      },
+      {
+        "replication": 24041,
+        "run_nonce": 1110825899040361142
+      },
+      {
+        "replication": 24042,
+        "run_nonce": 13085322578296846903
+      },
+      {
+        "replication": 24043,
+        "run_nonce": 16928166768423472
+      },
+      {
+        "replication": 24044,
+        "run_nonce": 12053649167682820978
+      },
+      {
+        "replication": 24045,
+        "run_nonce": 157357775544532324
+      },
+      {
+        "replication": 24046,
+        "run_nonce": 16976745468338367891
+      },
+      {
+        "replication": 24047,
+        "run_nonce": 13544645655913419258
+      },
+      {
+        "replication": 24048,
+        "run_nonce": 16194831732111603666
+      },
+      {
+        "replication": 24049,
+        "run_nonce": 10617495693364137607
+      }
+    ],
+    "sim_version": "sim-1.0",
+    "stream_schema": "stream-1"
+  },
+  "sim_version": "sim-1.0",
+  "utc_finished": "2026-11-09T05:45:54Z",
+  "utc_started": "2026-11-09T05:44:06Z",
+  "world_status": {
+    "point_24": "VALID"
+  }
+}

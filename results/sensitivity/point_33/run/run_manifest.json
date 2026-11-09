@@ -1,0 +1,253 @@
+{
+  "H_override": null,
+  "K_override": null,
+  "config_hashes": {
+    "point_33": "3ad5056bc342a5887ed40584fc397f804024d3c6083a6d7f9721345638f1b643"
+  },
+  "estimator_hashes": {
+    "point_33": "f0c3b4be1772c8d59082da108cdf7541852f8d2af6ef8df7a0acbb8782269543"
+  },
+  "experiment": "SENS-33",
+  "git_commit": "53cc0011c8656542b298532310d71231e400680b",
+  "git_dirty": false,
+  "hash_excluded_fields": [
+    "utc_started",
+    "utc_finished"
+  ],
+  "label": "OPEN_PREREGISTERED",
+  "lock_hash": "0cdf8c836e8b5c280f39925e67d4ffa4c8688b50d54cf75e232b4e53b4271dcb",
+  "materiality_dollars": 1000.0,
+  "metric_definition_version": "metric-1.0",
+  "n_replications": 50,
+  "partition": "sens",
+  "plan_hash": "93ea13f04d138ff5c09d8b86c253aaa2742fc0b1e2f7c2891d3ad8af33873fe6",
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "policies": [
+    "P0",
+    "P2",
+    "P4"
+  ],
+  "policy_version": "pol-1.0",
+  "proxy_version": "proxy_v1",
+  "python": "3.12.13",
+  "random_stream_schema": "stream-1",
+  "replication_offset": 33000,
+  "reproducibility_status": "REPRODUCED",
+  "run_id": "SENS-33-efa67419b0d8",
+  "run_status": "VALID",
+  "seed_manifest": {
+    "master_seed": 6606,
+    "nonce_key": 918273645,
+    "partition": "sens",
+    "replications": [
+      {
+        "replication": 33000,
+        "run_nonce": 6327382575088954987
+      },
+      {
+        "replication": 33001,
+        "run_nonce": 15052353238048379244
+      },
+      {
+        "replication": 33002,
+        "run_nonce": 5963500040822578439
+      },
+      {
+        "replication": 33003,
+        "run_nonce": 14084129632596311814
+      },
+      {
+        "replication": 33004,
+        "run_nonce": 15987985090931140933
+      },
+      {
+        "replication": 33005,
+        "run_nonce": 11186765790584987937
+      },
+      {
+        "replication": 33006,
+        "run_nonce": 1708426176963504830
+      },
+      {
+        "replication": 33007,
+        "run_nonce": 13949138814271671579
+      },
+      {
+        "replication": 33008,
+        "run_nonce": 4231905641101335546
+      },
+      {
+        "replication": 33009,
+        "run_nonce": 17198803714649424061
+      },
+      {
+        "replication": 33010,
+        "run_nonce": 12530092423378279073
+      },
+      {
+        "replication": 33011,
+        "run_nonce": 16424135262768549854
+      },
+      {
+        "replication": 33012,
+        "run_nonce": 5077245635005221213
+      },
+      {
+        "replication": 33013,
+        "run_nonce": 1779844797624288930
+      },
+      {
+        "replication": 33014,
+        "run_nonce": 17975386292382497759
+      },
+      {
+        "replication": 33015,
+        "run_nonce": 14795505933456433511
+      },
+      {
+        "replication": 33016,
+        "run_nonce": 9524336006486212679
+      },
+      {
+        "replication": 33017,
+        "run_nonce": 902416411511653783
+      },
+      {
+        "replication": 33018,
+        "run_nonce": 18311057547115293261
+      },
+      {
+        "replication": 33019,
+        "run_nonce": 715797175709843810
+      },
+      {
+        "replication": 33020,
+        "run_nonce": 2363548914214063342
+      },
+      {
+        "replication": 33021,
+        "run_nonce": 482340698993700445
+      },
+      {
+        "replication": 33022,
+        "run_nonce": 15768931066620994184
+      },
+      {
+        "replication": 33023,
+        "run_nonce": 12166034281400068419
+      },
+      {
+        "replication": 33024,
+        "run_nonce": 8242997167151529360
+      },
+      {
+        "replication": 33025,
+        "run_nonce": 7361621057996602095
+      },
+      {
+        "replication": 33026,
+        "run_nonce": 12491034858426737706
+      },
+      {
+        "replication": 33027,
+        "run_nonce": 4546049263739932009
+      },
+      {
+        "replication": 33028,
+        "run_nonce": 3982255200069663803
+      },
+      {
+        "replication": 33029,
+        "run_nonce": 10069854215782282818
+      },
+      {
+        "replication": 33030,
+        "run_nonce": 2840136144794985791
+      },
+      {
+        "replication": 33031,
+        "run_nonce": 4898156494827092323
+      },
+      {
+        "replication": 33032,
+        "run_nonce": 18435468469296686664
+      },
+      {
+        "replication": 33033,
+        "run_nonce": 17132651645176034764
+      },
+      {
+        "replication": 33034,
+        "run_nonce": 12599526337579426915
+      },
+      {
+        "replication": 33035,
+        "run_nonce": 7392207318669694479
+      },
+      {
+        "replication": 33036,
+        "run_nonce": 6342327035623804876
+      },
+      {
+        "replication": 33037,
+        "run_nonce": 13638767695698240606
+      },
+      {
+        "replication": 33038,
+        "run_nonce": 1848862676859622834
+      },
+      {
+        "replication": 33039,
+        "run_nonce": 1309010246014608444
+      },
+      {
+        "replication": 33040,
+        "run_nonce": 2051717736985606167
+      },
+      {
+        "replication": 33041,
+        "run_nonce": 4897141344073686983
+      },
+      {
+        "replication": 33042,
+        "run_nonce": 6765751895135260709
+      },
+      {
+        "replication": 33043,
+        "run_nonce": 8299983795898727343
+      },
+      {
+        "replication": 33044,
+        "run_nonce": 10350775113952743120
+      },
+      {
+        "replication": 33045,
+        "run_nonce": 1195829845769809038
+      },
+      {
+        "replication": 33046,
+        "run_nonce": 17871326288349199169
+      },
+      {
+        "replication": 33047,
+        "run_nonce": 8530331327065605026
+      },
+      {
+        "replication": 33048,
+        "run_nonce": 15481124693958458828
+      },
+      {
+        "replication": 33049,
+        "run_nonce": 10175552519908235708
+      }
+    ],
+    "sim_version": "sim-1.0",
+    "stream_schema": "stream-1"
+  },
+  "sim_version": "sim-1.0",
+  "utc_finished": "2026-11-09T06:07:32Z",
+  "utc_started": "2026-11-09T06:06:03Z",
+  "world_status": {
+    "point_33": "VALID"
+  }
+}

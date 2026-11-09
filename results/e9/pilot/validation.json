@@ -1,0 +1,101 @@
+{
+  "errors": [],
+  "exclusions": [],
+  "replications_completed": 20,
+  "replications_planned": 20,
+  "reproducibility": {
+    "arms": {
+      "P0": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P1": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P2": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P3": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P4": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P5": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V01": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V02": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V03": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V04": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V05": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V06": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V07": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V08": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V09": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V10": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V11": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V12": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V13": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V14": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "V15": {
+        "event_hash": true,
+        "ledger_hash": true
+      }
+    },
+    "replication": 0,
+    "status": "REPRODUCED",
+    "world": "pilot"
+  },
+  "run_status": "VALID",
+  "world_status": {
+    "pilot": "VALID"
+  }
+}

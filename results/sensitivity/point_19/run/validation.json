@@ -1,0 +1,29 @@
+{
+  "errors": [],
+  "exclusions": [],
+  "replications_completed": 50,
+  "replications_planned": 50,
+  "reproducibility": {
+    "arms": {
+      "P0": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P2": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P4": {
+        "event_hash": true,
+        "ledger_hash": true
+      }
+    },
+    "replication": 19000,
+    "status": "REPRODUCED",
+    "world": "point_19"
+  },
+  "run_status": "VALID",
+  "world_status": {
+    "point_19": "VALID"
+  }
+}

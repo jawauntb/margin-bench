@@ -1,0 +1,253 @@
+{
+  "H_override": null,
+  "K_override": null,
+  "config_hashes": {
+    "point_04": "d5464a40aa623f1fb81434f5e46d7564f6c4b2c9d08541d53ce551443a7c3622"
+  },
+  "estimator_hashes": {
+    "point_04": "88934d7da94f87596be92fe9b48c69e74749af9adeffa2954b3395074ffc2477"
+  },
+  "experiment": "SENS-04",
+  "git_commit": "eb7ff254b68cf8c98d5783ecb06b20ed26a17047",
+  "git_dirty": false,
+  "hash_excluded_fields": [
+    "utc_started",
+    "utc_finished"
+  ],
+  "label": "OPEN_PREREGISTERED",
+  "lock_hash": "0cdf8c836e8b5c280f39925e67d4ffa4c8688b50d54cf75e232b4e53b4271dcb",
+  "materiality_dollars": 1000.0,
+  "metric_definition_version": "metric-1.0",
+  "n_replications": 50,
+  "partition": "sens",
+  "plan_hash": "93ea13f04d138ff5c09d8b86c253aaa2742fc0b1e2f7c2891d3ad8af33873fe6",
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "policies": [
+    "P0",
+    "P2",
+    "P4"
+  ],
+  "policy_version": "pol-1.0",
+  "proxy_version": "proxy_v1",
+  "python": "3.12.13",
+  "random_stream_schema": "stream-1",
+  "replication_offset": 4000,
+  "reproducibility_status": "REPRODUCED",
+  "run_id": "SENS-04-cda16d431bfd",
+  "run_status": "VALID",
+  "seed_manifest": {
+    "master_seed": 6606,
+    "nonce_key": 918273645,
+    "partition": "sens",
+    "replications": [
+      {
+        "replication": 4000,
+        "run_nonce": 6990311292085208479
+      },
+      {
+        "replication": 4001,
+        "run_nonce": 18434280804017184967
+      },
+      {
+        "replication": 4002,
+        "run_nonce": 10517466291931990011
+      },
+      {
+        "replication": 4003,
+        "run_nonce": 16511191234597454540
+      },
+      {
+        "replication": 4004,
+        "run_nonce": 2606635557992813666
+      },
+      {
+        "replication": 4005,
+        "run_nonce": 3505241891531365832
+      },
+      {
+        "replication": 4006,
+        "run_nonce": 5943552156476894844
+      },
+      {
+        "replication": 4007,
+        "run_nonce": 12604036714883776616
+      },
+      {
+        "replication": 4008,
+        "run_nonce": 2753269116980036437
+      },
+      {
+        "replication": 4009,
+        "run_nonce": 11535937768491164304
+      },
+      {
+        "replication": 4010,
+        "run_nonce": 11766487952942483563
+      },
+      {
+        "replication": 4011,
+        "run_nonce": 550945665668695474
+      },
+      {
+        "replication": 4012,
+        "run_nonce": 5938324541517864356
+      },
+      {
+        "replication": 4013,
+        "run_nonce": 8587347146266448562
+      },
+      {
+        "replication": 4014,
+        "run_nonce": 15203894352237298921
+      },
+      {
+        "replication": 4015,
+        "run_nonce": 15603424877993123960
+      },
+      {
+        "replication": 4016,
+        "run_nonce": 10048258596601483743
+      },
+      {
+        "replication": 4017,
+        "run_nonce": 5161451042242115418
+      },
+      {
+        "replication": 4018,
+        "run_nonce": 18117976025755616673
+      },
+      {
+        "replication": 4019,
+        "run_nonce": 7253769588027866906
+      },
+      {
+        "replication": 4020,
+        "run_nonce": 11573538216188959306
+      },
+      {
+        "replication": 4021,
+        "run_nonce": 7851056936931718414
+      },
+      {
+        "replication": 4022,
+        "run_nonce": 7760502676547064479
+      },
+      {
+        "replication": 4023,
+        "run_nonce": 17949215650840563212
+      },
+      {
+        "replication": 4024,
+        "run_nonce": 7189505635764015743
+      },
+      {
+        "replication": 4025,
+        "run_nonce": 486995421134095844
+      },
+      {
+        "replication": 4026,
+        "run_nonce": 1828954000358913101
+      },
+      {
+        "replication": 4027,
+        "run_nonce": 4933084408110922625
+      },
+      {
+        "replication": 4028,
+        "run_nonce": 2456577424339910349
+      },
+      {
+        "replication": 4029,
+        "run_nonce": 356704042849332929
+      },
+      {
+        "replication": 4030,
+        "run_nonce": 8147294068026299503
+      },
+      {
+        "replication": 4031,
+        "run_nonce": 10458764768538523945
+      },
+      {
+        "replication": 4032,
+        "run_nonce": 11841768687581856997
+      },
+      {
+        "replication": 4033,
+        "run_nonce": 16186164807799031998
+      },
+      {
+        "replication": 4034,
+        "run_nonce": 8933791828675433401
+      },
+      {
+        "replication": 4035,
+        "run_nonce": 3049696839147693665
+      },
+      {
+        "replication": 4036,
+        "run_nonce": 12968891134135254173
+      },
+      {
+        "replication": 4037,
+        "run_nonce": 5687559844267327149
+      },
+      {
+        "replication": 4038,
+        "run_nonce": 15140165641215682737
+      },
+      {
+        "replication": 4039,
+        "run_nonce": 18357307475197160455
+      },
+      {
+        "replication": 4040,
+        "run_nonce": 16926580647016992460
+      },
+      {
+        "replication": 4041,
+        "run_nonce": 2501119765801716417
+      },
+      {
+        "replication": 4042,
+        "run_nonce": 15216840809859278447
+      },
+      {
+        "replication": 4043,
+        "run_nonce": 7260206786776205840
+      },
+      {
+        "replication": 4044,
+        "run_nonce": 14693531552922211697
+      },
+      {
+        "replication": 4045,
+        "run_nonce": 16693647385751119279
+      },
+      {
+        "replication": 4046,
+        "run_nonce": 14566489541902774820
+      },
+      {
+        "replication": 4047,
+        "run_nonce": 12719768064357328451
+      },
+      {
+        "replication": 4048,
+        "run_nonce": 8630148171763022368
+      },
+      {
+        "replication": 4049,
+        "run_nonce": 6040197608186037164
+      }
+    ],
+    "sim_version": "sim-1.0",
+    "stream_schema": "stream-1"
+  },
+  "sim_version": "sim-1.0",
+  "utc_finished": "2026-11-09T05:00:36Z",
+  "utc_started": "2026-11-09T04:59:28Z",
+  "world_status": {
+    "point_04": "VALID"
+  }
+}

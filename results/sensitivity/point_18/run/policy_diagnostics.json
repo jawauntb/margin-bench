@@ -1,0 +1,29 @@
+{
+  "point_18": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 47,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 61176,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 13226400,
+      "valued_decisions": 61098,
+      "wall_seconds": 109.747
+    },
+    "P4": {
+      "H_plan_days": 47,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 62699,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 13515264,
+      "valued_decisions": 62047,
+      "wall_seconds": 110.683
+    }
+  }
+}

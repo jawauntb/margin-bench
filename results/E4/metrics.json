@@ -1,0 +1,1947 @@
+{
+  "analyses": {
+    "callbacks_no_capacity": {
+      "contrasts": {
+        "P2-P0": {
+          "a": "P2",
+          "alpha": 0.05,
+          "b": "P0",
+          "classification": "EQUIVALENCE_SUPPORTED",
+          "contrast_type": "proxy_reversal",
+          "dG": {
+            "ci_high": 0.24266812637694668,
+            "ci_low": 0.21850052962335814,
+            "level": 0.95,
+            "mean": 0.2305843280001524,
+            "n": 60,
+            "p_value": 2.6571795754933598e-43,
+            "sd": 0.04677706943727684,
+            "se": 0.006038893697165371
+          },
+          "dJ": {
+            "ci_high": 822.6478284740834,
+            "ci_low": -769.8311618074168,
+            "level": 0.95,
+            "mean": 26.408333333333335,
+            "n": 60,
+            "p_value": 0.947311094003424,
+            "sd": 3082.2882831633347,
+            "se": 397.9217062967282
+          },
+          "holm_stopped": false,
+          "label": "EXPLORATORY",
+          "level": 0.95,
+          "materiality": 1774.97285,
+          "n_pairs": 60,
+          "n_undefined_G": 0,
+          "n_valid_pairs": 60,
+          "strong": false,
+          "tost": {
+            "alpha": 0.05,
+            "margin": 1774.97285,
+            "p_lower": 1.478400010880108e-05,
+            "p_upper": 2.348012650689559e-05,
+            "passes": true
+          }
+        },
+        "P4-P0": {
+          "a": "P4",
+          "alpha": 0.05,
+          "b": "P0",
+          "classification": "EQUIVALENCE_SUPPORTED",
+          "contrast_type": "value",
+          "dG": {
+            "ci_high": 0.25151030975483196,
+            "ci_low": 0.22681523069467502,
+            "level": 0.95,
+            "mean": 0.2391627702247535,
+            "n": 60,
+            "p_value": 1.1379710628103365e-43,
+            "sd": 0.04779802641255495,
+            "se": 0.006170698675913585
+          },
+          "dJ": {
+            "ci_high": 1144.899087243866,
+            "ci_low": -425.3987539105372,
+            "level": 0.95,
+            "mean": 359.75016666666437,
+            "n": 60,
+            "p_value": 0.36295742222683025,
+            "sd": 3039.356039486158,
+            "se": 392.37917747082736
+          },
+          "holm_stopped": false,
+          "label": "EXPLORATORY",
+          "level": 0.95,
+          "materiality": 1774.97285,
+          "n_pairs": 60,
+          "n_undefined_G": 0,
+          "n_valid_pairs": 60,
+          "strong": false,
+          "tost": {
+            "alpha": 0.05,
+            "margin": 1774.97285,
+            "p_lower": 5.364731578706371e-07,
+            "p_upper": 0.00031958943787207443,
+            "passes": true
+          }
+        },
+        "P4-P2": {
+          "a": "P4",
+          "alpha": 0.05,
+          "b": "P2",
+          "classification": "EQUIVALENCE_SUPPORTED",
+          "contrast_type": "value",
+          "dG": {
+            "ci_high": 0.013051115344130707,
+            "ci_low": 0.0041057691050715075,
+            "level": 0.95,
+            "mean": 0.008578442224601107,
+            "n": 60,
+            "p_value": 0.00030493727633594086,
+            "sd": 0.01731397153102628,
+            "se": 0.0022352241132124703
+          },
+          "dJ": {
+            "ci_high": 1073.594198821862,
+            "ci_low": -406.91053215519975,
+            "level": 0.95,
+            "mean": 333.34183333333107,
+            "n": 60,
+            "p_value": 0.371217329946395,
+            "sd": 2865.5589262448143,
+            "se": 369.9420666307391
+          },
+          "holm_stopped": false,
+          "label": "EXPLORATORY",
+          "level": 0.95,
+          "materiality": 1774.97285,
+          "n_pairs": 60,
+          "n_undefined_G": 0,
+          "n_valid_pairs": 60,
+          "strong": false,
+          "tost": {
+            "alpha": 0.05,
+            "margin": 1774.97285,
+            "p_lower": 2.0301761556196904e-07,
+            "p_upper": 0.0001257232905167227,
+            "passes": true
+          }
+        }
+      },
+      "gap_to_best_evaluated_policy": {
+        "best_evaluated_policy": "P4",
+        "excluded": [],
+        "gaps_dollars": {
+          "P0": 359.7501666666358,
+          "P2": 333.3418333333102,
+          "P4": 0.0
+        },
+        "label": "gap to best evaluated policy (not regret: the optimum is not computed)"
+      },
+      "holm": {},
+      "materiality": 1774.97285,
+      "status": "VALID",
+      "world": "callbacks_no_capacity"
+    },
+    "default": {
+      "contrasts": {
+        "P2-P0": {
+          "a": "P2",
+          "alpha": 0.05,
+          "b": "P0",
+          "classification": "EQUIVALENCE_SUPPORTED",
+          "contrast_type": "proxy_reversal",
+          "dG": {
+            "ci_high": 0.2414058751289871,
+            "ci_low": 0.217469323315019,
+            "level": 0.95,
+            "mean": 0.22943759922200305,
+            "n": 60,
+            "p_value": 2.0442596724724785e-43,
+            "sd": 0.04632987539916248,
+            "se": 0.0059811611950940325
+          },
+          "dJ": {
+            "ci_high": 790.0582554230281,
+            "ci_low": -801.8035887563609,
+            "level": 0.95,
+            "mean": -5.872666666666434,
+            "n": 60,
+            "p_value": 0.9882702182160137,
+            "sd": 3081.0937793669605,
+            "se": 397.7674965197169
+          },
+          "holm_stopped": false,
+          "label": "EXPLORATORY",
+          "level": 0.95,
+          "materiality": 1774.97285,
+          "n_pairs": 60,
+          "n_undefined_G": 0,
+          "n_valid_pairs": 60,
+          "strong": false,
+          "tost": {
+            "alpha": 0.05,
+            "margin": 1774.97285,
+            "p_lower": 1.9510818077900538e-05,
+            "p_upper": 1.7602393200426413e-05,
+            "passes": true
+          }
+        },
+        "P4-P0": {
+          "a": "P4",
+          "alpha": 0.05,
+          "b": "P0",
+          "classification": "EQUIVALENCE_SUPPORTED",
+          "contrast_type": "value",
+          "dG": {
+            "ci_high": 0.2505678112991855,
+            "ci_low": 0.22592903080970891,
+            "level": 0.95,
+            "mean": 0.23824842105444718,
+            "n": 60,
+            "p_value": 1.2425732631522915e-43,
+            "sd": 0.04768905893114637,
+            "se": 0.006156631034554465
+          },
+          "dJ": {
+            "ci_high": 1147.0712391438688,
+            "ci_low": -417.4699058105331,
+            "level": 0.95,
+            "mean": 364.8006666666678,
+            "n": 60,
+            "p_value": 0.3545531816608567,
+            "sd": 3028.2137906054622,
+            "se": 390.9407193256863
+          },
+          "holm_stopped": false,
+          "label": "EXPLORATORY",
+          "level": 0.95,
+          "materiality": 1774.97285,
+          "n_pairs": 60,
+          "n_undefined_G": 0,
+          "n_valid_pairs": 60,
+          "strong": false,
+          "tost": {
+            "alpha": 0.05,
+            "margin": 1774.97285,
+            "p_lower": 4.743282343658392e-07,
+            "p_upper": 0.00031923492708673637,
+            "passes": true
+          }
+        },
+        "P4-P2": {
+          "a": "P4",
+          "alpha": 0.05,
+          "b": "P2",
+          "classification": "EQUIVALENCE_SUPPORTED",
+          "contrast_type": "value",
+          "dG": {
+            "ci_high": 0.013120827384917233,
+            "ci_low": 0.00450081627997099,
+            "level": 0.95,
+            "mean": 0.008810821832444112,
+            "n": 60,
+            "p_value": 0.000132276085477082,
+            "sd": 0.01668427614534306,
+            "se": 0.002153930788481311
+          },
+          "dJ": {
+            "ci_high": 1107.5504473785795,
+            "ci_low": -366.2037807119111,
+            "level": 0.95,
+            "mean": 370.6733333333342,
+            "n": 60,
+            "p_value": 0.31825368788350256,
+            "sd": 2852.4931363162077,
+            "se": 368.25528040412115
+          },
+          "holm_stopped": false,
+          "label": "EXPLORATORY",
+          "level": 0.95,
+          "materiality": 1774.97285,
+          "n_pairs": 60,
+          "n_undefined_G": 0,
+          "n_valid_pairs": 60,
+          "strong": false,
+          "tost": {
+            "alpha": 0.05,
+            "margin": 1774.97285,
+            "p_lower": 1.2524049480225452e-07,
+            "p_upper": 0.00016507444195242631,
+            "passes": true
+          }
+        }
+      },
+      "gap_to_best_evaluated_policy": {
+        "best_evaluated_policy": "P4",
+        "excluded": [],
+        "gaps_dollars": {
+          "P0": 364.8006666667061,
+          "P2": 370.67333333333954,
+          "P4": 0.0
+        },
+        "label": "gap to best evaluated policy (not regret: the optimum is not computed)"
+      },
+      "holm": {},
+      "materiality": 1774.97285,
+      "status": "VALID",
+      "world": "default"
+    },
+    "unlimited_capacity": {
+      "contrasts": {
+        "P2-P0": {
+          "a": "P2",
+          "alpha": 0.05,
+          "b": "P0",
+          "classification": "EQUIVALENCE_SUPPORTED",
+          "contrast_type": "proxy_reversal",
+          "dG": {
+            "ci_high": 0.24350689964683345,
+            "ci_low": 0.21960671834796833,
+            "level": 0.95,
+            "mean": 0.2315568089974009,
+            "n": 60,
+            "p_value": 1.1124788917460985e-43,
+            "sd": 0.046259479234918736,
+            "se": 0.005972073089368936
+          },
+          "dJ": {
+            "ci_high": 1106.0209618211015,
+            "ci_low": -387.2269618211022,
+            "level": 0.95,
+            "mean": 359.39699999999965,
+            "n": 60,
+            "p_value": 0.3393760931940928,
+            "sd": 2890.223737323369,
+            "se": 373.1262800488922
+          },
+          "holm_stopped": false,
+          "label": "EXPLORATORY",
+          "level": 0.95,
+          "materiality": 1774.97285,
+          "n_pairs": 60,
+          "n_undefined_G": 0,
+          "n_valid_pairs": 60,
+          "strong": false,
+          "tost": {
+            "alpha": 0.05,
+            "margin": 1774.97285,
+            "p_lower": 1.8738231416098333e-07,
+            "p_upper": 0.00017586983991966251,
+            "passes": true
+          }
+        },
+        "P4-P0": {
+          "a": "P4",
+          "alpha": 0.05,
+          "b": "P0",
+          "classification": "EQUIVALENCE_SUPPORTED",
+          "contrast_type": "value",
+          "dG": {
+            "ci_high": 0.2539800415595727,
+            "ci_low": 0.22952864309465287,
+            "level": 0.95,
+            "mean": 0.2417543423271128,
+            "n": 60,
+            "p_value": 3.509110529923301e-44,
+            "sd": 0.047326375704371475,
+            "se": 0.006109808831312867
+          },
+          "dJ": {
+            "ci_high": 1370.0091156459953,
+            "ci_low": -92.91344897932686,
+            "level": 0.95,
+            "mean": 638.5478333333342,
+            "n": 60,
+            "p_value": 0.0858725337332421,
+            "sd": 2831.5281442569053,
+            "se": 365.5487115674862
+          },
+          "holm_stopped": false,
+          "label": "EXPLORATORY",
+          "level": 0.95,
+          "materiality": 1774.97285,
+          "n_pairs": 60,
+          "n_undefined_G": 0,
+          "n_valid_pairs": 60,
+          "strong": false,
+          "tost": {
+            "alpha": 0.05,
+            "margin": 1774.97285,
+            "p_lower": 6.346800164343848e-09,
+            "p_upper": 0.0014449932455871143,
+            "passes": true
+          }
+        },
+        "P4-P2": {
+          "a": "P4",
+          "alpha": 0.05,
+          "b": "P2",
+          "classification": "EQUIVALENCE_SUPPORTED",
+          "contrast_type": "value",
+          "dG": {
+            "ci_high": 0.014393291109534623,
+            "ci_low": 0.0060017755498892435,
+            "level": 0.95,
+            "mean": 0.010197533329711933,
+            "n": 60,
+            "p_value": 8.939345023544842e-06,
+            "sd": 0.01624201653229072,
+            "se": 0.00209683531794625
+          },
+          "dJ": {
+            "ci_high": 774.3944333749935,
+            "ci_low": -216.09276670832423,
+            "level": 0.95,
+            "mean": 279.1508333333346,
+            "n": 60,
+            "p_value": 0.26393288392611663,
+            "sd": 1917.1160876040185,
+            "se": 247.49862266788944
+          },
+          "holm_stopped": false,
+          "label": "EXPLORATORY",
+          "level": 0.95,
+          "materiality": 1774.97285,
+          "n_pairs": 60,
+          "n_undefined_G": 0,
+          "n_valid_pairs": 60,
+          "strong": false,
+          "tost": {
+            "alpha": 0.05,
+            "margin": 1774.97285,
+            "p_lower": 8.537246049080271e-12,
+            "p_upper": 5.4697322270911617e-08,
+            "passes": true
+          }
+        }
+      },
+      "gap_to_best_evaluated_policy": {
+        "best_evaluated_policy": "P4",
+        "excluded": [],
+        "gaps_dollars": {
+          "P0": 638.5478333333449,
+          "P2": 279.1508333333477,
+          "P4": 0.0
+        },
+        "label": "gap to best evaluated policy (not regret: the optimum is not computed)"
+      },
+      "holm": {},
+      "materiality": 1774.97285,
+      "status": "VALID",
+      "world": "unlimited_capacity"
+    }
+  },
+  "arm_summaries": {
+    "callbacks_no_capacity": {
+      "P0": {
+        "G": {
+          "ci_high": 0.31790976200909404,
+          "ci_low": 0.29120820659236357,
+          "level": 0.95,
+          "mean": 0.3045589843007288,
+          "n": 60,
+          "p_value": 9.946994170535894e-48,
+          "sd": 0.051681618348180886,
+          "se": 0.006672068238918407
+        },
+        "J": {
+          "ci_high": 179224.51825557725,
+          "ci_low": 175260.0217444228,
+          "level": 0.95,
+          "mean": 177242.27000000002,
+          "n": 60,
+          "p_value": 2.113190115466998e-82,
+          "sd": 7673.3955170191875,
+          "se": 990.6311015425988
+        },
+        "by_category_mean_dollars": {
+          "callback_expense": -858.3333333333334,
+          "dispatch_expense": -9263.4,
+          "escalation_expense": -2835.0,
+          "fee_revenue": 204783.68666666665,
+          "owner:repair_invoice": -189721.47516666667,
+          "owner:severe_loss": -12173.681063829785,
+          "owner:sla_credit_received": 313.5,
+          "severe_loss": -3110.097894736842,
+          "sla_credit_paid": -313.5,
+          "verification_expense": -6131.7
+        },
+        "metrics_mean": {
+          "backlog_age_days": {
+            "mean": 2.4551607623022553,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "backlog_at_cutoff": {
+            "mean": 7.333333333333333,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_count": {
+            "mean": 42.916666666666664,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_rate_per_completed_attempt": {
+            "mean": 0.05505180506061626,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "closure_rate": {
+            "mean": 0.910020888950267,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "contracts_lost": {
+            "mean": 1.95,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "escalation_rate": {
+            "mean": 0.101027952537245,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "nominal_contribution_dollars": {
+            "mean": 183412.0246666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "opex_per_request": {
+            "mean": 30.273095232476905,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "reopen_rate": {
+            "mean": 0.06349083536691172,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "severe_loss_count": {
+            "mean": 1.6666666666666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "sla_breach_count": {
+            "mean": 20.9,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_first_closure_days_mean": {
+            "mean": 2.8003189099108097,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_verified_resolution_days_mean": {
+            "mean": 3.995700793421328,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "true_resolution_rate": {
+            "mean": 0.9446260734786276,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "unreported_failure_count": {
+            "mean": 34.38333333333333,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verification_rate": {
+            "mean": 0.49987675773043416,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verified_resolution_rate": {
+            "mean": 0.42535700653122455,
+            "n_defined": 60,
+            "null_reason": null
+          }
+        },
+        "n": 60,
+        "risk": {
+          "J_quantiles": {
+            "0.05": 163391.66900000002,
+            "0.25": 173144.7425,
+            "0.5": 178275.45500000002,
+            "0.75": 183035.3525,
+            "0.95": 187583.48599999998
+          },
+          "bootstrap_reliable": true,
+          "cvar5_J": 159928.74666666667,
+          "cvar5_note": null,
+          "operator_loss_bootstrap_ci": {
+            "high": -1229.5239041666669,
+            "low": -2850.782354166666,
+            "n_resamples": 10000,
+            "seed": 4242
+          },
+          "operator_loss_mean_dollars": -1969.7286666666666,
+          "p_J_below_p0_q05": 0.05,
+          "replications_with_severe_loss": 47,
+          "severe_loss_frequency_realized": 1.6666666666666667
+        }
+      },
+      "P2": {
+        "G": {
+          "ci_high": 0.5422577648011152,
+          "ci_low": 0.5280288598006472,
+          "level": 0.95,
+          "mean": 0.5351433123008812,
+          "n": 60,
+          "p_value": 5.560629977825978e-78,
+          "sd": 0.02754044947081793,
+          "se": 0.0035554567382514906
+        },
+        "J": {
+          "ci_high": 179425.49160935165,
+          "ci_low": 175111.86505731504,
+          "level": 0.95,
+          "mean": 177268.67833333334,
+          "n": 60,
+          "p_value": 3.0163568897761382e-80,
+          "sd": 8349.146620097285,
+          "se": 1077.870193822691
+        },
+        "by_category_mean_dollars": {
+          "callback_expense": -926.3333333333334,
+          "dispatch_expense": -9036.0,
+          "escalation_expense": -3078.25,
+          "fee_revenue": 204722.53566666663,
+          "info_expense": -196.3,
+          "owner:repair_invoice": -189266.27233333333,
+          "owner:severe_loss": -14908.700363636362,
+          "owner:sla_credit_received": 448.1666666666667,
+          "severe_loss": -4040.0007692307695,
+          "sla_credit_paid": -448.1666666666667,
+          "verification_expense": -4142.4
+        },
+        "compute": {
+          "H_plan_days": 60,
+          "K": 32,
+          "constraint_filter_rate": 0.0,
+          "constraint_filtered_decisions": 0,
+          "decisions": 42650,
+          "fallback_rate": 0.0,
+          "fallbacks": 0,
+          "samples": 9206976,
+          "valued_decisions": 42600,
+          "wall_seconds": 81.33500000000001
+        },
+        "metrics_mean": {
+          "backlog_age_days": {
+            "mean": 2.4475414528886748,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "backlog_at_cutoff": {
+            "mean": 7.35,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_count": {
+            "mean": 46.31666666666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_rate_per_completed_attempt": {
+            "mean": 0.07296314429650902,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "closure_rate": {
+            "mean": 0.9986282730542904,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "contracts_lost": {
+            "mean": 1.9833333333333334,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "escalation_rate": {
+            "mean": 0.1454022938272014,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "nominal_contribution_dollars": {
+            "mean": 183393.75166666662,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "opex_per_request": {
+            "mean": 23.174248037670452,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "reopen_rate": {
+            "mean": 0.07651292175475784,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "severe_loss_count": {
+            "mean": 2.4166666666666665,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "sla_breach_count": {
+            "mean": 26.683333333333334,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_first_closure_days_mean": {
+            "mean": 2.3735124181401335,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_verified_resolution_days_mean": {
+            "mean": 19.382024572649573,
+            "n_defined": 39,
+            "null_reason": null
+          },
+          "true_resolution_rate": {
+            "mean": 0.9385668799890932,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "unreported_failure_count": {
+            "mean": 35.016666666666666,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verification_rate": {
+            "mean": 0.006117301774377101,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verified_resolution_rate": {
+            "mean": 0.0050148014478818516,
+            "n_defined": 60,
+            "null_reason": null
+          }
+        },
+        "n": 60,
+        "risk": {
+          "J_quantiles": {
+            "0.05": 162555.63,
+            "0.25": 173856.5,
+            "0.5": 178589.055,
+            "0.75": 183298.49,
+            "0.95": 187995.8545
+          },
+          "bootstrap_reliable": true,
+          "cvar5_J": 155790.43333333335,
+          "cvar5_note": null,
+          "operator_loss_bootstrap_ci": {
+            "high": -2429.841329166667,
+            "low": -4739.088958333334,
+            "n_resamples": 10000,
+            "seed": 4242
+          },
+          "operator_loss_mean_dollars": -3501.3340000000003,
+          "p_J_below_p0_q05": 0.06666666666666667,
+          "replications_with_severe_loss": 55,
+          "severe_loss_frequency_realized": 2.4166666666666665
+        }
+      },
+      "P4": {
+        "G": {
+          "ci_high": 0.5510314678299547,
+          "ci_low": 0.5364120412210099,
+          "level": 0.95,
+          "mean": 0.5437217545254823,
+          "n": 60,
+          "p_value": 1.0731667663304128e-77,
+          "sd": 0.02829631512774405,
+          "se": 0.0036530385749596567
+        },
+        "J": {
+          "ci_high": 179722.38142578411,
+          "ci_low": 175481.6589075492,
+          "level": 0.95,
+          "mean": 177602.02016666665,
+          "n": 60,
+          "p_value": 9.899314810170164e-81,
+          "sd": 8208.038793523996,
+          "se": 1059.6532517447617
+        },
+        "by_category_mean_dollars": {
+          "callback_expense": -917.3333333333334,
+          "dispatch_expense": -9023.0,
+          "escalation_expense": -2822.1666666666665,
+          "fee_revenue": 204268.17983333333,
+          "info_expense": -126.5,
+          "owner:repair_invoice": -188588.81650000002,
+          "owner:severe_loss": -13898.421886792456,
+          "owner:sla_credit_received": 448.5833333333333,
+          "severe_loss": -3670.732448979592,
+          "sla_credit_paid": -448.5833333333333,
+          "verification_expense": -4197.0
+        },
+        "compute": {
+          "H_plan_days": 60,
+          "K": 32,
+          "constraint_filter_rate": 0.0,
+          "constraint_filtered_decisions": 0,
+          "decisions": 43932,
+          "fallback_rate": 0.0,
+          "fallbacks": 0,
+          "samples": 9526080,
+          "valued_decisions": 43691,
+          "wall_seconds": 86.1
+        },
+        "metrics_mean": {
+          "backlog_age_days": {
+            "mean": 2.349826818115012,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "backlog_at_cutoff": {
+            "mean": 7.316666666666666,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_count": {
+            "mean": 45.86666666666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_rate_per_completed_attempt": {
+            "mean": 0.07096902781235426,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "closure_rate": {
+            "mean": 0.9833850057956591,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "contracts_lost": {
+            "mean": 2.066666666666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "escalation_rate": {
+            "mean": 0.11397122940181566,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "nominal_contribution_dollars": {
+            "mean": 183735.8316666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "opex_per_request": {
+            "mean": 21.98316256350885,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "reopen_rate": {
+            "mean": 0.07457094654888115,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "severe_loss_count": {
+            "mean": 2.3666666666666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "sla_breach_count": {
+            "mean": 26.65,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_first_closure_days_mean": {
+            "mean": 2.5300999396511132,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_verified_resolution_days_mean": {
+            "mean": 7.940765808559771,
+            "n_defined": 59,
+            "null_reason": null
+          },
+          "true_resolution_rate": {
+            "mean": 0.9393498308083806,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "unreported_failure_count": {
+            "mean": 34.55,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verification_rate": {
+            "mean": 0.02410039414746999,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verified_resolution_rate": {
+            "mean": 0.02075571747323786,
+            "n_defined": 60,
+            "null_reason": null
+          }
+        },
+        "n": 60,
+        "risk": {
+          "J_quantiles": {
+            "0.05": 162962.912,
+            "0.25": 173194.53999999998,
+            "0.5": 178425.425,
+            "0.75": 183510.3625,
+            "0.95": 188095.87949999998
+          },
+          "bootstrap_reliable": true,
+          "cvar5_J": 156961.21666666667,
+          "cvar5_note": null,
+          "operator_loss_bootstrap_ci": {
+            "high": -2090.7431083333336,
+            "low": -4027.479345833334,
+            "n_resamples": 10000,
+            "seed": 4242
+          },
+          "operator_loss_mean_dollars": -2997.764833333333,
+          "p_J_below_p0_q05": 0.06666666666666667,
+          "replications_with_severe_loss": 53,
+          "severe_loss_frequency_realized": 2.3666666666666667
+        }
+      }
+    },
+    "default": {
+      "P0": {
+        "G": {
+          "ci_high": 0.3183733693146888,
+          "ci_low": 0.29188149102028677,
+          "level": 0.95,
+          "mean": 0.3051274301674878,
+          "n": 60,
+          "p_value": 5.683403821051567e-48,
+          "sd": 0.05127578232689297,
+          "se": 0.0066196750338604355
+        },
+        "J": {
+          "ci_high": 179227.58387639106,
+          "ci_low": 175264.86779027554,
+          "level": 0.95,
+          "mean": 177246.2258333333,
+          "n": 60,
+          "p_value": 2.0553164586965726e-82,
+          "sd": 7669.94945382463,
+          "se": 990.1862166971821
+        },
+        "by_category_mean_dollars": {
+          "callback_expense": -857.6666666666666,
+          "dispatch_expense": -9262.0,
+          "escalation_expense": -2835.0,
+          "fee_revenue": 204783.68666666665,
+          "owner:repair_invoice": -189718.8815,
+          "owner:severe_loss": -12173.681063829785,
+          "owner:sla_credit_received": 314.0,
+          "severe_loss": -3110.097894736842,
+          "sla_credit_paid": -314.0,
+          "verification_expense": -6129.3
+        },
+        "metrics_mean": {
+          "backlog_age_days": {
+            "mean": 3.149878298110068,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "backlog_at_cutoff": {
+            "mean": 7.766666666666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_count": {
+            "mean": 42.88333333333333,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_rate_per_completed_attempt": {
+            "mean": 0.05505037495175009,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "closure_rate": {
+            "mean": 0.9102524666536297,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "contracts_lost": {
+            "mean": 1.95,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "escalation_rate": {
+            "mean": 0.10105401442020052,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "nominal_contribution_dollars": {
+            "mean": 183415.99133333337,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "opex_per_request": {
+            "mean": 30.256251824307093,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "reopen_rate": {
+            "mean": 0.06341109055032479,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "severe_loss_count": {
+            "mean": 1.6666666666666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "sla_breach_count": {
+            "mean": 20.933333333333334,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_first_closure_days_mean": {
+            "mean": 2.8074618714751933,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_verified_resolution_days_mean": {
+            "mean": 4.0036831492802,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "true_resolution_rate": {
+            "mean": 0.9442176013576284,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "unreported_failure_count": {
+            "mean": 34.35,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verification_rate": {
+            "mean": 0.4999848421352681,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verified_resolution_rate": {
+            "mean": 0.42535700653122455,
+            "n_defined": 60,
+            "null_reason": null
+          }
+        },
+        "n": 60,
+        "risk": {
+          "J_quantiles": {
+            "0.05": 163391.882,
+            "0.25": 173117.9475,
+            "0.5": 178275.615,
+            "0.75": 183035.58500000002,
+            "0.95": 187583.6285
+          },
+          "bootstrap_reliable": true,
+          "cvar5_J": 159953.88666666666,
+          "cvar5_note": null,
+          "operator_loss_bootstrap_ci": {
+            "high": -1229.5239041666669,
+            "low": -2850.782354166666,
+            "n_resamples": 10000,
+            "seed": 4242
+          },
+          "operator_loss_mean_dollars": -1969.7286666666666,
+          "p_J_below_p0_q05": 0.05,
+          "replications_with_severe_loss": 47,
+          "severe_loss_frequency_realized": 1.6666666666666667
+        }
+      },
+      "P2": {
+        "G": {
+          "ci_high": 0.5416823034694532,
+          "ci_low": 0.5274477553095284,
+          "level": 0.95,
+          "mean": 0.5345650293894908,
+          "n": 60,
+          "p_value": 6.065843614752085e-78,
+          "sd": 0.027551371966109947,
+          "se": 0.0035568668263303237
+        },
+        "J": {
+          "ci_high": 179391.27620366466,
+          "ci_low": 175089.43012966868,
+          "level": 0.95,
+          "mean": 177240.35316666667,
+          "n": 60,
+          "p_value": 2.5920612927352836e-80,
+          "sd": 8326.345170498053,
+          "se": 1074.926539337117
+        },
+        "by_category_mean_dollars": {
+          "callback_expense": -926.0,
+          "dispatch_expense": -9037.2,
+          "escalation_expense": -3080.5833333333335,
+          "fee_revenue": 204722.53566666663,
+          "info_expense": -197.3,
+          "owner:repair_invoice": -189253.83950000003,
+          "owner:severe_loss": -14714.446071428572,
+          "owner:sla_credit_received": 450.0,
+          "severe_loss": -3989.1235849056607,
+          "sla_credit_paid": -450.0,
+          "verification_expense": -4143.6
+        },
+        "compute": {
+          "H_plan_days": 60,
+          "K": 32,
+          "constraint_filter_rate": 0.0,
+          "constraint_filtered_decisions": 0,
+          "decisions": 42665,
+          "fallback_rate": 0.0,
+          "fallbacks": 0,
+          "samples": 9210208,
+          "valued_decisions": 42615,
+          "wall_seconds": 82.921
+        },
+        "metrics_mean": {
+          "backlog_age_days": {
+            "mean": 3.1143039932032988,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "backlog_at_cutoff": {
+            "mean": 7.75,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_count": {
+            "mean": 46.3,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_rate_per_completed_attempt": {
+            "mean": 0.07287619166526396,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "closure_rate": {
+            "mean": 0.9985440979701152,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "contracts_lost": {
+            "mean": 1.9833333333333334,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "escalation_rate": {
+            "mean": 0.14568790149966634,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "nominal_contribution_dollars": {
+            "mean": 183364.12649999998,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "opex_per_request": {
+            "mean": 23.19895342903122,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "reopen_rate": {
+            "mean": 0.07651441930999892,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "severe_loss_count": {
+            "mean": 2.45,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "sla_breach_count": {
+            "mean": 26.75,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_first_closure_days_mean": {
+            "mean": 2.3820213648316497,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_verified_resolution_days_mean": {
+            "mean": 21.57827380952381,
+            "n_defined": 42,
+            "null_reason": null
+          },
+          "true_resolution_rate": {
+            "mean": 0.9377585188784526,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "unreported_failure_count": {
+            "mean": 35.016666666666666,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verification_rate": {
+            "mean": 0.006274432124690974,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verified_resolution_rate": {
+            "mean": 0.005127779035412881,
+            "n_defined": 60,
+            "null_reason": null
+          }
+        },
+        "n": 60,
+        "risk": {
+          "J_quantiles": {
+            "0.05": 162554.9805,
+            "0.25": 173868.4075,
+            "0.5": 178583.24,
+            "0.75": 183306.91749999998,
+            "0.95": 187996.00799999997
+          },
+          "bootstrap_reliable": true,
+          "cvar5_J": 155785.53666666665,
+          "cvar5_note": null,
+          "operator_loss_bootstrap_ci": {
+            "high": -2454.5680875,
+            "low": -4764.173404166667,
+            "n_resamples": 10000,
+            "seed": 4242
+          },
+          "operator_loss_mean_dollars": -3523.725833333333,
+          "p_J_below_p0_q05": 0.06666666666666667,
+          "replications_with_severe_loss": 56,
+          "severe_loss_frequency_realized": 2.45
+        }
+      },
+      "P4": {
+        "G": {
+          "ci_high": 0.5506726407312689,
+          "ci_low": 0.5360790617126011,
+          "level": 0.95,
+          "mean": 0.543375851221935,
+          "n": 60,
+          "p_value": 1.0039363549391153e-77,
+          "sd": 0.0282462863831608,
+          "se": 0.003646579891806237
+        },
+        "J": {
+          "ci_high": 179729.89039362702,
+          "ci_low": 175492.162606373,
+          "level": 0.95,
+          "mean": 177611.0265,
+          "n": 60,
+          "p_value": 9.467701131785494e-81,
+          "sd": 8202.242406714427,
+          "se": 1058.9049414253739
+        },
+        "by_category_mean_dollars": {
+          "callback_expense": -917.6666666666666,
+          "dispatch_expense": -9023.6,
+          "escalation_expense": -2821.5833333333335,
+          "fee_revenue": 204268.17983333333,
+          "info_expense": -127.0,
+          "owner:repair_invoice": -188584.23549999998,
+          "owner:severe_loss": -13856.690566037738,
+          "owner:sla_credit_received": 449.5833333333333,
+          "severe_loss": -3655.6865306122454,
+          "sla_credit_paid": -449.5833333333333,
+          "verification_expense": -4197.9
+        },
+        "compute": {
+          "H_plan_days": 60,
+          "K": 32,
+          "constraint_filter_rate": 0.0,
+          "constraint_filtered_decisions": 0,
+          "decisions": 43921,
+          "fallback_rate": 0.0,
+          "fallbacks": 0,
+          "samples": 9523616,
+          "valued_decisions": 43680,
+          "wall_seconds": 86.04
+        },
+        "metrics_mean": {
+          "backlog_age_days": {
+            "mean": 3.062177036633633,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "backlog_at_cutoff": {
+            "mean": 7.733333333333333,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_count": {
+            "mean": 45.88333333333333,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_rate_per_completed_attempt": {
+            "mean": 0.07102987570632893,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "closure_rate": {
+            "mean": 0.9831402282993336,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "contracts_lost": {
+            "mean": 2.066666666666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "escalation_rate": {
+            "mean": 0.11393000889113093,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "nominal_contribution_dollars": {
+            "mean": 183745.3691666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "opex_per_request": {
+            "mean": 21.98821885386994,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "reopen_rate": {
+            "mean": 0.07481471432062171,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "severe_loss_count": {
+            "mean": 2.35,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "sla_breach_count": {
+            "mean": 26.716666666666665,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_first_closure_days_mean": {
+            "mean": 2.5383764968131803,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_verified_resolution_days_mean": {
+            "mean": 9.166167093805115,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "true_resolution_rate": {
+            "mean": 0.9391639808824633,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "unreported_failure_count": {
+            "mean": 34.483333333333334,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verification_rate": {
+            "mean": 0.024284826611319997,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verified_resolution_rate": {
+            "mean": 0.020802460436544438,
+            "n_defined": 60,
+            "null_reason": null
+          }
+        },
+        "n": 60,
+        "risk": {
+          "J_quantiles": {
+            "0.05": 162963.913,
+            "0.25": 173195.4275,
+            "0.5": 178425.63,
+            "0.75": 183518.7825,
+            "0.95": 188096.0185
+          },
+          "bootstrap_reliable": true,
+          "cvar5_J": 156971.24666666667,
+          "cvar5_note": null,
+          "operator_loss_bootstrap_ci": {
+            "high": -2080.660425,
+            "low": -4012.502070833333,
+            "n_resamples": 10000,
+            "seed": 4242
+          },
+          "operator_loss_mean_dollars": -2985.4773333333333,
+          "p_J_below_p0_q05": 0.06666666666666667,
+          "replications_with_severe_loss": 53,
+          "severe_loss_frequency_realized": 2.35
+        }
+      }
+    },
+    "unlimited_capacity": {
+      "P0": {
+        "G": {
+          "ci_high": 0.31906381665913375,
+          "ci_low": 0.2926830899306697,
+          "level": 0.95,
+          "mean": 0.30587345329490173,
+          "n": 60,
+          "p_value": 3.879717749689692e-48,
+          "sd": 0.05106064531633463,
+          "se": 0.006591900965225592
+        },
+        "J": {
+          "ci_high": 179051.31417465827,
+          "ci_low": 175135.67382534168,
+          "level": 0.95,
+          "mean": 177093.49399999998,
+          "n": 60,
+          "p_value": 1.0696855062321786e-82,
+          "sd": 7578.833029154559,
+          "se": 978.4231368534106
+        },
+        "by_category_mean_dollars": {
+          "callback_expense": -857.3333333333334,
+          "dispatch_expense": -9261.6,
+          "escalation_expense": -2832.0833333333335,
+          "fee_revenue": 204621.9333333333,
+          "owner:repair_invoice": -189448.46499999997,
+          "owner:severe_loss": -12173.681063829785,
+          "owner:sla_credit_received": 311.75,
+          "severe_loss": -3110.097894736842,
+          "sla_credit_paid": -311.75,
+          "verification_expense": -6132.0
+        },
+        "metrics_mean": {
+          "backlog_age_days": {
+            "mean": 3.117162246639677,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "backlog_at_cutoff": {
+            "mean": 7.583333333333333,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_count": {
+            "mean": 42.86666666666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_rate_per_completed_attempt": {
+            "mean": 0.055117662850339276,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "closure_rate": {
+            "mean": 0.9114164063939451,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "contracts_lost": {
+            "mean": 1.9666666666666666,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "escalation_rate": {
+            "mean": 0.10101962774949796,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "nominal_contribution_dollars": {
+            "mean": 183257.43800000005,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "opex_per_request": {
+            "mean": 30.27714765495216,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "reopen_rate": {
+            "mean": 0.06353489793575948,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "severe_loss_count": {
+            "mean": 1.6666666666666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "sla_breach_count": {
+            "mean": 20.783333333333335,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_first_closure_days_mean": {
+            "mean": 2.76560014843155,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_verified_resolution_days_mean": {
+            "mean": 3.9461909277414318,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "true_resolution_rate": {
+            "mean": 0.944208788843859,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "unreported_failure_count": {
+            "mean": 34.31666666666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verification_rate": {
+            "mean": 0.5003400389889505,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verified_resolution_rate": {
+            "mean": 0.42529531893483774,
+            "n_defined": 60,
+            "null_reason": null
+          }
+        },
+        "n": 60,
+        "risk": {
+          "J_quantiles": {
+            "0.05": 163391.80299999999,
+            "0.25": 173117.8125,
+            "0.5": 177806.35,
+            "0.75": 182656.09,
+            "0.95": 187582.087
+          },
+          "bootstrap_reliable": true,
+          "cvar5_J": 159930.51333333334,
+          "cvar5_note": null,
+          "operator_loss_bootstrap_ci": {
+            "high": -1229.5239041666669,
+            "low": -2850.782354166666,
+            "n_resamples": 10000,
+            "seed": 4242
+          },
+          "operator_loss_mean_dollars": -1969.7286666666666,
+          "p_J_below_p0_q05": 0.05,
+          "replications_with_severe_loss": 47,
+          "severe_loss_frequency_realized": 1.6666666666666667
+        }
+      },
+      "P2": {
+        "G": {
+          "ci_high": 0.5445868752085928,
+          "ci_low": 0.5302736493760122,
+          "level": 0.95,
+          "mean": 0.5374302622923025,
+          "n": 60,
+          "p_value": 6.125532811628071e-78,
+          "sd": 0.02770365483455155,
+          "se": 0.0035765264601098916
+        },
+        "J": {
+          "ci_high": 179559.45809546413,
+          "ci_low": 175346.32390453582,
+          "level": 0.95,
+          "mean": 177452.89099999997,
+          "n": 60,
+          "p_value": 7.082540232342279e-81,
+          "sd": 8154.640803014698,
+          "se": 1052.7596008126466
+        },
+        "by_category_mean_dollars": {
+          "callback_expense": -920.0,
+          "dispatch_expense": -9030.6,
+          "escalation_expense": -3066.5833333333335,
+          "fee_revenue": 204560.78233333334,
+          "info_expense": -194.8,
+          "owner:repair_invoice": -189195.46949999998,
+          "owner:severe_loss": -14101.91222222222,
+          "owner:sla_credit_received": 443.8333333333333,
+          "severe_loss": -3729.133137254902,
+          "sla_credit_paid": -443.8333333333333,
+          "verification_expense": -4146.3
+        },
+        "compute": {
+          "H_plan_days": 60,
+          "K": 32,
+          "constraint_filter_rate": 0.0,
+          "constraint_filtered_decisions": 0,
+          "decisions": 42558,
+          "fallback_rate": 0.0,
+          "fallbacks": 0,
+          "samples": 9184192,
+          "valued_decisions": 42509,
+          "wall_seconds": 84.897
+        },
+        "metrics_mean": {
+          "backlog_age_days": {
+            "mean": 3.0711533574771424,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "backlog_at_cutoff": {
+            "mean": 7.583333333333333,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_count": {
+            "mean": 46.0,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_rate_per_completed_attempt": {
+            "mean": 0.07193652281975946,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "closure_rate": {
+            "mean": 0.9987263122699765,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "contracts_lost": {
+            "mean": 2.0,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "escalation_rate": {
+            "mean": 0.144459857025503,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "nominal_contribution_dollars": {
+            "mean": 183588.90249999997,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "opex_per_request": {
+            "mean": 23.064802498883697,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "reopen_rate": {
+            "mean": 0.07549550834127398,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "severe_loss_count": {
+            "mean": 2.3333333333333335,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "sla_breach_count": {
+            "mean": 26.45,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_first_closure_days_mean": {
+            "mean": 2.3441720139980435,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_verified_resolution_days_mean": {
+            "mean": 21.533300264550267,
+            "n_defined": 42,
+            "null_reason": null
+          },
+          "true_resolution_rate": {
+            "mean": 0.9392821706396528,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "unreported_failure_count": {
+            "mean": 34.75,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verification_rate": {
+            "mean": 0.006279416235983932,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verified_resolution_rate": {
+            "mean": 0.005127779035412881,
+            "n_defined": 60,
+            "null_reason": null
+          }
+        },
+        "n": 60,
+        "risk": {
+          "J_quantiles": {
+            "0.05": 162991.44150000002,
+            "0.25": 174278.6525,
+            "0.5": 178583.175,
+            "0.75": 183313.53249999997,
+            "0.95": 188145.8725
+          },
+          "bootstrap_reliable": true,
+          "cvar5_J": 155942.00333333333,
+          "cvar5_note": null,
+          "operator_loss_bootstrap_ci": {
+            "high": -2230.0594208333337,
+            "low": -4270.801104166667,
+            "n_resamples": 10000,
+            "seed": 4242
+          },
+          "operator_loss_mean_dollars": -3169.763166666666,
+          "p_J_below_p0_q05": 0.06666666666666667,
+          "replications_with_severe_loss": 54,
+          "severe_loss_frequency_realized": 2.3333333333333335
+        }
+      },
+      "P4": {
+        "G": {
+          "ci_high": 0.5549789929545231,
+          "ci_low": 0.540276598289506,
+          "level": 0.95,
+          "mean": 0.5476277956220146,
+          "n": 60,
+          "p_value": 9.82553640228139e-78,
+          "sd": 0.028456902155057254,
+          "se": 0.0036737702710396896
+        },
+        "J": {
+          "ci_high": 179850.7078624378,
+          "ci_low": 175613.37580422885,
+          "level": 0.95,
+          "mean": 177732.04183333332,
+          "n": 60,
+          "p_value": 9.045653049663867e-81,
+          "sd": 8201.476461916132,
+          "se": 1058.8060583771103
+        },
+        "by_category_mean_dollars": {
+          "callback_expense": -910.3333333333334,
+          "dispatch_expense": -9023.8,
+          "escalation_expense": -2819.25,
+          "fee_revenue": 204305.00166666665,
+          "info_expense": -125.7,
+          "owner:repair_invoice": -188685.56283333333,
+          "owner:severe_loss": -13583.13169811321,
+          "owner:sla_credit_received": 445.0833333333333,
+          "severe_loss": -3557.0563265306123,
+          "sla_credit_paid": -445.0833333333333,
+          "verification_expense": -4203.9
+        },
+        "compute": {
+          "H_plan_days": 60,
+          "K": 32,
+          "constraint_filter_rate": 0.0,
+          "constraint_filtered_decisions": 0,
+          "decisions": 43834,
+          "fallback_rate": 0.0,
+          "fallbacks": 0,
+          "samples": 9502880,
+          "valued_decisions": 43598,
+          "wall_seconds": 87.735
+        },
+        "metrics_mean": {
+          "backlog_age_days": {
+            "mean": 3.0154206910309336,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "backlog_at_cutoff": {
+            "mean": 7.55,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_count": {
+            "mean": 45.516666666666666,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "callback_rate_per_completed_attempt": {
+            "mean": 0.06967309003668867,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "closure_rate": {
+            "mean": 0.9853839923402906,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "contracts_lost": {
+            "mean": 2.05,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "escalation_rate": {
+            "mean": 0.11389071060094086,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "nominal_contribution_dollars": {
+            "mean": 183872.00566666672,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "opex_per_request": {
+            "mean": 21.887809835913803,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "reopen_rate": {
+            "mean": 0.07331599962752713,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "severe_loss_count": {
+            "mean": 2.3,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "sla_breach_count": {
+            "mean": 26.5,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_first_closure_days_mean": {
+            "mean": 2.4901780959328326,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "time_to_verified_resolution_days_mean": {
+            "mean": 9.303045290454143,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "true_resolution_rate": {
+            "mean": 0.9404973059584124,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "unreported_failure_count": {
+            "mean": 34.36666666666667,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verification_rate": {
+            "mean": 0.024014127117294098,
+            "n_defined": 60,
+            "null_reason": null
+          },
+          "verified_resolution_rate": {
+            "mean": 0.020505296793224586,
+            "n_defined": 60,
+            "null_reason": null
+          }
+        },
+        "n": 60,
+        "risk": {
+          "J_quantiles": {
+            "0.05": 162964.439,
+            "0.25": 173218.5725,
+            "0.5": 178750.41999999998,
+            "0.75": 183537.1425,
+            "0.95": 188210.434
+          },
+          "bootstrap_reliable": true,
+          "cvar5_J": 156957.95666666667,
+          "cvar5_note": null,
+          "operator_loss_bootstrap_ci": {
+            "high": -2005.0637333333332,
+            "low": -3928.682070833334,
+            "n_resamples": 10000,
+            "seed": 4242
+          },
+          "operator_loss_mean_dollars": -2904.929333333333,
+          "p_J_below_p0_q05": 0.06666666666666667,
+          "replications_with_severe_loss": 53,
+          "severe_loss_frequency_realized": 2.3
+        }
+      }
+    }
+  },
+  "cross_world": {
+    "callbacks_no_capacity": {
+      "P2-P0": {
+        "ci_high": 79.67263130453262,
+        "ci_low": -15.110631304533086,
+        "label": "EXPLORATORY: change in dJ relative to the reference world, paired by replication",
+        "level": 0.95,
+        "mean": 32.280999999999764,
+        "n": 60,
+        "p_value": 0.17806631559456085,
+        "reference": "default",
+        "sd": 183.45569490262085,
+        "se": 23.684028370825313
+      },
+      "P4-P0": {
+        "ci_high": 18.42664567524509,
+        "ci_low": -28.527645675251847,
+        "label": "EXPLORATORY: change in dJ relative to the reference world, paired by replication",
+        "level": 0.95,
+        "mean": -5.050500000003376,
+        "n": 60,
+        "p_value": 0.6684277735665789,
+        "reference": "default",
+        "sd": 90.88136355776417,
+        "se": 11.732733584661409
+      },
+      "P4-P2": {
+        "ci_high": 4.454910827913487,
+        "ci_low": -79.11791082791979,
+        "label": "EXPLORATORY: change in dJ relative to the reference world, paired by replication",
+        "level": 0.95,
+        "mean": -37.331500000003146,
+        "n": 60,
+        "p_value": 0.07896584112772294,
+        "reference": "default",
+        "sd": 161.75756826477132,
+        "se": 20.88281226708229
+      }
+    },
+    "unlimited_capacity": {
+      "P2-P0": {
+        "ci_high": 933.9014148132271,
+        "ci_low": -203.36208147989504,
+        "label": "EXPLORATORY: change in dJ relative to the reference world, paired by replication",
+        "level": 0.95,
+        "mean": 365.26966666666607,
+        "n": 60,
+        "p_value": 0.20368526900596046,
+        "reference": "default",
+        "sd": 2201.20577469849,
+        "se": 284.1744435660949
+      },
+      "P4-P0": {
+        "ci_high": 579.0185285154342,
+        "ci_low": -31.52419518210138,
+        "label": "EXPLORATORY: change in dJ relative to the reference world, paired by replication",
+        "level": 0.95,
+        "mean": 273.74716666666643,
+        "n": 60,
+        "p_value": 0.07787937261473786,
+        "reference": "default",
+        "sd": 1181.7227700384844,
+        "se": 152.55975360643825
+      },
+      "P4-P2": {
+        "ci_high": 563.5459256750579,
+        "ci_low": -746.5909256750571,
+        "label": "EXPLORATORY: change in dJ relative to the reference world, paired by replication",
+        "level": 0.95,
+        "mean": -91.52249999999961,
+        "n": 60,
+        "p_value": 0.7807867985040114,
+        "reference": "default",
+        "sd": 2535.8070598740724,
+        "se": 327.3712837362492
+      }
+    }
+  },
+  "materiality_dollars": 1774.97285,
+  "run_id": "E4-43e7ba2046d0",
+  "units": {
+    "G": "proxy_v1 (dimensionless)",
+    "J": "USD"
+  }
+}

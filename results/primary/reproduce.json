@@ -1,0 +1,41 @@
+{
+  "checks": {
+    "default": {
+      "arms": {
+        "P0": {
+          "J_equal": true,
+          "event_hash": true,
+          "ledger_hash": true
+        },
+        "P1": {
+          "J_equal": true,
+          "event_hash": true,
+          "ledger_hash": true
+        },
+        "P2": {
+          "J_equal": true,
+          "event_hash": true,
+          "ledger_hash": true
+        },
+        "P3": {
+          "J_equal": true,
+          "event_hash": true,
+          "ledger_hash": true
+        },
+        "P4": {
+          "J_equal": true,
+          "event_hash": true,
+          "ledger_hash": true
+        },
+        "P5": {
+          "J_equal": true,
+          "event_hash": true,
+          "ledger_hash": true
+        }
+      },
+      "replication": 0
+    }
+  },
+  "run_id": "PRIMARY-e85fc6d05ce0",
+  "status": "REPRODUCED"
+}

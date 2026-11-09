@@ -1,0 +1,76 @@
+{
+  "claims": [
+    {
+      "artifact": "results/sensitivity/point_41/run/metrics.json",
+      "ci": [
+        -499.9423141548455,
+        1022.1383141548465
+      ],
+      "ci_level": 0.95,
+      "claim": "P2 and P0 were equivalent in simulated operator contribution within the materiality band (scenario point_41, experiment SENS-41)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P2-P0",
+      "dG_ci": [
+        0.11004307701117101,
+        0.12714256944168636
+      ],
+      "dG_estimate": 0.1185928232264287,
+      "estimate": 261.09800000000047,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1000.0,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 50,
+      "p_value": 0.4937949301867195,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "SENS-41-5483435cdf9a",
+      "scenario": "point_41",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/sensitivity/point_41/run/metrics.json",
+      "ci": [
+        460.9406251346319,
+        1793.3345748653674
+      ],
+      "ci_level": 0.95,
+      "claim": "P4 had higher simulated operator contribution than P2 (scenario point_41, experiment SENS-41)",
+      "classification": "VALUE_HIGHER_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P4-P2",
+      "dG_ci": [
+        0.0011981993587208556,
+        0.011315267053208844
+      ],
+      "dG_estimate": 0.00625673320596485,
+      "estimate": 1127.1375999999996,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1000.0,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 50,
+      "p_value": 0.0013481621570401183,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "SENS-41-5483435cdf9a",
+      "scenario": "point_41",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    }
+  ],
+  "cross_world_exploratory": {},
+  "experiment": "SENS-41",
+  "never_claimed": [
+    "Level 3 external validation",
+    "real-world probability of any class",
+    "deployability of any oracle"
+  ],
+  "run_id": "SENS-41-5483435cdf9a"
+}

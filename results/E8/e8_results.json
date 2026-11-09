@@ -1,0 +1,374 @@
+{
+  "estimator_parameters": {
+    "M_275": {
+      "default_M": {
+        "fc": 0.8239117171758797,
+        "sens": 0.7621837105925133,
+        "spec": 0.9781099270409748,
+        "tc": 0.9873337396695182
+      },
+      "retrained_M": {
+        "fc": 0.8220132586265072,
+        "sens": 0.7894399757671297,
+        "spec": 0.9787082172744589,
+        "tc": 0.9856569798199991
+      },
+      "termination_coef": {
+        "default_M": {
+          "br": -0.20836487421497446,
+          "cb": 0.07147487962224382,
+          "oc": 0.23502939765835273,
+          "sl": 0.16988277027145346
+        },
+        "retrained_M": {
+          "br": 0.05519248728869594,
+          "cb": 0.0033945691762362912,
+          "oc": 0.20383206512119395,
+          "sl": -0.01414632714283943
+        }
+      }
+    },
+    "acc_0.6": {
+      "default_M": {
+        "fc": 0.8239117171758797,
+        "sens": 0.7621837105925133,
+        "spec": 0.9781099270409748,
+        "tc": 0.9873337396695182
+      },
+      "retrained_M": {
+        "fc": 0.8016453192219669,
+        "sens": 0.8777138310574454,
+        "spec": 0.9911574515680402,
+        "tc": 0.9919320475752404
+      },
+      "termination_coef": {
+        "default_M": {
+          "br": -0.20836487421497446,
+          "cb": 0.07147487962224382,
+          "oc": 0.23502939765835273,
+          "sl": 0.16988277027145346
+        },
+        "retrained_M": {
+          "br": 0.0112352205425743,
+          "cb": 0.0028686210433747856,
+          "oc": 0.06691628780134144,
+          "sl": -0.0011466601267347012
+        }
+      }
+    },
+    "acc_1.0": {
+      "default_M": {
+        "fc": 0.8239117171758797,
+        "sens": 0.7621837105925133,
+        "spec": 0.9781099270409748,
+        "tc": 0.9873337396695182
+      },
+      "retrained_M": {
+        "fc": 0.803745819918646,
+        "sens": 0.8038559286235206,
+        "spec": 0.9888694896772464,
+        "tc": 0.990396738293755
+      },
+      "termination_coef": {
+        "default_M": {
+          "br": -0.20836487421497446,
+          "cb": 0.07147487962224382,
+          "oc": 0.23502939765835273,
+          "sl": 0.16988277027145346
+        },
+        "retrained_M": {
+          "br": 0.004968791524323274,
+          "cb": 0.0009899749943263017,
+          "oc": 0.01741070217045363,
+          "sl": -0.00018143754793012676
+        }
+      }
+    },
+    "beta_x2": {
+      "default_M": {
+        "fc": 0.8239117171758797,
+        "sens": 0.7621837105925133,
+        "spec": 0.9781099270409748,
+        "tc": 0.9873337396695182
+      },
+      "retrained_M": {
+        "fc": 0.8115223674903077,
+        "sens": 0.7826540399331259,
+        "spec": 0.9815952148432275,
+        "tc": 0.9899256717077493
+      },
+      "termination_coef": {
+        "default_M": {
+          "br": -0.20836487421497446,
+          "cb": 0.07147487962224382,
+          "oc": 0.23502939765835273,
+          "sl": 0.16988277027145346
+        },
+        "retrained_M": {
+          "br": 0.24122797858666167,
+          "cb": 0.46041136344184386,
+          "oc": 0.39979466029526944,
+          "sl": 0.8473184126422326
+        }
+      }
+    },
+    "negligence_0.5": {
+      "default_M": {
+        "fc": 0.8239117171758797,
+        "sens": 0.7621837105925133,
+        "spec": 0.9781099270409748,
+        "tc": 0.9873337396695182
+      },
+      "retrained_M": {
+        "fc": 0.81148264851078,
+        "sens": 0.8142820734195987,
+        "spec": 0.976207629139055,
+        "tc": 0.9882722589922776
+      },
+      "termination_coef": {
+        "default_M": {
+          "br": -0.20836487421497446,
+          "cb": 0.07147487962224382,
+          "oc": 0.23502939765835273,
+          "sl": 0.16988277027145346
+        },
+        "retrained_M": {
+          "br": 0.006280636232243722,
+          "cb": 0.0012372200350831805,
+          "oc": 0.06132068154671839,
+          "sl": 0.0049748239810071026
+        }
+      }
+    },
+    "speed_quality_+0.6": {
+      "default_M": {
+        "fc": 0.8239117171758797,
+        "sens": 0.7621837105925133,
+        "spec": 0.9781099270409748,
+        "tc": 0.9873337396695182
+      },
+      "retrained_M": {
+        "fc": 0.8350727775543572,
+        "sens": 0.7203559340896221,
+        "spec": 0.9748280122097122,
+        "tc": 0.9790732313369818
+      },
+      "termination_coef": {
+        "default_M": {
+          "br": -0.20836487421497446,
+          "cb": 0.07147487962224382,
+          "oc": 0.23502939765835273,
+          "sl": 0.16988277027145346
+        },
+        "retrained_M": {
+          "br": 0.00555554499745897,
+          "cb": 0.000919623801707201,
+          "oc": 0.033164141320851465,
+          "sl": 0.002052796788380043
+        }
+      }
+    }
+  },
+  "out_of_distribution": {
+    "M_275": {
+      "P2-P0": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 64.57549999999829
+        },
+        "retrained_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 202.19774999999717
+        }
+      },
+      "P4-P0": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": -475.0900000000023
+        },
+        "retrained_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 382.7989999999998
+        }
+      },
+      "P4-P2": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": -539.6655000000006
+        },
+        "retrained_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 180.6012500000026
+        }
+      }
+    },
+    "acc_0.6": {
+      "P2-P0": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 482.93325000000186
+        },
+        "retrained_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": -525.7499999999978
+        }
+      },
+      "P4-P0": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 596.9205000000009
+        },
+        "retrained_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 410.24499999999824
+        }
+      },
+      "P4-P2": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 113.98724999999904
+        },
+        "retrained_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 935.994999999996
+        }
+      }
+    },
+    "acc_1.0": {
+      "P2-P0": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 77.44700000000084
+        },
+        "retrained_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 812.073999999999
+        }
+      },
+      "P4-P0": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 325.99375000000146
+        },
+        "retrained_M": {
+          "class": "INCONCLUSIVE",
+          "dJ": 1308.4207500000018
+        }
+      },
+      "P4-P2": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 248.5467500000006
+        },
+        "retrained_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 496.34675000000277
+        }
+      }
+    },
+    "beta_x2": {
+      "P2-P0": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": -749.5957499999975
+        },
+        "retrained_M": {
+          "class": "INCONCLUSIVE",
+          "dJ": -1188.3687500000015
+        }
+      },
+      "P4-P0": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": -737.3802499999983
+        },
+        "retrained_M": {
+          "class": "INCONCLUSIVE",
+          "dJ": -1396.737249999999
+        }
+      },
+      "P4-P2": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 12.215499999999157
+        },
+        "retrained_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": -208.3684999999976
+        }
+      }
+    },
+    "negligence_0.5": {
+      "P2-P0": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": -690.2377500000002
+        },
+        "retrained_M": {
+          "class": "REVERSAL_SUPPORTED",
+          "dJ": -1913.7907499999994
+        }
+      },
+      "P4-P0": {
+        "default_M": {
+          "class": "INCONCLUSIVE",
+          "dJ": -1147.6917499999995
+        },
+        "retrained_M": {
+          "class": "INCONCLUSIVE",
+          "dJ": -1794.1374999999994
+        }
+      },
+      "P4-P2": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": -457.4539999999994
+        },
+        "retrained_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 119.65325000000011
+        }
+      }
+    },
+    "speed_quality_+0.6": {
+      "P2-P0": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 270.00549999999714
+        },
+        "retrained_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 702.3687500000008
+        }
+      },
+      "P4-P0": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 190.35299999999842
+        },
+        "retrained_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 960.226749999998
+        }
+      },
+      "P4-P2": {
+        "default_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": -79.6524999999987
+        },
+        "retrained_M": {
+          "class": "EQUIVALENCE_SUPPORTED",
+          "dJ": 257.8579999999973
+        }
+      }
+    }
+  },
+  "run": {
+    "exit_code": 0,
+    "out": "results/E8/run",
+    "reproducibility": "REPRODUCED",
+    "run_id": "E8-d49a5b25f3bd",
+    "status": "VALID"
+  },
+  "status": "VALID"
+}

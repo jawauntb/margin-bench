@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.hypothesis/
+*.tmp
+*.egg-info/
+results/**/checkpoints/
+results/**/_work/
+results/**/traces/
+results/dev/
+results/**/estimators/*.json.tmp

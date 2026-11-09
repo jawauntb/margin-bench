@@ -1,0 +1,37 @@
+{
+  "point_25": {
+    "P0": {
+      "contracts_in_notice": 1.2,
+      "contracts_terminated": 4.88,
+      "estimated_fees_to_accrue_in_notice_cents": 71960.66,
+      "estimated_future_fees_at_risk_next_365d_cents": 8755200.0,
+      "label": "ESTIMATES - excluded from J (SPEC 6.4); means over replications",
+      "open_requests": 113.08,
+      "pending_callbacks_scheduled": 1.24,
+      "unreported_failures": 43.2,
+      "unresolved_latent_failures": 144.32
+    },
+    "P2": {
+      "contracts_in_notice": 1.08,
+      "contracts_terminated": 4.4,
+      "estimated_fees_to_accrue_in_notice_cents": 60440.64,
+      "estimated_future_fees_at_risk_next_365d_cents": 7891200.0,
+      "label": "ESTIMATES - excluded from J (SPEC 6.4); means over replications",
+      "open_requests": 88.5,
+      "pending_callbacks_scheduled": 1.28,
+      "unreported_failures": 55.92,
+      "unresolved_latent_failures": 135.6
+    },
+    "P4": {
+      "contracts_in_notice": 1.08,
+      "contracts_terminated": 4.56,
+      "estimated_fees_to_accrue_in_notice_cents": 62807.76,
+      "estimated_future_fees_at_risk_next_365d_cents": 8121600.0,
+      "label": "ESTIMATES - excluded from J (SPEC 6.4); means over replications",
+      "open_requests": 91.24,
+      "pending_callbacks_scheduled": 1.4,
+      "unreported_failures": 52.82,
+      "unresolved_latent_failures": 134.76
+    }
+  }
+}

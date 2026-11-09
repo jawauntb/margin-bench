@@ -1,0 +1,76 @@
+{
+  "claims": [
+    {
+      "artifact": "results/sensitivity/point_13/run/metrics.json",
+      "ci": [
+        -6446.622184540693,
+        -2711.6930154593047
+      ],
+      "ci_level": 0.95,
+      "claim": "P2 raised the proxy and lowered simulated operator contribution relative to P0 (scenario point_13, experiment SENS-13)",
+      "classification": "REVERSAL_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P2-P0",
+      "dG_ci": [
+        0.3371995546514254,
+        0.37244739301928803
+      ],
+      "dG_estimate": 0.35482347383535673,
+      "estimate": -4579.157599999999,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1000.0,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 50,
+      "p_value": 9.911426759828055e-06,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "SENS-13-6e743b7229d8",
+      "scenario": "point_13",
+      "strong": true,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/sensitivity/point_13/run/metrics.json",
+      "ci": [
+        3440.3553933474204,
+        6788.915006652579
+      ],
+      "ci_level": 0.95,
+      "claim": "P4 had higher simulated operator contribution than P2 (scenario point_13, experiment SENS-13)",
+      "classification": "VALUE_HIGHER_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P4-P2",
+      "dG_ci": [
+        -0.11384057410204754,
+        -0.09561114054836606
+      ],
+      "dG_estimate": -0.1047258573252068,
+      "estimate": 5114.6352,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1000.0,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 50,
+      "p_value": 1.4291585515575508e-07,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "SENS-13-6e743b7229d8",
+      "scenario": "point_13",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    }
+  ],
+  "cross_world_exploratory": {},
+  "experiment": "SENS-13",
+  "never_claimed": [
+    "Level 3 external validation",
+    "real-world probability of any class",
+    "deployability of any oracle"
+  ],
+  "run_id": "SENS-13-6e743b7229d8"
+}

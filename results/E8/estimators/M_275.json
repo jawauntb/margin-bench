@@ -1,0 +1,179 @@
+{
+ "callback": {
+  "benign_rate": 0.019560444462564587,
+  "p_report": {
+   "minor": {
+    "0": 0.37025562411557733,
+    "1": 0.3556599484264815
+   },
+   "moderate": {
+    "0": 0.39566279304480345,
+    "1": 0.38067098359758106
+   },
+   "urgent": {
+    "0": 0.49929996482727157,
+    "1": 0.48352313199575403
+   }
+  }
+ },
+ "info": {
+  "transition": {
+   "minor": {
+    "minor": 0.8788150807899462,
+    "moderate": 0.118491921005386,
+    "urgent": 0.0026929982046678637
+   },
+   "moderate": {
+    "minor": 0.22955665024630542,
+    "moderate": 0.7103448275862069,
+    "urgent": 0.060098522167487685
+   },
+   "urgent": {
+    "minor": 0.01937984496124031,
+    "moderate": 0.40310077519379844,
+    "urgent": 0.5775193798449613
+   }
+  }
+ },
+ "lead_days": {
+  "A": {
+   "electrical": 2.2576770570554454,
+   "general": 2.86376245210728,
+   "hvac": 3.866830134207241,
+   "plumbing": 2.0003295323614867
+  },
+  "B": {
+   "electrical": 1.888334314880251,
+   "general": 1.8742580612035329,
+   "hvac": 2.819390015015015,
+   "plumbing": 1.829422582304527
+  },
+  "C": {
+   "electrical": 1.8464589072543618,
+   "general": 1.8477575944170772,
+   "hvac": 2.8560123574144485,
+   "plumbing": 1.8298141507285977
+  },
+  "D": {
+   "electrical": 1.863225650755609,
+   "general": 1.934585648148148,
+   "hvac": 1.8588035245832273,
+   "plumbing": 0.9215108827367635
+  }
+ },
+ "provenance": {
+  "behavior_p0_prob": 0.7,
+  "calib_portfolios": 5,
+  "config_hash": "bd71f78ea77b34402dcfbd110ae1e196c3ed9129a299dc8ee3dde1ee17f288e7",
+  "history_days": 365,
+  "history_event_hashes": [
+   "96fa66fede6fa6f64890277bd2462eda76126e2e67975a8ceaead9b8db3b6048",
+   "1ed741090d960f4bb515d0bf7d58c6d117ce18b124b489a18db318692b98226b",
+   "16b43263248865045b55b152821ef86e34f9bc8276368fa7297edcae2a22b6cb",
+   "efe6772c66ac7dc7051cadb2a19a169c5a8a80fe456d188ace41c81f3462666a",
+   "3a560d78ed3d785f6d92a9625f222092562f053d8c1a18e583f7f4a21a37c97f",
+   "bd866f2fa2fe307c2cec032031c9bea3b5b0a97d62f01ac1946f0efcd65020bc",
+   "c2175648cd1d9deefa1da0efa2653549e5397e1d083224ce3f74d5c368ff4cf9",
+   "5900cb039e25e1b44e896a1c98673fc5a0d77dec6f78712865fe1974591be85c",
+   "849f69cdaa11c7238ff62348de7dd30570d8bb68c72328f1c9aee46a01548aae",
+   "9dc3da241c25a322eeaf71eebc4db221dcd40d9f809f57ce86eb15e62428dd6e",
+   "9fc973e229f2cc7bab46d4a88725ba1a79b3ba8f763fd39b451f742676d894e9",
+   "d5a71d98cb79cdc3ded9449dc93f8316b15b52046c46267ac7fb59cd00939dbb",
+   "0b0b7eef68cf6ae89dac6fbc39f32a0cdb76cd831ca8a62ce4d4a29fa9adc735",
+   "1c5eb1148b7dd4ef58df66594eed02cc8a9f2ec790a8caba6bb99a7391cada4e",
+   "85b84eadd5ced5aec51815bf89dd8f1fa30148582ac9ab1ddd478dd0702063e9",
+   "0ed15669f34b3356635ac1fca3e38d7d3ac5a35d2bed48c5c2a3c252a72ee3c4",
+   "de5491f25c58ee06d568ddc7d9ce64927daee37538d5cc4ccf7cd717dee9b5d3",
+   "a092e7ed6ee4c63aa63d93a7c9288b9b59a8674443c7822c518faa638bfab884",
+   "30792a190770e65a20bc241344ad83b3b0bf382a0442a5eeecfcad5e9375bfed",
+   "5a04086b86baafa05b6116af66c9cd8d58040abe57de00f47f48c4ca82ad26a6",
+   "0fa24a78a60bbb4adc9ceb24a177c39658d6a962161e673a18a36591e41c5dae",
+   "213e48ca35de5e65188b9ba7203273fd1c46a1c3c9cc7491392021958a7c2107",
+   "aad273ec18b66e35f519c9951ec9101cf0f0a95a90599c12d8f2c486d53f0a87",
+   "dd3675c5eea3c8f2d5dfeeee1d50ac9b83cb15208c430d0f0da6d9fac93a1137",
+   "faff565eadf6724eb57ce0fe82d3d8261e0726a4200155d00f153e7584fc67ae"
+  ],
+  "train_portfolios": 20
+ },
+ "report_delay": {
+  "scale_days": 6.576034110957103,
+  "shape": 1.6181819642692175
+ },
+ "report_verify": {
+  "fc": 0.8220132586265072,
+  "n": 22804,
+  "n_verified": 7845,
+  "sens": 0.7894399757671297,
+  "spec": 0.9787082172744589,
+  "tc": 0.9856569798199991
+ },
+ "severe_loss": {
+  "daily_hazard": {
+   "minor": 1.246570686014579e-05,
+   "moderate": 9.464365489701877e-05,
+   "urgent": 0.0006882696649316124
+  },
+  "mean_amount_dollars": {
+   "minor": 1945.9266666666665,
+   "moderate": 2915.3942857142856,
+   "urgent": 12516.7584375
+  }
+ },
+ "success": {
+  "C": 0.1,
+  "coef": [
+   -0.5621135240243297,
+   0.20868129201460311,
+   0.6193396979032875,
+   -0.2611125480904068,
+   -0.023860251390755545,
+   0.046919624496245475,
+   -0.13408955046345725,
+   0.11582509516128583,
+   0.27501443663808883,
+   -0.20331073571689645,
+   -0.06690878311939676,
+   -0.06364424548344279,
+   0.6713097553768299
+  ],
+  "features": "onehot(contractor A-D), onehot(category), onehot(reported sev), attempt_index, q_obs",
+  "intercept": 0.8638883963141476,
+  "method": "latent-class EM, initialized from the SPEC 10.2 selection-labeled model",
+  "selection_labeled_init": {
+   "coef": [
+    -0.46653331331214976,
+    0.11331899668567862,
+    0.5228025382169653,
+    -0.1702086018860999,
+    0.008165237685431788,
+    0.05004027829892484,
+    -0.1106265652960413,
+    0.051800669016080894,
+    -0.6063216717959319,
+    1.3319945867956546,
+    -0.7262932952953313,
+    -0.07683736180621945,
+    0.6235801452384153
+   ],
+   "intercept": -0.5092236206340769
+  }
+ },
+ "termination": {
+  "alpha": 0.001,
+  "coef": {
+   "br": 0.05519248728869594,
+   "cb": 0.0033945691762362912,
+   "oc": 0.20383206512119395,
+   "sl": -0.01414632714283943
+  },
+  "intercept": -8.559611598833273,
+  "se": {
+   "br": 0.07822052542225902,
+   "cb": 0.08554518776565412,
+   "intercept": 0.22278619679718553,
+   "oc": 0.03898216516141599,
+   "sl": 0.08426102296896154
+  }
+ },
+ "version": "estimator_v1"
+}

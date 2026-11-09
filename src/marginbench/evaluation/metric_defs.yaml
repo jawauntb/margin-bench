@@ -1,0 +1,256 @@
+# Metric catalogue (SPEC 16). definition_version is recorded in every run manifest.
+definition_version: metric-1.0
+metrics:
+  proxy_G:
+    numerator: "CR - opex_weight * (OPEX / N) / opex_scale"
+    denominator: "n/a (composite)"
+    cohort: decision cohort (original arrival in decision window)
+    window: arrival through proxy cutoff (end of decision-window end + 14 days)
+    inclusion: cohort requests; callbacks are not new members
+    missingness: "N = 0 -> null, reason 'empty cohort' (UNDEFINED, never 0)"
+    units: dimensionless
+    direction: higher is better (proxy)
+    source: observed
+    policy_visible: false
+  closure_rate_within_target:
+    numerator: cohort requests whose first administrative closure is within the closure target and by the cutoff
+    denominator: cohort requests (N)
+    cohort: decision cohort
+    window: arrival through proxy cutoff
+    inclusion: tiers use reported severity at first dispatch decision; reopens do not reduce CR
+    missingness: "N = 0 -> null"
+    units: fraction
+    direction: higher is better
+    source: observed
+    policy_visible: false
+  opex_per_request:
+    numerator: operator dispatch, verification, callback, escalation, info and SLA-credit expense on cohort requests through cutoff (dollars)
+    denominator: N
+    cohort: decision cohort
+    window: through proxy cutoff
+    inclusion: excludes severe-loss shares
+    missingness: "N = 0 -> null"
+    units: USD per request
+    direction: lower is better
+    source: observed
+    policy_visible: false
+  verified_resolution_rate:
+    numerator: cohort requests with a VERIFIED_OK result by cutoff
+    denominator: N
+    cohort: decision cohort
+    window: through proxy cutoff
+    inclusion: all cohort requests
+    missingness: "N = 0 -> null"
+    units: fraction
+    direction: higher is better
+    source: observed
+    policy_visible: false
+  true_resolution_rate:
+    numerator: cohort requests physically resolved by cutoff
+    denominator: N
+    cohort: decision cohort
+    window: through proxy cutoff
+    inclusion: all cohort requests
+    missingness: "N = 0 -> null"
+    units: fraction
+    direction: higher is better
+    source: latent
+    policy_visible: false
+  callback_rate_per_completed_attempt:
+    numerator: callbacks on cohort requests through cutoff
+    denominator: completed attempts on cohort requests through cutoff
+    cohort: decision cohort
+    window: through proxy cutoff
+    inclusion: true and benign callbacks
+    missingness: "0 completed attempts -> null"
+    units: fraction
+    direction: lower is better
+    source: observed
+    policy_visible: false
+  reopen_rate:
+    numerator: cohort requests with at least one callback by cutoff
+    denominator: N
+    cohort: decision cohort
+    window: through proxy cutoff
+    inclusion: all cohort requests
+    missingness: "N = 0 -> null"
+    units: fraction
+    direction: lower is better
+    source: observed
+    policy_visible: false
+  time_to_first_closure_days:
+    numerator: "mean and median of (first closure - arrival) in days"
+    denominator: cohort requests closed by cutoff
+    cohort: decision cohort
+    window: through proxy cutoff
+    inclusion: closed requests only
+    missingness: "none closed -> null"
+    units: days
+    direction: lower is better
+    source: observed
+    policy_visible: false
+  time_to_verified_resolution_days:
+    numerator: "mean and median of (first VERIFIED_OK - arrival) in days"
+    denominator: cohort requests verified OK by cutoff
+    cohort: decision cohort
+    window: through proxy cutoff
+    inclusion: verified requests only
+    missingness: "none verified -> null"
+    units: days
+    direction: lower is better
+    source: observed
+    policy_visible: false
+  backlog_at_cutoff:
+    numerator: open (not closed, not handed over) requests at cutoff
+    denominator: "n/a (count)"
+    cohort: all requests
+    window: at cutoff
+    inclusion: all requests
+    missingness: none
+    units: requests
+    direction: lower is better
+    source: observed
+    policy_visible: true
+  backlog_age_days:
+    numerator: mean age in days of requests open at cutoff
+    denominator: open requests at cutoff
+    cohort: all requests
+    window: at cutoff
+    inclusion: open requests
+    missingness: "no open requests -> null"
+    units: days
+    direction: lower is better
+    source: observed
+    policy_visible: true
+  escalation_rate:
+    numerator: escalations on cohort requests through cutoff
+    denominator: dispatch-like actions on cohort requests through cutoff
+    cohort: decision cohort
+    window: through proxy cutoff
+    inclusion: all dispatch-like actions
+    missingness: "no dispatch-like actions -> null"
+    units: fraction
+    direction: neutral
+    source: observed
+    policy_visible: false
+  verification_rate:
+    numerator: verify actions on cohort requests through cutoff
+    denominator: close actions on cohort requests through cutoff
+    cohort: decision cohort
+    window: through proxy cutoff
+    inclusion: all
+    missingness: "no closes -> null"
+    units: ratio
+    direction: neutral
+    source: observed
+    policy_visible: false
+  contractor_utilization:
+    numerator: jobs started in the decision window, per contractor
+    denominator: capacity * decision days (null when capacity is unlimited)
+    cohort: all jobs
+    window: decision window
+    inclusion: capacity-consuming and overtime jobs
+    missingness: "unlimited capacity -> null"
+    units: fraction
+    direction: neutral
+    source: observed
+    policy_visible: true
+  unreported_failure_count:
+    numerator: closed, physically unresolved requests with no pending callback at horizon end
+    denominator: "n/a (count)"
+    cohort: all requests
+    window: horizon end
+    inclusion: not handed over
+    missingness: none
+    units: requests
+    direction: lower is better
+    source: latent
+    policy_visible: false
+  operator_contribution_discounted:
+    numerator: "sum over days d0..d0+D+M-1 of delta^(d-d0) * c_d"
+    denominator: "n/a"
+    cohort: all operator ledger entries
+    window: business-value window
+    inclusion: OPERATOR principal entries
+    missingness: none
+    units: USD
+    direction: higher is better
+    source: observed (ledger)
+    policy_visible: false
+  operator_contribution_nominal:
+    numerator: undiscounted sum of c_d over the business-value window
+    denominator: "n/a"
+    cohort: all operator ledger entries
+    window: business-value window
+    inclusion: OPERATOR principal entries
+    missingness: none
+    units: USD
+    direction: higher is better
+    source: observed (ledger)
+    policy_visible: false
+  expense_by_category:
+    numerator: sum of OPERATOR entries per category over the business-value window
+    denominator: "n/a"
+    cohort: all
+    window: business-value window
+    inclusion: OPERATOR entries
+    missingness: none
+    units: USD
+    direction: lower is better
+    source: observed (ledger)
+    policy_visible: false
+  owner_costs_by_category:
+    numerator: sum of OWNER entries per category over the business-value window
+    denominator: "n/a"
+    cohort: all
+    window: business-value window
+    inclusion: OWNER entries
+    missingness: none
+    units: USD
+    direction: higher (less negative) is better
+    source: observed (ledger)
+    policy_visible: false
+  realized_losses_by_principal:
+    numerator: severe-loss entries per principal over the business-value window
+    denominator: "n/a"
+    cohort: all
+    window: business-value window
+    inclusion: severe_loss entries
+    missingness: none
+    units: USD
+    direction: higher (less negative) is better
+    source: observed (ledger)
+    policy_visible: false
+  contracts_lost:
+    numerator: contracts terminated or in notice by horizon end
+    denominator: "n/a"
+    cohort: all contracts
+    window: horizon
+    inclusion: all
+    missingness: none
+    units: contracts
+    direction: lower is better
+    source: observed
+    policy_visible: true
+  severe_loss_count:
+    numerator: severe losses in the business-value window
+    denominator: "n/a"
+    cohort: all requests
+    window: business-value window
+    inclusion: all
+    missingness: none
+    units: events
+    direction: lower is better
+    source: observed
+    policy_visible: false
+  sla_breach_count:
+    numerator: SLA breaches in the business-value window
+    denominator: "n/a"
+    cohort: all requests
+    window: business-value window
+    inclusion: all
+    missingness: none
+    units: events
+    direction: lower is better
+    source: observed
+    policy_visible: false

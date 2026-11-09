@@ -1,0 +1,151 @@
+{
+  "H_override": null,
+  "K_override": null,
+  "config_hashes": {
+    "pilot": "a90c8e4deb0954781313684c4ea53cf41f1e7fa28ac52ac4dd8c7b474578e9e5"
+  },
+  "estimator_hashes": {
+    "pilot": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a"
+  },
+  "experiment": "E9-pilot",
+  "git_commit": "ab70210fae4d3ebfb112424b08609b886d49eed9",
+  "git_dirty": false,
+  "hash_excluded_fields": [
+    "utc_started",
+    "utc_finished"
+  ],
+  "label": "OPEN_PREREGISTERED",
+  "lock_hash": "0cdf8c836e8b5c280f39925e67d4ffa4c8688b50d54cf75e232b4e53b4271dcb",
+  "materiality_dollars": 1774.97285,
+  "metric_definition_version": "metric-1.0",
+  "n_replications": 20,
+  "partition": "pilot",
+  "plan_hash": "93ea13f04d138ff5c09d8b86c253aaa2742fc0b1e2f7c2891d3ad8af33873fe6",
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "policies": [
+    "P0",
+    "P1",
+    "P2",
+    "P3",
+    "P4",
+    "P5",
+    "V01",
+    "V02",
+    "V03",
+    "V04",
+    "V05",
+    "V06",
+    "V07",
+    "V08",
+    "V09",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15"
+  ],
+  "policy_version": "pol-1.0",
+  "proxy_version": "proxy_v1",
+  "python": "3.12.13",
+  "random_stream_schema": "stream-1",
+  "replication_offset": 0,
+  "reproducibility_status": "REPRODUCED",
+  "run_id": "E9-pilot-8800ef314bfe",
+  "run_status": "VALID",
+  "seed_manifest": {
+    "master_seed": 7707,
+    "nonce_key": 918273645,
+    "partition": "pilot",
+    "replications": [
+      {
+        "replication": 0,
+        "run_nonce": 10436363878561360758
+      },
+      {
+        "replication": 1,
+        "run_nonce": 13266370235323598025
+      },
+      {
+        "replication": 2,
+        "run_nonce": 2958248358714816670
+      },
+      {
+        "replication": 3,
+        "run_nonce": 152379766653601437
+      },
+      {
+        "replication": 4,
+        "run_nonce": 13774259124976675705
+      },
+      {
+        "replication": 5,
+        "run_nonce": 7874440029357139130
+      },
+      {
+        "replication": 6,
+        "run_nonce": 10242420681946081567
+      },
+      {
+        "replication": 7,
+        "run_nonce": 3315551861022877249
+      },
+      {
+        "replication": 8,
+        "run_nonce": 8693179530649690261
+      },
+      {
+        "replication": 9,
+        "run_nonce": 8639073645568476070
+      },
+      {
+        "replication": 10,
+        "run_nonce": 16906411318295946258
+      },
+      {
+        "replication": 11,
+        "run_nonce": 10757811841007248362
+      },
+      {
+        "replication": 12,
+        "run_nonce": 15634124001881899967
+      },
+      {
+        "replication": 13,
+        "run_nonce": 18031068697715024709
+      },
+      {
+        "replication": 14,
+        "run_nonce": 15057229309709924678
+      },
+      {
+        "replication": 15,
+        "run_nonce": 4547021708603283514
+      },
+      {
+        "replication": 16,
+        "run_nonce": 4709378993962364309
+      },
+      {
+        "replication": 17,
+        "run_nonce": 9516101318488332015
+      },
+      {
+        "replication": 18,
+        "run_nonce": 9327881399262309348
+      },
+      {
+        "replication": 19,
+        "run_nonce": 15391982585644171333
+      }
+    ],
+    "sim_version": "sim-1.0",
+    "stream_schema": "stream-1"
+  },
+  "sim_version": "sim-1.0",
+  "utc_finished": "2026-11-09T04:33:06Z",
+  "utc_started": "2026-11-09T04:31:27Z",
+  "world_status": {
+    "pilot": "VALID"
+  }
+}

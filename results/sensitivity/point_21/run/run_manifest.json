@@ -1,0 +1,253 @@
+{
+  "H_override": null,
+  "K_override": null,
+  "config_hashes": {
+    "point_21": "ccd5ba8563cd32182bb57b6d802f0958133b20fa2c28f136a09a3195c0385fb4"
+  },
+  "estimator_hashes": {
+    "point_21": "4bcb36259eab1f59cdf763113971492128cfe4017ca2151edeb1ea0788c43d0e"
+  },
+  "experiment": "SENS-21",
+  "git_commit": "2b0693a7a0b655fd560921ae5c9393cf655998c8",
+  "git_dirty": false,
+  "hash_excluded_fields": [
+    "utc_started",
+    "utc_finished"
+  ],
+  "label": "OPEN_PREREGISTERED",
+  "lock_hash": "0cdf8c836e8b5c280f39925e67d4ffa4c8688b50d54cf75e232b4e53b4271dcb",
+  "materiality_dollars": 1000.0,
+  "metric_definition_version": "metric-1.0",
+  "n_replications": 50,
+  "partition": "sens",
+  "plan_hash": "93ea13f04d138ff5c09d8b86c253aaa2742fc0b1e2f7c2891d3ad8af33873fe6",
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "policies": [
+    "P0",
+    "P2",
+    "P4"
+  ],
+  "policy_version": "pol-1.0",
+  "proxy_version": "proxy_v1",
+  "python": "3.12.13",
+  "random_stream_schema": "stream-1",
+  "replication_offset": 21000,
+  "reproducibility_status": "REPRODUCED",
+  "run_id": "SENS-21-e7d5b33e0338",
+  "run_status": "VALID",
+  "seed_manifest": {
+    "master_seed": 6606,
+    "nonce_key": 918273645,
+    "partition": "sens",
+    "replications": [
+      {
+        "replication": 21000,
+        "run_nonce": 9431916222224697558
+      },
+      {
+        "replication": 21001,
+        "run_nonce": 2726150442613411224
+      },
+      {
+        "replication": 21002,
+        "run_nonce": 5607258764109798849
+      },
+      {
+        "replication": 21003,
+        "run_nonce": 5067250844337940850
+      },
+      {
+        "replication": 21004,
+        "run_nonce": 4406450328083026054
+      },
+      {
+        "replication": 21005,
+        "run_nonce": 4311284782031497729
+      },
+      {
+        "replication": 21006,
+        "run_nonce": 17970807142890973301
+      },
+      {
+        "replication": 21007,
+        "run_nonce": 8927551819210031164
+      },
+      {
+        "replication": 21008,
+        "run_nonce": 15341977692763314234
+      },
+      {
+        "replication": 21009,
+        "run_nonce": 3943002335782452423
+      },
+      {
+        "replication": 21010,
+        "run_nonce": 8456142050669210446
+      },
+      {
+        "replication": 21011,
+        "run_nonce": 15010757400976267010
+      },
+      {
+        "replication": 21012,
+        "run_nonce": 7669037422106630351
+      },
+      {
+        "replication": 21013,
+        "run_nonce": 412517555156871950
+      },
+      {
+        "replication": 21014,
+        "run_nonce": 17257421634504667853
+      },
+      {
+        "replication": 21015,
+        "run_nonce": 18309152449572684391
+      },
+      {
+        "replication": 21016,
+        "run_nonce": 6425660175084790884
+      },
+      {
+        "replication": 21017,
+        "run_nonce": 10603444937224069899
+      },
+      {
+        "replication": 21018,
+        "run_nonce": 14134585538470796413
+      },
+      {
+        "replication": 21019,
+        "run_nonce": 1186899654846028426
+      },
+      {
+        "replication": 21020,
+        "run_nonce": 16366582517189928657
+      },
+      {
+        "replication": 21021,
+        "run_nonce": 4374706331201890422
+      },
+      {
+        "replication": 21022,
+        "run_nonce": 13637310451578966189
+      },
+      {
+        "replication": 21023,
+        "run_nonce": 15095418122339800956
+      },
+      {
+        "replication": 21024,
+        "run_nonce": 10391789971198173206
+      },
+      {
+        "replication": 21025,
+        "run_nonce": 6817803492342536289
+      },
+      {
+        "replication": 21026,
+        "run_nonce": 9308882285104187685
+      },
+      {
+        "replication": 21027,
+        "run_nonce": 13544073933107390661
+      },
+      {
+        "replication": 21028,
+        "run_nonce": 13056886437090004871
+      },
+      {
+        "replication": 21029,
+        "run_nonce": 6992025109643174955
+      },
+      {
+        "replication": 21030,
+        "run_nonce": 13737257022885192931
+      },
+      {
+        "replication": 21031,
+        "run_nonce": 1241463098163735691
+      },
+      {
+        "replication": 21032,
+        "run_nonce": 7592904036903377707
+      },
+      {
+        "replication": 21033,
+        "run_nonce": 555257703205433167
+      },
+      {
+        "replication": 21034,
+        "run_nonce": 16994709366781587521
+      },
+      {
+        "replication": 21035,
+        "run_nonce": 145750991825958372
+      },
+      {
+        "replication": 21036,
+        "run_nonce": 6756269015611531829
+      },
+      {
+        "replication": 21037,
+        "run_nonce": 4948304944981516490
+      },
+      {
+        "replication": 21038,
+        "run_nonce": 5986527717186663111
+      },
+      {
+        "replication": 21039,
+        "run_nonce": 10954648368444508424
+      },
+      {
+        "replication": 21040,
+        "run_nonce": 4580192940401117958
+      },
+      {
+        "replication": 21041,
+        "run_nonce": 9880816924824776022
+      },
+      {
+        "replication": 21042,
+        "run_nonce": 15780370355869063996
+      },
+      {
+        "replication": 21043,
+        "run_nonce": 14515831205532349606
+      },
+      {
+        "replication": 21044,
+        "run_nonce": 17256906142642531797
+      },
+      {
+        "replication": 21045,
+        "run_nonce": 18073629467253039483
+      },
+      {
+        "replication": 21046,
+        "run_nonce": 13021586600880600894
+      },
+      {
+        "replication": 21047,
+        "run_nonce": 5745451320341951848
+      },
+      {
+        "replication": 21048,
+        "run_nonce": 9951158138131847219
+      },
+      {
+        "replication": 21049,
+        "run_nonce": 16815284998704823539
+      }
+    ],
+    "sim_version": "sim-1.0",
+    "stream_schema": "stream-1"
+  },
+  "sim_version": "sim-1.0",
+  "utc_finished": "2026-11-09T05:38:18Z",
+  "utc_started": "2026-11-09T05:36:59Z",
+  "world_status": {
+    "point_21": "VALID"
+  }
+}

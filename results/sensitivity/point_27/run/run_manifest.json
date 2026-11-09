@@ -1,0 +1,253 @@
+{
+  "H_override": null,
+  "K_override": null,
+  "config_hashes": {
+    "point_27": "dee15af6cbc656717d1b04a2f33c67f6435f737b519855113d487a0c20ac1fef"
+  },
+  "estimator_hashes": {
+    "point_27": "944bb5e7230ba915d734009b5af0873f84602d1d8b2ccdea6a72c345e1162c85"
+  },
+  "experiment": "SENS-27",
+  "git_commit": "53cc0011c8656542b298532310d71231e400680b",
+  "git_dirty": false,
+  "hash_excluded_fields": [
+    "utc_started",
+    "utc_finished"
+  ],
+  "label": "OPEN_PREREGISTERED",
+  "lock_hash": "0cdf8c836e8b5c280f39925e67d4ffa4c8688b50d54cf75e232b4e53b4271dcb",
+  "materiality_dollars": 1000.0,
+  "metric_definition_version": "metric-1.0",
+  "n_replications": 50,
+  "partition": "sens",
+  "plan_hash": "93ea13f04d138ff5c09d8b86c253aaa2742fc0b1e2f7c2891d3ad8af33873fe6",
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "policies": [
+    "P0",
+    "P2",
+    "P4"
+  ],
+  "policy_version": "pol-1.0",
+  "proxy_version": "proxy_v1",
+  "python": "3.12.13",
+  "random_stream_schema": "stream-1",
+  "replication_offset": 27000,
+  "reproducibility_status": "REPRODUCED",
+  "run_id": "SENS-27-9c118dee7f4d",
+  "run_status": "VALID",
+  "seed_manifest": {
+    "master_seed": 6606,
+    "nonce_key": 918273645,
+    "partition": "sens",
+    "replications": [
+      {
+        "replication": 27000,
+        "run_nonce": 17241544104389625461
+      },
+      {
+        "replication": 27001,
+        "run_nonce": 2522006656612819957
+      },
+      {
+        "replication": 27002,
+        "run_nonce": 11415510565806213852
+      },
+      {
+        "replication": 27003,
+        "run_nonce": 10285797700176272792
+      },
+      {
+        "replication": 27004,
+        "run_nonce": 8708927444454764431
+      },
+      {
+        "replication": 27005,
+        "run_nonce": 10531421210142623079
+      },
+      {
+        "replication": 27006,
+        "run_nonce": 17677850816701376844
+      },
+      {
+        "replication": 27007,
+        "run_nonce": 2962005245885185236
+      },
+      {
+        "replication": 27008,
+        "run_nonce": 4233443155928595656
+      },
+      {
+        "replication": 27009,
+        "run_nonce": 10412885030993641969
+      },
+      {
+        "replication": 27010,
+        "run_nonce": 3047862422101521585
+      },
+      {
+        "replication": 27011,
+        "run_nonce": 7259693310715615766
+      },
+      {
+        "replication": 27012,
+        "run_nonce": 17288078080159306558
+      },
+      {
+        "replication": 27013,
+        "run_nonce": 12563532954542753514
+      },
+      {
+        "replication": 27014,
+        "run_nonce": 9638202085571798623
+      },
+      {
+        "replication": 27015,
+        "run_nonce": 13266627885835904818
+      },
+      {
+        "replication": 27016,
+        "run_nonce": 9395617589930364990
+      },
+      {
+        "replication": 27017,
+        "run_nonce": 10661046497394271694
+      },
+      {
+        "replication": 27018,
+        "run_nonce": 10515280982456258200
+      },
+      {
+        "replication": 27019,
+        "run_nonce": 1704658507807908349
+      },
+      {
+        "replication": 27020,
+        "run_nonce": 2289311943623157438
+      },
+      {
+        "replication": 27021,
+        "run_nonce": 11017455052349499136
+      },
+      {
+        "replication": 27022,
+        "run_nonce": 5465850086567830674
+      },
+      {
+        "replication": 27023,
+        "run_nonce": 1292328705055804749
+      },
+      {
+        "replication": 27024,
+        "run_nonce": 5594698045326035725
+      },
+      {
+        "replication": 27025,
+        "run_nonce": 17098419024497755771
+      },
+      {
+        "replication": 27026,
+        "run_nonce": 11808483481808033050
+      },
+      {
+        "replication": 27027,
+        "run_nonce": 7197190270428536802
+      },
+      {
+        "replication": 27028,
+        "run_nonce": 5357868540535239112
+      },
+      {
+        "replication": 27029,
+        "run_nonce": 2997838074595726286
+      },
+      {
+        "replication": 27030,
+        "run_nonce": 10856977245871245575
+      },
+      {
+        "replication": 27031,
+        "run_nonce": 3712269359114799928
+      },
+      {
+        "replication": 27032,
+        "run_nonce": 16909519794389447717
+      },
+      {
+        "replication": 27033,
+        "run_nonce": 5309338711298216379
+      },
+      {
+        "replication": 27034,
+        "run_nonce": 6972778320415221627
+      },
+      {
+        "replication": 27035,
+        "run_nonce": 11208100288573456263
+      },
+      {
+        "replication": 27036,
+        "run_nonce": 745506151310083934
+      },
+      {
+        "replication": 27037,
+        "run_nonce": 4553203633665731961
+      },
+      {
+        "replication": 27038,
+        "run_nonce": 2311145821527193873
+      },
+      {
+        "replication": 27039,
+        "run_nonce": 11916313130842717960
+      },
+      {
+        "replication": 27040,
+        "run_nonce": 16280814968243279673
+      },
+      {
+        "replication": 27041,
+        "run_nonce": 1909594472516745599
+      },
+      {
+        "replication": 27042,
+        "run_nonce": 1970238373466479139
+      },
+      {
+        "replication": 27043,
+        "run_nonce": 5647310429543640143
+      },
+      {
+        "replication": 27044,
+        "run_nonce": 14781878075606022998
+      },
+      {
+        "replication": 27045,
+        "run_nonce": 11774855225325714534
+      },
+      {
+        "replication": 27046,
+        "run_nonce": 16365254109698208196
+      },
+      {
+        "replication": 27047,
+        "run_nonce": 7335487035731492570
+      },
+      {
+        "replication": 27048,
+        "run_nonce": 7204150521151655674
+      },
+      {
+        "replication": 27049,
+        "run_nonce": 12150719074972891029
+      }
+    ],
+    "sim_version": "sim-1.0",
+    "stream_schema": "stream-1"
+  },
+  "sim_version": "sim-1.0",
+  "utc_finished": "2026-11-09T05:53:59Z",
+  "utc_started": "2026-11-09T05:52:17Z",
+  "world_status": {
+    "point_27": "VALID"
+  }
+}
