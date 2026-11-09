@@ -1,0 +1,29 @@
+{
+  "default": {
+    "P0": null,
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 43921,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 9523616,
+      "valued_decisions": 43680,
+      "wall_seconds": 84.581
+    },
+    "P6": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 42542,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 9212320,
+      "valued_decisions": 42496,
+      "wall_seconds": 76.105
+    }
+  }
+}
