@@ -1,0 +1,11 @@
+{
+  "estimator_hashes": {
+    "static_mismatch": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a"
+  },
+  "estimator_paths": {
+    "static_mismatch": "/home/user/margin-bench/models/estimator_v1.json"
+  },
+  "labels": {
+    "static_mismatch": "estimator_v1"
+  }
+}
