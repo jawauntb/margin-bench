@@ -1,0 +1,326 @@
+{
+  "M_275|default_M": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29196,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6313472,
+      "valued_decisions": 29163,
+      "wall_seconds": 56.019
+    },
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 30067,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6534400,
+      "valued_decisions": 29916,
+      "wall_seconds": 58.704
+    }
+  },
+  "M_275|retrained_M": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 28877,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6230080,
+      "valued_decisions": 28840,
+      "wall_seconds": 57.495
+    },
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29643,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6426080,
+      "valued_decisions": 29494,
+      "wall_seconds": 59.174
+    }
+  },
+  "acc_0.6|default_M": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29181,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6250912,
+      "valued_decisions": 29146,
+      "wall_seconds": 61.115
+    },
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 30001,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6458496,
+      "valued_decisions": 29824,
+      "wall_seconds": 60.326
+    }
+  },
+  "acc_0.6|retrained_M": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29453,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6290592,
+      "valued_decisions": 29416,
+      "wall_seconds": 56.152
+    },
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 30067,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6461984,
+      "valued_decisions": 29896,
+      "wall_seconds": 58.434
+    }
+  },
+  "acc_1.0|default_M": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29253,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6387104,
+      "valued_decisions": 29220,
+      "wall_seconds": 57.041000000000004
+    },
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 30048,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6578336,
+      "valued_decisions": 29914,
+      "wall_seconds": 58.866
+    }
+  },
+  "acc_1.0|retrained_M": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29223,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6388640,
+      "valued_decisions": 29184,
+      "wall_seconds": 57.208
+    },
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29866,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6532672,
+      "valued_decisions": 29699,
+      "wall_seconds": 59.61
+    }
+  },
+  "beta_x2|default_M": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29109,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6293376,
+      "valued_decisions": 29076,
+      "wall_seconds": 54.604
+    },
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29990,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6516384,
+      "valued_decisions": 29839,
+      "wall_seconds": 57.509
+    }
+  },
+  "beta_x2|retrained_M": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29011,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6268096,
+      "valued_decisions": 28977,
+      "wall_seconds": 54.31
+    },
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 30271,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6588960,
+      "valued_decisions": 30119,
+      "wall_seconds": 57.494
+    }
+  },
+  "negligence_0.5|default_M": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29196,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6313472,
+      "valued_decisions": 29163,
+      "wall_seconds": 55.943
+    },
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 30067,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6534400,
+      "valued_decisions": 29916,
+      "wall_seconds": 57.777
+    }
+  },
+  "negligence_0.5|retrained_M": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29412,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6365568,
+      "valued_decisions": 29366,
+      "wall_seconds": 57.822
+    },
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 30117,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6543424,
+      "valued_decisions": 29947,
+      "wall_seconds": 61.451
+    }
+  },
+  "speed_quality_+0.6|default_M": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29042,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6278336,
+      "valued_decisions": 28999,
+      "wall_seconds": 56.798
+    },
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29917,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6492320,
+      "valued_decisions": 29756,
+      "wall_seconds": 58.578
+    }
+  },
+  "speed_quality_+0.6|retrained_M": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 29299,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6339040,
+      "valued_decisions": 29245,
+      "wall_seconds": 56.994
+    },
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 30280,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 6588640,
+      "valued_decisions": 30105,
+      "wall_seconds": 59.885
+    }
+  }
+}

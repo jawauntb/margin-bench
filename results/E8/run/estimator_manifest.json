@@ -1,0 +1,44 @@
+{
+  "estimator_hashes": {
+    "M_275|default_M": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "M_275|retrained_M": "e6f338ef9b68f78b20614750ea7344bd266f96c22fc4e556e9bdac21343ada25",
+    "acc_0.6|default_M": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "acc_0.6|retrained_M": "ed98131d95843ac76722af6f8a97c81c5d5df6e7d93cb54ffbd643c0dc48c77d",
+    "acc_1.0|default_M": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "acc_1.0|retrained_M": "dadc3395c1d376f78f35024c8c4d42d13a11790d0caf4ea8f2bf879eb92e79fe",
+    "beta_x2|default_M": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "beta_x2|retrained_M": "f2cf7845710dc827e78bc02c61988182553ef741aea107c7f160b56a516fa05d",
+    "negligence_0.5|default_M": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "negligence_0.5|retrained_M": "18879d1c4dba598680d5e1c3d4bcd3e251aad131b16ea163b4154c9daeae1620",
+    "speed_quality_+0.6|default_M": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "speed_quality_+0.6|retrained_M": "839936ae033259aaad5da6acd2a2bed9b89f22493c4ea9022f24097046859ff5"
+  },
+  "estimator_paths": {
+    "M_275|default_M": "/home/user/margin-bench/models/estimator_v1.json",
+    "M_275|retrained_M": "results/E8/estimators/M_275.json",
+    "acc_0.6|default_M": "/home/user/margin-bench/models/estimator_v1.json",
+    "acc_0.6|retrained_M": "results/E8/estimators/acc_0.6.json",
+    "acc_1.0|default_M": "/home/user/margin-bench/models/estimator_v1.json",
+    "acc_1.0|retrained_M": "results/E8/estimators/acc_1.0.json",
+    "beta_x2|default_M": "/home/user/margin-bench/models/estimator_v1.json",
+    "beta_x2|retrained_M": "results/E8/estimators/beta_x2.json",
+    "negligence_0.5|default_M": "/home/user/margin-bench/models/estimator_v1.json",
+    "negligence_0.5|retrained_M": "results/E8/estimators/negligence_0.5.json",
+    "speed_quality_+0.6|default_M": "/home/user/margin-bench/models/estimator_v1.json",
+    "speed_quality_+0.6|retrained_M": "results/E8/estimators/speed_quality_+0.6.json"
+  },
+  "labels": {
+    "M_275|default_M": "estimator_v1",
+    "M_275|retrained_M": "estimator_v1",
+    "acc_0.6|default_M": "estimator_v1",
+    "acc_0.6|retrained_M": "estimator_v1",
+    "acc_1.0|default_M": "estimator_v1",
+    "acc_1.0|retrained_M": "estimator_v1",
+    "beta_x2|default_M": "estimator_v1",
+    "beta_x2|retrained_M": "estimator_v1",
+    "negligence_0.5|default_M": "estimator_v1",
+    "negligence_0.5|retrained_M": "estimator_v1",
+    "speed_quality_+0.6|default_M": "estimator_v1",
+    "speed_quality_+0.6|retrained_M": "estimator_v1"
+  }
+}
