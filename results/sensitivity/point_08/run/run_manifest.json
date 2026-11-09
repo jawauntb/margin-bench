@@ -1,0 +1,253 @@
+{
+  "H_override": null,
+  "K_override": null,
+  "config_hashes": {
+    "point_08": "7e0207886859163731f1736ca34ccda2633fdf2119d3e72a588bbc5cdc2053c8"
+  },
+  "estimator_hashes": {
+    "point_08": "c0e90a0722b04a7e49779f4e0c6a39ab9b3c3582238e9f6e55bd5e06d25e0233"
+  },
+  "experiment": "SENS-08",
+  "git_commit": "eb7ff254b68cf8c98d5783ecb06b20ed26a17047",
+  "git_dirty": false,
+  "hash_excluded_fields": [
+    "utc_started",
+    "utc_finished"
+  ],
+  "label": "OPEN_PREREGISTERED",
+  "lock_hash": "0cdf8c836e8b5c280f39925e67d4ffa4c8688b50d54cf75e232b4e53b4271dcb",
+  "materiality_dollars": 1000.0,
+  "metric_definition_version": "metric-1.0",
+  "n_replications": 50,
+  "partition": "sens",
+  "plan_hash": "93ea13f04d138ff5c09d8b86c253aaa2742fc0b1e2f7c2891d3ad8af33873fe6",
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "policies": [
+    "P0",
+    "P2",
+    "P4"
+  ],
+  "policy_version": "pol-1.0",
+  "proxy_version": "proxy_v1",
+  "python": "3.12.13",
+  "random_stream_schema": "stream-1",
+  "replication_offset": 8000,
+  "reproducibility_status": "REPRODUCED",
+  "run_id": "SENS-08-40224a0cb96e",
+  "run_status": "VALID",
+  "seed_manifest": {
+    "master_seed": 6606,
+    "nonce_key": 918273645,
+    "partition": "sens",
+    "replications": [
+      {
+        "replication": 8000,
+        "run_nonce": 1911712597526952628
+      },
+      {
+        "replication": 8001,
+        "run_nonce": 1460710998377049563
+      },
+      {
+        "replication": 8002,
+        "run_nonce": 12055274352275253686
+      },
+      {
+        "replication": 8003,
+        "run_nonce": 8992202705091884619
+      },
+      {
+        "replication": 8004,
+        "run_nonce": 5895182690034584434
+      },
+      {
+        "replication": 8005,
+        "run_nonce": 1737916502006780505
+      },
+      {
+        "replication": 8006,
+        "run_nonce": 9193657987910273089
+      },
+      {
+        "replication": 8007,
+        "run_nonce": 12812853539208035813
+      },
+      {
+        "replication": 8008,
+        "run_nonce": 16857249605511343134
+      },
+      {
+        "replication": 8009,
+        "run_nonce": 9250609048705271422
+      },
+      {
+        "replication": 8010,
+        "run_nonce": 10552975543773762908
+      },
+      {
+        "replication": 8011,
+        "run_nonce": 1374994558593644788
+      },
+      {
+        "replication": 8012,
+        "run_nonce": 10580178459325818547
+      },
+      {
+        "replication": 8013,
+        "run_nonce": 15692130012646689097
+      },
+      {
+        "replication": 8014,
+        "run_nonce": 10714259532486931564
+      },
+      {
+        "replication": 8015,
+        "run_nonce": 8613983744691345427
+      },
+      {
+        "replication": 8016,
+        "run_nonce": 8718487152765360613
+      },
+      {
+        "replication": 8017,
+        "run_nonce": 15596126021170044833
+      },
+      {
+        "replication": 8018,
+        "run_nonce": 11021509795803830873
+      },
+      {
+        "replication": 8019,
+        "run_nonce": 13020492123107084806
+      },
+      {
+        "replication": 8020,
+        "run_nonce": 7164288258324637813
+      },
+      {
+        "replication": 8021,
+        "run_nonce": 13859956537267003274
+      },
+      {
+        "replication": 8022,
+        "run_nonce": 9474804460809470224
+      },
+      {
+        "replication": 8023,
+        "run_nonce": 3231216514716198483
+      },
+      {
+        "replication": 8024,
+        "run_nonce": 5311328528243865284
+      },
+      {
+        "replication": 8025,
+        "run_nonce": 12767729442150582980
+      },
+      {
+        "replication": 8026,
+        "run_nonce": 17154776206329784842
+      },
+      {
+        "replication": 8027,
+        "run_nonce": 13784117235971468246
+      },
+      {
+        "replication": 8028,
+        "run_nonce": 17249238697055729674
+      },
+      {
+        "replication": 8029,
+        "run_nonce": 18379131336632745924
+      },
+      {
+        "replication": 8030,
+        "run_nonce": 2738398833881646677
+      },
+      {
+        "replication": 8031,
+        "run_nonce": 9970722790047950018
+      },
+      {
+        "replication": 8032,
+        "run_nonce": 13929760759761568836
+      },
+      {
+        "replication": 8033,
+        "run_nonce": 5465367331257985943
+      },
+      {
+        "replication": 8034,
+        "run_nonce": 15966208208087376415
+      },
+      {
+        "replication": 8035,
+        "run_nonce": 17295135992618598470
+      },
+      {
+        "replication": 8036,
+        "run_nonce": 1561810960713257229
+      },
+      {
+        "replication": 8037,
+        "run_nonce": 2095478398239683229
+      },
+      {
+        "replication": 8038,
+        "run_nonce": 2608909201657976732
+      },
+      {
+        "replication": 8039,
+        "run_nonce": 17623041281220742158
+      },
+      {
+        "replication": 8040,
+        "run_nonce": 12890025491737033403
+      },
+      {
+        "replication": 8041,
+        "run_nonce": 885916684716941751
+      },
+      {
+        "replication": 8042,
+        "run_nonce": 4089295648285492058
+      },
+      {
+        "replication": 8043,
+        "run_nonce": 7073828346554632275
+      },
+      {
+        "replication": 8044,
+        "run_nonce": 2218051545650164738
+      },
+      {
+        "replication": 8045,
+        "run_nonce": 10844787224644841040
+      },
+      {
+        "replication": 8046,
+        "run_nonce": 11356119426528895071
+      },
+      {
+        "replication": 8047,
+        "run_nonce": 9365552179460974112
+      },
+      {
+        "replication": 8048,
+        "run_nonce": 5781449324299843940
+      },
+      {
+        "replication": 8049,
+        "run_nonce": 1245964115463757330
+      }
+    ],
+    "sim_version": "sim-1.0",
+    "stream_schema": "stream-1"
+  },
+  "sim_version": "sim-1.0",
+  "utc_finished": "2026-11-09T05:07:19Z",
+  "utc_started": "2026-11-09T05:06:07Z",
+  "world_status": {
+    "point_08": "VALID"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "estimator_hashes": {
+    "point_01": "68d862fc6f42da2e579a60304d49abd20c05540302f5cb9c721702a6218f5b2e"
+  },
+  "estimator_paths": {
+    "point_01": "results/sensitivity/point_01/estimator.json"
+  },
+  "labels": {
+    "point_01": "estimator_v1"
+  }
+}

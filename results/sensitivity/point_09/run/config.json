@@ -1,0 +1,291 @@
+{
+  "point_09": {
+    "arrivals": {
+      "base_rate_per_unit_day": 0.012,
+      "heterogeneous": true,
+      "hvac_season_amplitude": 0.5,
+      "hvac_season_peak_day": 196,
+      "rate_multiplier": 1.6234563687855044,
+      "seasonal": true,
+      "shares": {
+        "electrical": 0.15,
+        "general": 0.3,
+        "hvac": 0.2,
+        "plumbing": 0.35
+      }
+    },
+    "behavior": {
+      "p0_prob": 0.7
+    },
+    "callbacks": {
+      "benign_prob": 0.03,
+      "benign_window_days": 30,
+      "consume_capacity": true,
+      "delay_gamma_scale_days": 4.206259535434856,
+      "delay_gamma_shape": 2.0,
+      "m_close_unverified": 0.7082057757159093,
+      "m_sev": {
+        "minor": 0.55,
+        "moderate": 0.8,
+        "urgent": 0.97
+      },
+      "m_sev_scale": 0.7978541941194033,
+      "no_suppression": false,
+      "off": false
+    },
+    "contractors": {
+      "base_lead_days": {
+        "electrical": 2.0,
+        "general": 2.0,
+        "hvac": 2.5,
+        "plumbing": 1.5
+      },
+      "capacity_multiplier": 1.488020875292163,
+      "category_offset_sd": 0.3,
+      "escalation_contractor": "C",
+      "escalation_delay_minutes": 360,
+      "fixtures": [
+        {
+          "capacity": 3,
+          "eligible": [
+            "plumbing",
+            "hvac",
+            "general"
+          ],
+          "id": "A",
+          "price": 0.75,
+          "speed": 0.8,
+          "success": 0.68
+        },
+        {
+          "capacity": 3,
+          "eligible": [
+            "plumbing",
+            "electrical",
+            "hvac",
+            "general"
+          ],
+          "id": "B",
+          "price": 1.0,
+          "speed": 1.0,
+          "success": 0.82
+        },
+        {
+          "capacity": 2,
+          "eligible": [
+            "plumbing",
+            "electrical",
+            "hvac",
+            "general"
+          ],
+          "id": "C",
+          "price": 1.35,
+          "speed": 1.0,
+          "success": 0.93
+        },
+        {
+          "capacity": 4,
+          "eligible": [
+            "plumbing",
+            "electrical",
+            "hvac",
+            "general"
+          ],
+          "id": "D",
+          "price": 0.95,
+          "speed": 1.5,
+          "success": 0.7
+        }
+      ],
+      "identical_price": false,
+      "identical_quality": false,
+      "identical_quality_value": 0.82,
+      "job_duration_log_sd": 0.4,
+      "job_duration_median_minutes": 120.0,
+      "logit_success_sd": 0.2,
+      "price_quality_corr": 0.5689632637090006,
+      "price_sd": 0.05,
+      "speed_quality_corr": -0.008553738182463966,
+      "success_dispersion": 1.0718756012418285,
+      "unlimited_capacity": false
+    },
+    "costs": {
+      "callback": 20.0,
+      "dispatch": 12.0,
+      "escalation": 35.0,
+      "info": 6.0
+    },
+    "fees": {
+      "per_unit_month": 120.0
+    },
+    "invoice": {
+      "base": {
+        "electrical": 280.0,
+        "general": 120.0,
+        "hvac": 350.0,
+        "plumbing": 240.0
+      },
+      "severity_multiplier": {
+        "minor": 0.7,
+        "moderate": 1.0,
+        "urgent": 1.8
+      }
+    },
+    "limits": {
+      "max_events_per_replication": 2000000,
+      "max_wall_seconds_per_experiment": 36000
+    },
+    "loss": {
+      "daily_hazard": {
+        "minor": 0.0,
+        "moderate": 0.0005,
+        "urgent": 0.004
+      },
+      "hazard_multiplier": 3.0520203757868174,
+      "log_sd": 1.0,
+      "median_amount": {
+        "minor": 0.0,
+        "moderate": 2500.0,
+        "urgent": 6000.0
+      },
+      "off": false,
+      "operator_negligence_share": 0.25
+    },
+    "obs": {
+      "info_accuracy": 0.95,
+      "info_delay_days": 1,
+      "perfect": false,
+      "severity_accuracy": 0.8
+    },
+    "planning": {
+      "H_plan_days": 80,
+      "K": 32,
+      "myopic_safety_cap_days": 365,
+      "p0_min_success": 0.75,
+      "p0_prior_success": 0.8,
+      "p5_close_max_unresolved": 0.15,
+      "p5_loss_floor": 0.002,
+      "p5_loss_slack": 0.0005,
+      "p5_sla_floor": 0.1,
+      "p5_sla_slack": 0.02,
+      "rollout_max_steps": 40
+    },
+    "portfolio": {
+      "condition_beta_a": 5.0,
+      "condition_beta_b": 2.0,
+      "condition_obs_noise_sd": 0.1,
+      "n_properties": 20,
+      "property_risk_log_sd": 0.3,
+      "tenant_report_beta_a": 8.0,
+      "tenant_report_beta_b": 2.0,
+      "units_per_property": 10
+    },
+    "proxy": {
+      "closure_target_days": {
+        "minor": 10,
+        "moderate": 5,
+        "urgent": 2
+      },
+      "opex_scale": 25.0,
+      "opex_weight": 0.5
+    },
+    "repair": {
+      "attempt_coef": -0.4,
+      "b_sev": {
+        "minor": 0.5,
+        "moderate": 0.0,
+        "urgent": -0.5
+      },
+      "condition_center": 0.7,
+      "condition_coef": 1.0
+    },
+    "report": {
+      "complete_given_failure": 0.8,
+      "complete_given_success": 0.98
+    },
+    "retention": {
+      "annual_base_termination_prob": 0.06,
+      "beta_br": 0.1,
+      "beta_cb": 2.0,
+      "beta_multiplier": 0.17704342442979287,
+      "beta_oc": 0.15,
+      "beta_sl": 0.7,
+      "notice_days": 30,
+      "null_scenario": false
+    },
+    "seeds": {
+      "calib": 3303,
+      "dev": 1101,
+      "eval": 4404,
+      "nonce_key": 918273645,
+      "pilot": 7707,
+      "sens": 6606,
+      "stress": 5505,
+      "train": 2202
+    },
+    "severity": {
+      "probs": {
+        "electrical": [
+          0.45,
+          0.4,
+          0.15
+        ],
+        "general": [
+          0.65,
+          0.32,
+          0.03
+        ],
+        "hvac": [
+          0.45,
+          0.45,
+          0.1
+        ],
+        "plumbing": [
+          0.5,
+          0.4,
+          0.1
+        ]
+      }
+    },
+    "sla": {
+      "credit": {
+        "minor": 0.0,
+        "moderate": 15.0,
+        "urgent": 40.0
+      },
+      "target_hours": {
+        "minor": 168,
+        "moderate": 72,
+        "urgent": 24
+      }
+    },
+    "time": {
+      "annual_discount_rate": 0.1868562275034853,
+      "decision_days": 90,
+      "deploy_variant": false,
+      "generation_days": 400,
+      "history_days": 365,
+      "maturation_days": 180,
+      "proxy_cutoff_offset_days": 14,
+      "warmup_days": 30
+    },
+    "verify": {
+      "cost": 43.18448250318982,
+      "delay_days": 1,
+      "perfect": false,
+      "sensitivity": 0.6324069032186991,
+      "specificity": 0.95
+    },
+    "versions": {
+      "metric_version": "metric-1.0",
+      "policy_version": "pol-1.0",
+      "proxy_version": "proxy_v1",
+      "sim_version": "sim-1.0",
+      "stream_schema": "stream-1"
+    },
+    "workflow": {
+      "attempt_limit_failures": 4,
+      "max_defers": 2
+    }
+  }
+}

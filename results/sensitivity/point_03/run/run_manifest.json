@@ -1,0 +1,253 @@
+{
+  "H_override": null,
+  "K_override": null,
+  "config_hashes": {
+    "point_03": "047f8ef5639cfdc87689a7a8275fc19ceb6e7ed1141fccf3f35ac113a5e3fec5"
+  },
+  "estimator_hashes": {
+    "point_03": "99c33b1a2d80cb101cfb98ab9c9d97e6cb3f36040cf89dc1ff5b2a02bf5b5789"
+  },
+  "experiment": "SENS-03",
+  "git_commit": "eb7ff254b68cf8c98d5783ecb06b20ed26a17047",
+  "git_dirty": false,
+  "hash_excluded_fields": [
+    "utc_started",
+    "utc_finished"
+  ],
+  "label": "OPEN_PREREGISTERED",
+  "lock_hash": "0cdf8c836e8b5c280f39925e67d4ffa4c8688b50d54cf75e232b4e53b4271dcb",
+  "materiality_dollars": 1000.0,
+  "metric_definition_version": "metric-1.0",
+  "n_replications": 50,
+  "partition": "sens",
+  "plan_hash": "93ea13f04d138ff5c09d8b86c253aaa2742fc0b1e2f7c2891d3ad8af33873fe6",
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "policies": [
+    "P0",
+    "P2",
+    "P4"
+  ],
+  "policy_version": "pol-1.0",
+  "proxy_version": "proxy_v1",
+  "python": "3.12.13",
+  "random_stream_schema": "stream-1",
+  "replication_offset": 3000,
+  "reproducibility_status": "REPRODUCED",
+  "run_id": "SENS-03-f10fca49f3be",
+  "run_status": "VALID",
+  "seed_manifest": {
+    "master_seed": 6606,
+    "nonce_key": 918273645,
+    "partition": "sens",
+    "replications": [
+      {
+        "replication": 3000,
+        "run_nonce": 983803690888303296
+      },
+      {
+        "replication": 3001,
+        "run_nonce": 4006376936339866898
+      },
+      {
+        "replication": 3002,
+        "run_nonce": 5574225776985958348
+      },
+      {
+        "replication": 3003,
+        "run_nonce": 8113523631481384761
+      },
+      {
+        "replication": 3004,
+        "run_nonce": 17205314591858162213
+      },
+      {
+        "replication": 3005,
+        "run_nonce": 1165420895306865256
+      },
+      {
+        "replication": 3006,
+        "run_nonce": 9237318494150937734
+      },
+      {
+        "replication": 3007,
+        "run_nonce": 18201602802226058308
+      },
+      {
+        "replication": 3008,
+        "run_nonce": 2098633443020747047
+      },
+      {
+        "replication": 3009,
+        "run_nonce": 17115753288913548298
+      },
+      {
+        "replication": 3010,
+        "run_nonce": 14669443394483547179
+      },
+      {
+        "replication": 3011,
+        "run_nonce": 10088271254857607085
+      },
+      {
+        "replication": 3012,
+        "run_nonce": 3850593452545205934
+      },
+      {
+        "replication": 3013,
+        "run_nonce": 16079987843880893551
+      },
+      {
+        "replication": 3014,
+        "run_nonce": 10835221704682063196
+      },
+      {
+        "replication": 3015,
+        "run_nonce": 2104520827275395649
+      },
+      {
+        "replication": 3016,
+        "run_nonce": 3236119445370158620
+      },
+      {
+        "replication": 3017,
+        "run_nonce": 7225848849714190581
+      },
+      {
+        "replication": 3018,
+        "run_nonce": 18119455124908539036
+      },
+      {
+        "replication": 3019,
+        "run_nonce": 2839749155931201264
+      },
+      {
+        "replication": 3020,
+        "run_nonce": 3677557642139535453
+      },
+      {
+        "replication": 3021,
+        "run_nonce": 494216154761688478
+      },
+      {
+        "replication": 3022,
+        "run_nonce": 12032420657836557622
+      },
+      {
+        "replication": 3023,
+        "run_nonce": 5786157398953661851
+      },
+      {
+        "replication": 3024,
+        "run_nonce": 15282046370023008322
+      },
+      {
+        "replication": 3025,
+        "run_nonce": 16994998089312140640
+      },
+      {
+        "replication": 3026,
+        "run_nonce": 15661876345500940624
+      },
+      {
+        "replication": 3027,
+        "run_nonce": 10160752894745460836
+      },
+      {
+        "replication": 3028,
+        "run_nonce": 16300105970946599458
+      },
+      {
+        "replication": 3029,
+        "run_nonce": 11488153175153509808
+      },
+      {
+        "replication": 3030,
+        "run_nonce": 5638623277824237112
+      },
+      {
+        "replication": 3031,
+        "run_nonce": 11850193172334264522
+      },
+      {
+        "replication": 3032,
+        "run_nonce": 6791913576684045179
+      },
+      {
+        "replication": 3033,
+        "run_nonce": 8491203454546695084
+      },
+      {
+        "replication": 3034,
+        "run_nonce": 16716829511348228602
+      },
+      {
+        "replication": 3035,
+        "run_nonce": 6176214614918719927
+      },
+      {
+        "replication": 3036,
+        "run_nonce": 3171665660229470215
+      },
+      {
+        "replication": 3037,
+        "run_nonce": 18033578889914483932
+      },
+      {
+        "replication": 3038,
+        "run_nonce": 1295976031443828777
+      },
+      {
+        "replication": 3039,
+        "run_nonce": 5264731813226450512
+      },
+      {
+        "replication": 3040,
+        "run_nonce": 8124177382834087768
+      },
+      {
+        "replication": 3041,
+        "run_nonce": 5507779006067579394
+      },
+      {
+        "replication": 3042,
+        "run_nonce": 16250130332802932454
+      },
+      {
+        "replication": 3043,
+        "run_nonce": 9683285634246413698
+      },
+      {
+        "replication": 3044,
+        "run_nonce": 8671651566794559226
+      },
+      {
+        "replication": 3045,
+        "run_nonce": 8993246212729441879
+      },
+      {
+        "replication": 3046,
+        "run_nonce": 14373830751640076831
+      },
+      {
+        "replication": 3047,
+        "run_nonce": 18378873577684790067
+      },
+      {
+        "replication": 3048,
+        "run_nonce": 5838156466076395771
+      },
+      {
+        "replication": 3049,
+        "run_nonce": 8129026315738728836
+      }
+    ],
+    "sim_version": "sim-1.0",
+    "stream_schema": "stream-1"
+  },
+  "sim_version": "sim-1.0",
+  "utc_finished": "2026-11-09T04:58:41Z",
+  "utc_started": "2026-11-09T04:57:24Z",
+  "world_status": {
+    "point_03": "VALID"
+  }
+}
