@@ -1,0 +1,21 @@
+{
+  "errors": [],
+  "exclusions": [],
+  "replications_completed": 5,
+  "replications_planned": 5,
+  "reproducibility": {
+    "arms": {
+      "P0": {
+        "event_hash": true,
+        "ledger_hash": true
+      }
+    },
+    "replication": 0,
+    "status": "REPRODUCED",
+    "world": "default"
+  },
+  "run_status": "VALID",
+  "world_status": {
+    "default": "VALID"
+  }
+}

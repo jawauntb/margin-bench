@@ -1,0 +1,31 @@
+{
+  "errors": [],
+  "exclusions": [],
+  "replications_completed": 9,
+  "replications_planned": 9,
+  "reproducibility": {
+    "arms": {
+      "P0": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P2": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P4": {
+        "event_hash": true,
+        "ledger_hash": true
+      }
+    },
+    "replication": 0,
+    "status": "REPRODUCED",
+    "world": "default"
+  },
+  "run_status": "VALID",
+  "world_status": {
+    "callbacks_off": "VALID",
+    "default": "VALID",
+    "perfect_estimator": "VALID"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "errors": [],
+  "exclusions": [],
+  "replications_completed": 8,
+  "replications_planned": 8,
+  "reproducibility": {
+    "arms": {
+      "P0": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P1": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P2": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P3": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P4": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P5": {
+        "event_hash": true,
+        "ledger_hash": true
+      }
+    },
+    "replication": 0,
+    "status": "REPRODUCED",
+    "world": "aligned"
+  },
+  "run_status": "VALID",
+  "world_status": {
+    "aligned": "VALID"
+  }
+}

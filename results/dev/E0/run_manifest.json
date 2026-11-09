@@ -1,0 +1,71 @@
+{
+  "H_override": null,
+  "K_override": null,
+  "config_hashes": {
+    "default": "1b252cb9de1f9b70301bbb4feb660aed36ec888b030a5979c0ff59ac0fa6d64f"
+  },
+  "estimator_hashes": {
+    "default": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a"
+  },
+  "experiment": "E0",
+  "git_commit": "fac58569b4f89f02ae3529afdfb2f41887e8d54e",
+  "git_dirty": false,
+  "hash_excluded_fields": [
+    "utc_started",
+    "utc_finished"
+  ],
+  "label": "DEV",
+  "lock_hash": "0cdf8c836e8b5c280f39925e67d4ffa4c8688b50d54cf75e232b4e53b4271dcb",
+  "materiality_dollars": 1700.0,
+  "metric_definition_version": "metric-1.0",
+  "n_replications": 5,
+  "partition": "dev",
+  "plan_hash": "dev-unregistered",
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "policies": [
+    "P0"
+  ],
+  "policy_version": "pol-1.0",
+  "proxy_version": "proxy_v1",
+  "python": "3.12.13",
+  "random_stream_schema": "stream-1",
+  "replication_offset": 0,
+  "reproducibility_status": "REPRODUCED",
+  "run_id": "E0-1b9bfed0279e",
+  "run_status": "VALID",
+  "seed_manifest": {
+    "master_seed": 1101,
+    "nonce_key": 918273645,
+    "partition": "dev",
+    "replications": [
+      {
+        "replication": 0,
+        "run_nonce": 12381217455702629492
+      },
+      {
+        "replication": 1,
+        "run_nonce": 2130861489455367167
+      },
+      {
+        "replication": 2,
+        "run_nonce": 8741081399044543111
+      },
+      {
+        "replication": 3,
+        "run_nonce": 14237895630993783268
+      },
+      {
+        "replication": 4,
+        "run_nonce": 15609562871963937034
+      }
+    ],
+    "sim_version": "sim-1.0",
+    "stream_schema": "stream-1"
+  },
+  "sim_version": "sim-1.0",
+  "utc_finished": "2026-11-09T03:04:24Z",
+  "utc_started": "2026-11-09T03:04:20Z",
+  "world_status": {
+    "default": "VALID"
+  }
+}
