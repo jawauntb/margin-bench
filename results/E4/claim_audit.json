@@ -1,0 +1,377 @@
+{
+  "claims": [
+    {
+      "artifact": "results/E4/metrics.json",
+      "ci": [
+        -769.8311618074168,
+        822.6478284740834
+      ],
+      "ci_level": 0.95,
+      "claim": "P2 and P0 were equivalent in simulated operator contribution within the materiality band (scenario callbacks_no_capacity, experiment E4)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P2-P0",
+      "dG_ci": [
+        0.21850052962335814,
+        0.24266812637694668
+      ],
+      "dG_estimate": 0.2305843280001524,
+      "estimate": 26.408333333333335,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 60,
+      "p_value": 0.947311094003424,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "E4-43e7ba2046d0",
+      "scenario": "callbacks_no_capacity",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/E4/metrics.json",
+      "ci": [
+        -406.91053215519975,
+        1073.594198821862
+      ],
+      "ci_level": 0.95,
+      "claim": "P4 and P2 were equivalent in simulated operator contribution within the materiality band (scenario callbacks_no_capacity, experiment E4)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P4-P2",
+      "dG_ci": [
+        0.0041057691050715075,
+        0.013051115344130707
+      ],
+      "dG_estimate": 0.008578442224601107,
+      "estimate": 333.34183333333107,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 60,
+      "p_value": 0.371217329946395,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "E4-43e7ba2046d0",
+      "scenario": "callbacks_no_capacity",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/E4/metrics.json",
+      "ci": [
+        -425.3987539105372,
+        1144.899087243866
+      ],
+      "ci_level": 0.95,
+      "claim": "P4 and P0 were equivalent in simulated operator contribution within the materiality band (scenario callbacks_no_capacity, experiment E4)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P4-P0",
+      "dG_ci": [
+        0.22681523069467502,
+        0.25151030975483196
+      ],
+      "dG_estimate": 0.2391627702247535,
+      "estimate": 359.75016666666437,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 60,
+      "p_value": 0.36295742222683025,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "E4-43e7ba2046d0",
+      "scenario": "callbacks_no_capacity",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/E4/metrics.json",
+      "ci": [
+        -801.8035887563609,
+        790.0582554230281
+      ],
+      "ci_level": 0.95,
+      "claim": "P2 and P0 were equivalent in simulated operator contribution within the materiality band (scenario default, experiment E4)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P2-P0",
+      "dG_ci": [
+        0.217469323315019,
+        0.2414058751289871
+      ],
+      "dG_estimate": 0.22943759922200305,
+      "estimate": -5.872666666666434,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 60,
+      "p_value": 0.9882702182160137,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "E4-43e7ba2046d0",
+      "scenario": "default",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/E4/metrics.json",
+      "ci": [
+        -366.2037807119111,
+        1107.5504473785795
+      ],
+      "ci_level": 0.95,
+      "claim": "P4 and P2 were equivalent in simulated operator contribution within the materiality band (scenario default, experiment E4)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P4-P2",
+      "dG_ci": [
+        0.00450081627997099,
+        0.013120827384917233
+      ],
+      "dG_estimate": 0.008810821832444112,
+      "estimate": 370.6733333333342,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 60,
+      "p_value": 0.31825368788350256,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "E4-43e7ba2046d0",
+      "scenario": "default",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/E4/metrics.json",
+      "ci": [
+        -417.4699058105331,
+        1147.0712391438688
+      ],
+      "ci_level": 0.95,
+      "claim": "P4 and P0 were equivalent in simulated operator contribution within the materiality band (scenario default, experiment E4)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P4-P0",
+      "dG_ci": [
+        0.22592903080970891,
+        0.2505678112991855
+      ],
+      "dG_estimate": 0.23824842105444718,
+      "estimate": 364.8006666666678,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 60,
+      "p_value": 0.3545531816608567,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "E4-43e7ba2046d0",
+      "scenario": "default",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/E4/metrics.json",
+      "ci": [
+        -387.2269618211022,
+        1106.0209618211015
+      ],
+      "ci_level": 0.95,
+      "claim": "P2 and P0 were equivalent in simulated operator contribution within the materiality band (scenario unlimited_capacity, experiment E4)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P2-P0",
+      "dG_ci": [
+        0.21960671834796833,
+        0.24350689964683345
+      ],
+      "dG_estimate": 0.2315568089974009,
+      "estimate": 359.39699999999965,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 60,
+      "p_value": 0.3393760931940928,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "E4-43e7ba2046d0",
+      "scenario": "unlimited_capacity",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/E4/metrics.json",
+      "ci": [
+        -216.09276670832423,
+        774.3944333749935
+      ],
+      "ci_level": 0.95,
+      "claim": "P4 and P2 were equivalent in simulated operator contribution within the materiality band (scenario unlimited_capacity, experiment E4)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P4-P2",
+      "dG_ci": [
+        0.0060017755498892435,
+        0.014393291109534623
+      ],
+      "dG_estimate": 0.010197533329711933,
+      "estimate": 279.1508333333346,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 60,
+      "p_value": 0.26393288392611663,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "E4-43e7ba2046d0",
+      "scenario": "unlimited_capacity",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    },
+    {
+      "artifact": "results/E4/metrics.json",
+      "ci": [
+        -92.91344897932686,
+        1370.0091156459953
+      ],
+      "ci_level": 0.95,
+      "claim": "P4 and P0 were equivalent in simulated operator contribution within the materiality band (scenario unlimited_capacity, experiment E4)",
+      "classification": "EQUIVALENCE_SUPPORTED",
+      "cohort": "decision cohort (arrivals in the decision window)",
+      "contrast": "P4-P0",
+      "dG_ci": [
+        0.22952864309465287,
+        0.2539800415595727
+      ],
+      "dG_estimate": 0.2417543423271128,
+      "estimate": 638.5478333333342,
+      "evaluation_label": "OPEN_PREREGISTERED",
+      "evidence_level": "Level 1 (synthetic, one declared configuration)",
+      "horizon": "business-value window per scenario config",
+      "label": "EXPLORATORY",
+      "materiality": 1774.97285,
+      "metric": "J: discounted operator contribution, days 30-299 (or the scenario's window)",
+      "n": 60,
+      "p_value": 0.0858725337332421,
+      "proxy_metric": "G: proxy_v1",
+      "run_id": "E4-43e7ba2046d0",
+      "scenario": "unlimited_capacity",
+      "strong": false,
+      "supported": true,
+      "units": "USD (J), dimensionless (G)"
+    }
+  ],
+  "cross_world_exploratory": {
+    "callbacks_no_capacity": {
+      "P2-P0": {
+        "ci_high": 79.67263130453262,
+        "ci_low": -15.110631304533086,
+        "label": "EXPLORATORY: change in dJ relative to the reference world, paired by replication",
+        "level": 0.95,
+        "mean": 32.280999999999764,
+        "n": 60,
+        "p_value": 0.17806631559456085,
+        "reference": "default",
+        "sd": 183.45569490262085,
+        "se": 23.684028370825313
+      },
+      "P4-P0": {
+        "ci_high": 18.42664567524509,
+        "ci_low": -28.527645675251847,
+        "label": "EXPLORATORY: change in dJ relative to the reference world, paired by replication",
+        "level": 0.95,
+        "mean": -5.050500000003376,
+        "n": 60,
+        "p_value": 0.6684277735665789,
+        "reference": "default",
+        "sd": 90.88136355776417,
+        "se": 11.732733584661409
+      },
+      "P4-P2": {
+        "ci_high": 4.454910827913487,
+        "ci_low": -79.11791082791979,
+        "label": "EXPLORATORY: change in dJ relative to the reference world, paired by replication",
+        "level": 0.95,
+        "mean": -37.331500000003146,
+        "n": 60,
+        "p_value": 0.07896584112772294,
+        "reference": "default",
+        "sd": 161.75756826477132,
+        "se": 20.88281226708229
+      }
+    },
+    "unlimited_capacity": {
+      "P2-P0": {
+        "ci_high": 933.9014148132271,
+        "ci_low": -203.36208147989504,
+        "label": "EXPLORATORY: change in dJ relative to the reference world, paired by replication",
+        "level": 0.95,
+        "mean": 365.26966666666607,
+        "n": 60,
+        "p_value": 0.20368526900596046,
+        "reference": "default",
+        "sd": 2201.20577469849,
+        "se": 284.1744435660949
+      },
+      "P4-P0": {
+        "ci_high": 579.0185285154342,
+        "ci_low": -31.52419518210138,
+        "label": "EXPLORATORY: change in dJ relative to the reference world, paired by replication",
+        "level": 0.95,
+        "mean": 273.74716666666643,
+        "n": 60,
+        "p_value": 0.07787937261473786,
+        "reference": "default",
+        "sd": 1181.7227700384844,
+        "se": 152.55975360643825
+      },
+      "P4-P2": {
+        "ci_high": 563.5459256750579,
+        "ci_low": -746.5909256750571,
+        "label": "EXPLORATORY: change in dJ relative to the reference world, paired by replication",
+        "level": 0.95,
+        "mean": -91.52249999999961,
+        "n": 60,
+        "p_value": 0.7807867985040114,
+        "reference": "default",
+        "sd": 2535.8070598740724,
+        "se": 327.3712837362492
+      }
+    }
+  },
+  "experiment": "E4",
+  "never_claimed": [
+    "Level 3 external validation",
+    "real-world probability of any class",
+    "deployability of any oracle"
+  ],
+  "run_id": "E4-43e7ba2046d0"
+}

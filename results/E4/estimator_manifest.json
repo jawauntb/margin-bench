@@ -1,0 +1,17 @@
+{
+  "estimator_hashes": {
+    "callbacks_no_capacity": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "default": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "unlimited_capacity": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a"
+  },
+  "estimator_paths": {
+    "callbacks_no_capacity": "/home/user/margin-bench/models/estimator_v1.json",
+    "default": "/home/user/margin-bench/models/estimator_v1.json",
+    "unlimited_capacity": "/home/user/margin-bench/models/estimator_v1.json"
+  },
+  "labels": {
+    "callbacks_no_capacity": "estimator_v1",
+    "default": "estimator_v1",
+    "unlimited_capacity": "estimator_v1"
+  }
+}
