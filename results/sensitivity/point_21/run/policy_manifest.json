@@ -1,0 +1,36 @@
+{
+  "H_plan_days": 85,
+  "K": 32,
+  "feasible": [
+    "P0",
+    "P2",
+    "P4"
+  ],
+  "matched_pairs": [
+    [
+      "P1",
+      "P3"
+    ],
+    [
+      "P2",
+      "P4"
+    ],
+    [
+      "P4",
+      "P5"
+    ]
+  ],
+  "non_deployable": [],
+  "policies": [
+    {
+      "name": "P0"
+    },
+    {
+      "name": "P2"
+    },
+    {
+      "name": "P4"
+    }
+  ],
+  "policy_version": "pol-1.0"
+}
