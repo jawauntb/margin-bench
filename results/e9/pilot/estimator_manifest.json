@@ -1,0 +1,11 @@
+{
+  "estimator_hashes": {
+    "pilot": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a"
+  },
+  "estimator_paths": {
+    "pilot": "/home/user/margin-bench/models/estimator_v1.json"
+  },
+  "labels": {
+    "pilot": "estimator_v1"
+  }
+}
