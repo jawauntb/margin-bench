@@ -1,0 +1,246 @@
+{
+  "H_override": null,
+  "K_override": null,
+  "config_hashes": {
+    "callbacks_off": "0e12cb54b22651e1cac62604b51b6ae715b88083213645fcc769b849f74f0d7d",
+    "default": "1b252cb9de1f9b70301bbb4feb660aed36ec888b030a5979c0ff59ac0fa6d64f",
+    "discount_0": "255a982d2701003e66a92754f264c8c17aba92938ff6c4dbec6ed4b7bee41fb4",
+    "identical_price": "31b5fe5679e5bee535b9bad24d38562e6352030c97ad573ae863a5ba256a83cc",
+    "identical_quality": "d59cea18dbff7553cc0514791af46aa95a20799ef1057ff42731f993268d8856",
+    "loss_off": "8d4876fc525cd7f087e939ca37b12be50393fbdb7ceb54b76e05b045571e4684",
+    "no_suppression": "eba13cebf8b185e9152aed8262808f7271942d1d79c65b68699beb3627b40f52",
+    "obs_perfect": "77855394cd2e916160272d973923d47a1b135a843e4edd150a16d93801b15995",
+    "perfect_estimator": "1b252cb9de1f9b70301bbb4feb660aed36ec888b030a5979c0ff59ac0fa6d64f",
+    "retention_null": "1fb6aaa8d6eef4e135d89487ea90865e63907f68ef3b854bbec8b969655126e8",
+    "unlimited_capacity": "b21b2790a3e6760f8451fbd1c5868549747bf57735e929898ad7a6ef47e4922f",
+    "verify_perfect": "630d836091e0bc1813a7af2710ef6eff5688938bcbe51094d941b0381278e774"
+  },
+  "estimator_hashes": {
+    "callbacks_off": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "default": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "discount_0": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "identical_price": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "identical_quality": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "loss_off": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "no_suppression": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "obs_perfect": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "perfect_estimator": "3fa9e77a9c699295ac693447ca82b8349c58cf26444f682e74a0a0341721dc18",
+    "retention_null": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "unlimited_capacity": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "verify_perfect": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a"
+  },
+  "experiment": "ABLATIONS",
+  "git_commit": "0e8767db0c3f4a745c3dd222a04b8e3b6d685fae",
+  "git_dirty": false,
+  "hash_excluded_fields": [
+    "utc_started",
+    "utc_finished"
+  ],
+  "label": "OPEN_PREREGISTERED",
+  "lock_hash": "0cdf8c836e8b5c280f39925e67d4ffa4c8688b50d54cf75e232b4e53b4271dcb",
+  "materiality_dollars": 1774.97285,
+  "metric_definition_version": "metric-1.0",
+  "n_replications": 40,
+  "partition": "eval",
+  "plan_hash": "93ea13f04d138ff5c09d8b86c253aaa2742fc0b1e2f7c2891d3ad8af33873fe6",
+  "platform": "Linux-6.18.44-fc-v310-x86_64-with-glibc2.39",
+  "policies": [
+    "P0",
+    "P2",
+    "P4"
+  ],
+  "policy_version": "pol-1.0",
+  "proxy_version": "proxy_v1",
+  "python": "3.12.13",
+  "random_stream_schema": "stream-1",
+  "replication_offset": 0,
+  "reproducibility_status": "REPRODUCED",
+  "run_id": "ABLATIONS-79ed94f00314",
+  "run_status": "VALID",
+  "seed_manifest": {
+    "master_seed": 4404,
+    "nonce_key": 918273645,
+    "partition": "eval",
+    "replications": [
+      {
+        "replication": 0,
+        "run_nonce": 2476959910074174063
+      },
+      {
+        "replication": 1,
+        "run_nonce": 17683443861855368300
+      },
+      {
+        "replication": 2,
+        "run_nonce": 14428090067779616884
+      },
+      {
+        "replication": 3,
+        "run_nonce": 4530184872169295374
+      },
+      {
+        "replication": 4,
+        "run_nonce": 12154198753093317361
+      },
+      {
+        "replication": 5,
+        "run_nonce": 4716533572539820688
+      },
+      {
+        "replication": 6,
+        "run_nonce": 4051756126491683790
+      },
+      {
+        "replication": 7,
+        "run_nonce": 14096303517106487429
+      },
+      {
+        "replication": 8,
+        "run_nonce": 5999683641390463098
+      },
+      {
+        "replication": 9,
+        "run_nonce": 8429611047230045908
+      },
+      {
+        "replication": 10,
+        "run_nonce": 6464681453194883689
+      },
+      {
+        "replication": 11,
+        "run_nonce": 1121352393283752312
+      },
+      {
+        "replication": 12,
+        "run_nonce": 14229779220239860520
+      },
+      {
+        "replication": 13,
+        "run_nonce": 11648710915963694580
+      },
+      {
+        "replication": 14,
+        "run_nonce": 4856700819007434846
+      },
+      {
+        "replication": 15,
+        "run_nonce": 16130386927490541966
+      },
+      {
+        "replication": 16,
+        "run_nonce": 5449524477504378537
+      },
+      {
+        "replication": 17,
+        "run_nonce": 11273744408668197336
+      },
+      {
+        "replication": 18,
+        "run_nonce": 978592027397723531
+      },
+      {
+        "replication": 19,
+        "run_nonce": 14203700860137826597
+      },
+      {
+        "replication": 20,
+        "run_nonce": 2982425030366446271
+      },
+      {
+        "replication": 21,
+        "run_nonce": 11152714701823610844
+      },
+      {
+        "replication": 22,
+        "run_nonce": 16555017620844359428
+      },
+      {
+        "replication": 23,
+        "run_nonce": 16716050313361093549
+      },
+      {
+        "replication": 24,
+        "run_nonce": 9411018431838763689
+      },
+      {
+        "replication": 25,
+        "run_nonce": 4816635216679389167
+      },
+      {
+        "replication": 26,
+        "run_nonce": 5057047140437318306
+      },
+      {
+        "replication": 27,
+        "run_nonce": 6991966094705460143
+      },
+      {
+        "replication": 28,
+        "run_nonce": 7127864650108934192
+      },
+      {
+        "replication": 29,
+        "run_nonce": 9409678126899795583
+      },
+      {
+        "replication": 30,
+        "run_nonce": 10312290292401289024
+      },
+      {
+        "replication": 31,
+        "run_nonce": 17854326002908320027
+      },
+      {
+        "replication": 32,
+        "run_nonce": 6890785457717898525
+      },
+      {
+        "replication": 33,
+        "run_nonce": 1008618148086241080
+      },
+      {
+        "replication": 34,
+        "run_nonce": 3042397620997188273
+      },
+      {
+        "replication": 35,
+        "run_nonce": 3603196591615296520
+      },
+      {
+        "replication": 36,
+        "run_nonce": 3889009113478587614
+      },
+      {
+        "replication": 37,
+        "run_nonce": 1746745041283397138
+      },
+      {
+        "replication": 38,
+        "run_nonce": 8022996589494107318
+      },
+      {
+        "replication": 39,
+        "run_nonce": 12148622456666473185
+      }
+    ],
+    "sim_version": "sim-1.0",
+    "stream_schema": "stream-1"
+  },
+  "sim_version": "sim-1.0",
+  "utc_finished": "2026-11-09T04:11:03Z",
+  "utc_started": "2026-11-09T04:00:08Z",
+  "world_status": {
+    "callbacks_off": "VALID",
+    "default": "VALID",
+    "discount_0": "VALID",
+    "identical_price": "VALID",
+    "identical_quality": "VALID",
+    "loss_off": "VALID",
+    "no_suppression": "VALID",
+    "obs_perfect": "VALID",
+    "perfect_estimator": "VALID",
+    "retention_null": "VALID",
+    "unlimited_capacity": "VALID",
+    "verify_perfect": "VALID"
+  }
+}

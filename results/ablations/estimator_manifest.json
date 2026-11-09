@@ -1,0 +1,44 @@
+{
+  "estimator_hashes": {
+    "callbacks_off": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "default": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "discount_0": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "identical_price": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "identical_quality": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "loss_off": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "no_suppression": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "obs_perfect": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "perfect_estimator": "3fa9e77a9c699295ac693447ca82b8349c58cf26444f682e74a0a0341721dc18",
+    "retention_null": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "unlimited_capacity": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a",
+    "verify_perfect": "2147cba34506c0f765bc5bb9dd24128042770855b8e7c1b503ce54069ecc100a"
+  },
+  "estimator_paths": {
+    "callbacks_off": "/home/user/margin-bench/models/estimator_v1.json",
+    "default": "/home/user/margin-bench/models/estimator_v1.json",
+    "discount_0": "/home/user/margin-bench/models/estimator_v1.json",
+    "identical_price": "/home/user/margin-bench/models/estimator_v1.json",
+    "identical_quality": "/home/user/margin-bench/models/estimator_v1.json",
+    "loss_off": "/home/user/margin-bench/models/estimator_v1.json",
+    "no_suppression": "/home/user/margin-bench/models/estimator_v1.json",
+    "obs_perfect": "/home/user/margin-bench/models/estimator_v1.json",
+    "perfect_estimator": "results/ablations/estimators/perfect_perfect_estimator.json",
+    "retention_null": "/home/user/margin-bench/models/estimator_v1.json",
+    "unlimited_capacity": "/home/user/margin-bench/models/estimator_v1.json",
+    "verify_perfect": "/home/user/margin-bench/models/estimator_v1.json"
+  },
+  "labels": {
+    "callbacks_off": "estimator_v1",
+    "default": "estimator_v1",
+    "discount_0": "estimator_v1",
+    "identical_price": "estimator_v1",
+    "identical_quality": "estimator_v1",
+    "loss_off": "estimator_v1",
+    "no_suppression": "estimator_v1",
+    "obs_perfect": "estimator_v1",
+    "perfect_estimator": "PERFECT-ESTIMATOR DIAGNOSTIC",
+    "retention_null": "estimator_v1",
+    "unlimited_capacity": "estimator_v1",
+    "verify_perfect": "estimator_v1"
+  }
+}

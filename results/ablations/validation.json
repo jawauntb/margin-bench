@@ -1,0 +1,40 @@
+{
+  "errors": [],
+  "exclusions": [],
+  "replications_completed": 480,
+  "replications_planned": 480,
+  "reproducibility": {
+    "arms": {
+      "P0": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P2": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P4": {
+        "event_hash": true,
+        "ledger_hash": true
+      }
+    },
+    "replication": 0,
+    "status": "REPRODUCED",
+    "world": "callbacks_off"
+  },
+  "run_status": "VALID",
+  "world_status": {
+    "callbacks_off": "VALID",
+    "default": "VALID",
+    "discount_0": "VALID",
+    "identical_price": "VALID",
+    "identical_quality": "VALID",
+    "loss_off": "VALID",
+    "no_suppression": "VALID",
+    "obs_perfect": "VALID",
+    "perfect_estimator": "VALID",
+    "retention_null": "VALID",
+    "unlimited_capacity": "VALID",
+    "verify_perfect": "VALID"
+  }
+}
