@@ -1,0 +1,176 @@
+# MarginBench default world. Every value here is a SYNTHETIC ENGINEERING FIXTURE,
+# not an industry estimate (SPEC Section 1). See ASSUMPTIONS.md.
+versions:
+  sim_version: "sim-1.0"
+  policy_version: "pol-1.0"
+  metric_version: "metric-1.0"
+  proxy_version: "proxy_v1"
+  stream_schema: "stream-1"
+
+time:
+  warmup_days: 30          # W
+  decision_days: 90        # D
+  maturation_days: 180     # M
+  proxy_cutoff_offset_days: 14
+  annual_discount_rate: 0.10   # delta = (1 + r)^(-1/365)
+  deploy_variant: false        # E-DEPLOY: policy keeps deciding through maturation
+  history_days: 365
+  generation_days: 400         # arrival streams generated to this length, then truncated (DECISIONS D-07)
+
+portfolio:
+  n_properties: 20
+  units_per_property: 10
+  property_risk_log_sd: 0.3
+  condition_beta_a: 5.0
+  condition_beta_b: 2.0
+  condition_obs_noise_sd: 0.1
+  tenant_report_beta_a: 8.0
+  tenant_report_beta_b: 2.0
+
+arrivals:
+  base_rate_per_unit_day: 0.012
+  rate_multiplier: 1.0
+  shares: {plumbing: 0.35, electrical: 0.15, hvac: 0.20, general: 0.30}
+  seasonal: true
+  hvac_season_amplitude: 0.5
+  hvac_season_peak_day: 196
+  heterogeneous: true
+
+severity:
+  probs:
+    plumbing:   [0.50, 0.40, 0.10]
+    electrical: [0.45, 0.40, 0.15]
+    hvac:       [0.45, 0.45, 0.10]
+    general:    [0.65, 0.32, 0.03]
+
+obs:
+  severity_accuracy: 0.80
+  info_accuracy: 0.95
+  info_delay_days: 1
+  perfect: false
+
+contractors:
+  fixtures:
+    - {id: A, price: 0.75, success: 0.68, speed: 0.8, capacity: 3, eligible: [plumbing, hvac, general]}
+    - {id: B, price: 1.00, success: 0.82, speed: 1.0, capacity: 3, eligible: [plumbing, electrical, hvac, general]}
+    - {id: C, price: 1.35, success: 0.93, speed: 1.0, capacity: 2, eligible: [plumbing, electrical, hvac, general]}
+    - {id: D, price: 0.95, success: 0.70, speed: 1.5, capacity: 4, eligible: [plumbing, electrical, hvac, general]}
+  logit_success_sd: 0.2
+  price_sd: 0.05
+  category_offset_sd: 0.3
+  success_dispersion: 1.0        # sensitivity: multiplies spread of logit(s_c) around the mean
+  speed_quality_corr: null       # sensitivity: imposed rank correlation, null = fixture
+  price_quality_corr: null
+  base_lead_days: {general: 2.0, plumbing: 1.5, electrical: 2.0, hvac: 2.5}
+  capacity_multiplier: 1.0
+  unlimited_capacity: false
+  identical_quality: false
+  identical_quality_value: 0.82
+  identical_price: false
+  escalation_delay_minutes: 360
+  job_duration_median_minutes: 120
+  job_duration_log_sd: 0.4
+  escalation_contractor: C
+
+repair:
+  b_sev: {minor: 0.5, moderate: 0.0, urgent: -0.5}
+  condition_coef: 1.0
+  condition_center: 0.7
+  attempt_coef: -0.4
+
+report:
+  complete_given_success: 0.98
+  complete_given_failure: 0.80
+
+verify:
+  delay_days: 1
+  cost: 18.0
+  sensitivity: 0.90
+  specificity: 0.95
+  perfect: false
+
+callbacks:
+  m_sev: {minor: 0.55, moderate: 0.80, urgent: 0.97}
+  m_sev_scale: 1.0
+  m_close_unverified: 0.85
+  no_suppression: false
+  delay_gamma_shape: 2.0
+  delay_gamma_scale_days: 4.0
+  benign_prob: 0.03
+  benign_window_days: 30
+  "off": false
+  consume_capacity: true
+
+sla:
+  target_hours: {urgent: 24, moderate: 72, minor: 168}
+  credit: {urgent: 40.0, moderate: 15.0, minor: 0.0}
+
+loss:
+  daily_hazard: {urgent: 0.004, moderate: 0.0005, minor: 0.0}
+  hazard_multiplier: 1.0
+  median_amount: {urgent: 6000.0, moderate: 2500.0, minor: 0.0}
+  log_sd: 1.0
+  operator_negligence_share: 0.25
+  "off": false
+
+retention:
+  annual_base_termination_prob: 0.06
+  beta_cb: 2.0
+  beta_br: 0.10
+  beta_sl: 0.7
+  beta_oc: 0.15
+  beta_multiplier: 1.0
+  notice_days: 30
+  null_scenario: false
+
+fees:
+  per_unit_month: 120.0
+
+costs:
+  dispatch: 12.0
+  callback: 20.0
+  escalation: 35.0
+  info: 6.0
+
+invoice:
+  base: {general: 120.0, plumbing: 240.0, electrical: 280.0, hvac: 350.0}
+  severity_multiplier: {minor: 0.7, moderate: 1.0, urgent: 1.8}
+
+workflow:
+  attempt_limit_failures: 4
+  max_defers: 2
+
+proxy:
+  closure_target_days: {urgent: 2, moderate: 5, minor: 10}
+  opex_weight: 0.5
+  opex_scale: 25.0
+
+planning:
+  K: 32
+  H_plan_days: 60
+  myopic_safety_cap_days: 365
+  p0_min_success: 0.75
+  p0_prior_success: 0.80
+  p5_loss_floor: 0.002
+  p5_loss_slack: 0.0005
+  p5_sla_floor: 0.10
+  p5_sla_slack: 0.02
+  p5_close_max_unresolved: 0.15
+  rollout_max_steps: 40
+
+behavior:
+  p0_prob: 0.7
+
+limits:
+  max_events_per_replication: 2000000
+  max_wall_seconds_per_experiment: 36000
+
+seeds:
+  dev: 1101
+  train: 2202
+  calib: 3303
+  eval: 4404
+  stress: 5505
+  sens: 6606
+  pilot: 7707
+  nonce_key: 918273645
