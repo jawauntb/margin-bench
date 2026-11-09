@@ -1,0 +1,15 @@
+{
+  "default": {
+    "P0": {
+      "contracts_in_notice": 0.2,
+      "contracts_terminated": 1.6,
+      "estimated_fees_to_accrue_in_notice_cents": 3156.2,
+      "estimated_future_fees_at_risk_next_365d_cents": 2592000.0,
+      "label": "ESTIMATES - excluded from J (SPEC 6.4); means over replications",
+      "open_requests": 7.8,
+      "pending_callbacks_scheduled": 0.4,
+      "unreported_failures": 31.8,
+      "unresolved_latent_failures": 38.6
+    }
+  }
+}
