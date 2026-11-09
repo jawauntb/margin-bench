@@ -7,3 +7,6 @@ __pycache__/
 *.egg-info/
 results/**/checkpoints/
 results/**/_work/
+results/**/traces/
+results/dev/
+results/**/estimators/*.json.tmp
