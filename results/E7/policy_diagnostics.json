@@ -1,0 +1,41 @@
+{
+  "tail_stress": {
+    "P0": null,
+    "P2": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 71228,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 15336512,
+      "valued_decisions": 71110,
+      "wall_seconds": 130.141
+    },
+    "P4": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.0,
+      "constraint_filtered_decisions": 0,
+      "decisions": 73203,
+      "fallback_rate": 0.0,
+      "fallbacks": 0,
+      "samples": 15816192,
+      "valued_decisions": 72760,
+      "wall_seconds": 134.432
+    },
+    "P5": {
+      "H_plan_days": 60,
+      "K": 32,
+      "constraint_filter_rate": 0.2282290315246031,
+      "constraint_filtered_decisions": 17064,
+      "decisions": 77526,
+      "fallback_rate": 0.002795350890098573,
+      "fallbacks": 209,
+      "samples": 16396160,
+      "valued_decisions": 74767,
+      "wall_seconds": 138.538
+    }
+  }
+}

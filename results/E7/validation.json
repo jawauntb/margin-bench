@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "exclusions": [],
+  "replications_completed": 100,
+  "replications_planned": 100,
+  "reproducibility": {
+    "arms": {
+      "P0": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P2": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P4": {
+        "event_hash": true,
+        "ledger_hash": true
+      },
+      "P5": {
+        "event_hash": true,
+        "ledger_hash": true
+      }
+    },
+    "replication": 0,
+    "status": "REPRODUCED",
+    "world": "tail_stress"
+  },
+  "run_status": "VALID",
+  "world_status": {
+    "tail_stress": "VALID"
+  }
+}
