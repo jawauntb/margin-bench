@@ -57,6 +57,7 @@ def observations(
             tape.observation(
                 kind="bar.daily", source=SOURCE, producer=PRODUCER, symbol=symbol,
                 observed_at=tape.utc_iso(closed),
+                window={"type": "bar", "interval": "1d", "start": tape.utc_iso(opened), "end": tape.utc_iso(closed)},
                 payload={
                     "session": opened.astimezone(ET).date().isoformat(),
                     "open_at": tape.utc_iso(opened),
@@ -69,7 +70,7 @@ def observations(
         rows.append(
             tape.observation(
                 kind="dividend", source=SOURCE, producer=PRODUCER, symbol=symbol,
-                observed_at=tape.utc_iso(at),
+                observed_at=tape.utc_iso(at), window={"type": "point"},
                 payload={"ex_session": at.astimezone(ET).date().isoformat(), "amount": d["amount"]},
             )
         )

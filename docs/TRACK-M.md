@@ -28,6 +28,7 @@ Every producer (Yahoo here; hvega's Robinhood reads, MCP calls and pushes; under
 | `payload` | the fact |
 | `id` | sha256 of the canonical JSON of every field except `id` and `recorded_at` |
 | `recorded_at` | optional: when it was written. Not hashed, so the same fact recorded twice is one row |
+| `window` | optional, hashed when present (owner, 2026-11-16): the time frame the value covers. `{"type": "point"}` is a scalar true at `observed_at`; `{"type": "bar", "interval", "start", "end"}` is candles of that interval; `{"type": "mixed", "by": {...}}` is several kinds in one row; `{"type": "unknown"}` means the producer could not tell. A row without it keeps its v1 id |
 
 A **Forecast** is `{v, task, forecaster, symbol, issued_at, base_session, levels, quantiles, inputs_sha256, visibility, id}`: a predictive distribution as quantiles at strictly increasing levels in (0, 1), non-crossing, plus a hash of the exact inputs it used.
 
