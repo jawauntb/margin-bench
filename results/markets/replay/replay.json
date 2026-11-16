@@ -1,0 +1,147 @@
+{
+  "at": "2026-11-16T16:58:55Z",
+  "holds": {},
+  "leaderboard": {
+    "reference": "rw20",
+    "tasks": {
+      "ret1d": {
+        "evidence": [
+          {
+            "challenger": "ewma94",
+            "ci90_bp": [
+              0.11123561028403436,
+              0.7206335932794113
+            ],
+            "first": "2024-11-15",
+            "incumbent": "rw20",
+            "last": "2026-11-13",
+            "mean_diff_bp": 0.4129422914073132,
+            "n": 500,
+            "objective": "quantile score (lower is better)",
+            "state": "pass",
+            "task": "ret1d",
+            "text": "ewma94 beats rw20: CI [+0.11, +0.72] bp above 0, n 500"
+          },
+          {
+            "challenger": "garch11",
+            "ci90_bp": [
+              0.2856157435633454,
+              0.9738824567320719
+            ],
+            "first": "2024-11-15",
+            "incumbent": "rw20",
+            "last": "2026-11-13",
+            "mean_diff_bp": 0.6034619699620446,
+            "n": 500,
+            "objective": "quantile score (lower is better)",
+            "state": "pass",
+            "task": "ret1d",
+            "text": "garch11 beats rw20: CI [+0.29, +0.97] bp above 0, n 500"
+          },
+          {
+            "challenger": "vix",
+            "ci90_bp": [
+              -1.0816729076290095,
+              1.2095713260759942
+            ],
+            "first": "2024-11-15",
+            "incumbent": "rw20",
+            "last": "2026-11-13",
+            "mean_diff_bp": 0.06091133620668952,
+            "n": 500,
+            "objective": "quantile score (lower is better)",
+            "state": "fail",
+            "task": "ret1d",
+            "text": "CI [-1.08, +1.21] bp straddles 0, n 500"
+          },
+          {
+            "challenger": "garch11",
+            "ci90_bp": [
+              -0.20650842921416168,
+              1.4652098831857043
+            ],
+            "first": "2024-11-15",
+            "incumbent": "vix",
+            "last": "2026-11-13",
+            "mean_diff_bp": 0.634417606584708,
+            "n": 500,
+            "objective": "quantile score (lower is better)",
+            "state": "fail",
+            "task": "ret1d",
+            "text": "CI [-0.21, +1.47] bp straddles 0, n 500"
+          }
+        ],
+        "table": [
+          {
+            "coverage": {
+              "0.50": 0.686,
+              "0.80": 0.916,
+              "0.90": 0.968,
+              "0.95": 0.98
+            },
+            "forecaster": "vix",
+            "invalid": 0,
+            "n": 500,
+            "qs_bp": 37.09598523769222,
+            "skill_vs_ref": 0.001639300959528387,
+            "symbols": 1,
+            "visibility": [
+              "public"
+            ]
+          },
+          {
+            "coverage": {
+              "0.50": 0.553,
+              "0.80": 0.828,
+              "0.90": 0.904,
+              "0.95": 0.9443333333333334
+            },
+            "forecaster": "garch11",
+            "invalid": 0,
+            "n": 3000,
+            "qs_bp": 42.505628190218566,
+            "skill_vs_ref": 0.013998485417339097,
+            "symbols": 6,
+            "visibility": [
+              "public"
+            ]
+          },
+          {
+            "coverage": {
+              "0.50": 0.5393333333333333,
+              "0.80": 0.8206666666666667,
+              "0.90": 0.892,
+              "0.95": 0.9393333333333334
+            },
+            "forecaster": "ewma94",
+            "invalid": 0,
+            "n": 3000,
+            "qs_bp": 42.6961478687733,
+            "skill_vs_ref": 0.009579007347938496,
+            "symbols": 6,
+            "visibility": [
+              "public"
+            ]
+          },
+          {
+            "coverage": {
+              "0.50": 0.527,
+              "0.80": 0.8066666666666666,
+              "0.90": 0.8846666666666667,
+              "0.95": 0.926
+            },
+            "forecaster": "rw20",
+            "invalid": 0,
+            "n": 3000,
+            "qs_bp": 43.10909016018061,
+            "skill_vs_ref": null,
+            "symbols": 6,
+            "visibility": [
+              "public"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

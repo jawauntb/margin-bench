@@ -71,3 +71,15 @@ Where SPEC.md was silent or self-contradictory, the smallest defensible choice i
 ## Deviations
 
 - **DEV-1** During the Phase E pipeline dry-run, E9 and sensitivity code paths ran on 4 `eval` and 3 `pilot` replications (E9) and on 3 `sens` points with 5 replications each, instead of `dev` only (SPEC 12). The outputs were deleted after a status check; no number from them informed any design choice, threshold or plan value. The locked runs use the same partitions; this is disclosed here because it breaks the letter of "use only dev for development".
+
+## Track M (real markets, docs/TRACK-M.md), 2026-11-16
+
+Track M is a new experiment family beside the locked synthetic plan. It changes no policy, estimator, environment parameter, metric, sample size or contrast of plan v1 (AGENTS rule 3), and it imports nothing from `policies/`.
+
+- **D-49** Raw Yahoo bars are a cache, not a ledger: the public `markets-ledger` branch stores forecasts, commitments, outcomes (one derived return per settled pair), scores, leaderboards and receipts, with each outcome naming the observation ids it used. Reason: Yahoo's data is not ours to redistribute; the raw tape is kept privately on hvega's `tape` branch.
+- **D-50** Every Track M threshold (`score.min_n` 30, block 5, 2000 draws, settle buffer 20 minutes, replay 500 sessions) is proposed, not a finding. `min_n` and the 90% interval match hvega's SPEC 12.3 gate so the evidence row can be consumed there unchanged.
+- **D-51** Baselines are Normal(0, sigma). Fat tails and skew are left out on purpose: the coverage columns are where the track measures that miss, and a better-tailed challenger is exactly what the gate should be able to admit.
+- **D-52** "Next session" is the next final bar in the source data, not a calendar lookup. Reason: no holiday table to maintain; a gap in the source shows up as a two-session target, which the outcome row records.
+- **D-53** A forecast is valid only if issued before the target session's open; a private forecast also needs a public commitment recorded before that open. Invalid forecasts are scored with the reason and never enter a comparison. This is what makes each forward day a held-out test (Dawid's prequential principle).
+- **D-54** The paired comparison averages QS differences per target session across symbols, then bootstraps sessions in moving blocks (b = 5), seeded by `key_to_seed`. Reason: same-day returns across these ETFs are correlated, so the session, not the (symbol, session) pair, is the independent unit (hvega C6).
+- **D-55** `scripts/test.sh` runs each test file through testonce and writes a receipt (`receipts/tests/`). Only the receipt from the final run before a push is committed. `tests/markets/test_nightly.py` always runs, because the nightly reads `git rev-parse` for its receipt, and testonce never caches a test that calls git.

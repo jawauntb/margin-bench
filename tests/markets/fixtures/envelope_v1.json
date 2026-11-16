@@ -1,0 +1,59 @@
+{
+  "_doc": "Shared by margin-bench (tests/markets/fixtures) and hvega (tests/tape/fixtures). Ids are the v1 content-address rule. Change both or neither.",
+  "observations": [
+    {
+      "id": "9d414e0801e26113742e85fb7fa89ac97e03e3d3e86a74baaea946299ca13aa7",
+      "kind": "bar.daily",
+      "observed_at": "2026-11-13T21:00:00Z",
+      "payload": {
+        "close": 754.37,
+        "high": 760.25,
+        "low": 745.5,
+        "open": 750.0,
+        "open_at": "2026-11-13T14:30:00Z",
+        "session": "2026-11-13",
+        "volume": 61234567
+      },
+      "producer": "marginbench.markets.yahoo@1",
+      "source": "yahoo.chart.v8",
+      "symbol": "SPY",
+      "v": 1,
+      "visibility": "public"
+    },
+    {
+      "id": "d1904b46b6e8779f444bf415a5f07dee00a7ba89f02918c99063d711d82b31ba",
+      "kind": "quote",
+      "observed_at": "2026-11-16T16:45:03Z",
+      "payload": {
+        "ask": 674.3,
+        "bid": 674.1,
+        "last": 674.2
+      },
+      "producer": "hvega.tape@1",
+      "source": "robinhood.mcp.get_equity_quotes",
+      "symbol": "XSP",
+      "v": 1,
+      "visibility": "private"
+    },
+    {
+      "id": "a019e5b667200a565df6a36466ffbb82f504ba844d4212fd58d6b39a0d189c72",
+      "kind": "push",
+      "observed_at": "2026-11-16T14:47:00Z",
+      "payload": {
+        "n": 3,
+        "none": null,
+        "ok": true,
+        "tags": [
+          "hvega",
+          "live"
+        ],
+        "title": "hold \u00b7 ACCOUNTS"
+      },
+      "producer": "hvega.tape@1",
+      "source": "hvega.ntfy",
+      "symbol": null,
+      "v": 1,
+      "visibility": "private"
+    }
+  ]
+}

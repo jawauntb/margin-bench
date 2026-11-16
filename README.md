@@ -9,6 +9,18 @@ The setting is a property-maintenance operator: tenants report repairs, the oper
 - Results: [`RESULTS_SUMMARY.md`](RESULTS_SUMMARY.md), [`CLAIMS.md`](CLAIMS.md), and a self-contained `report.html` in each `results/<experiment>/` directory.
 - [`ASSUMPTIONS.md`](ASSUMPTIONS.md) lists every mechanism and parameter (all synthetic). [`LIMITATIONS.md`](LIMITATIONS.md) lists what the design cannot show.
 
+## Track M: the same question on real markets
+
+[`docs/TRACK-M.md`](docs/TRACK-M.md) applies the same test to real forecasters on real outcomes. Every night it scores each forecast of the next session's return against what the market did, but only forecasts committed before the session opened count. The scores are proper (pinball loss approaching CRPS, plus interval coverage), and a challenger is ranked above an incumbent only when the paired bootstrap interval clears 0. The baselines are a random walk, EWMA, GARCH(1,1) and the VIX, the market's own forecast. Private forecasters (the owner's options compiler) enter by publishing a hash first.
+
+```bash
+uv run marginbench markets replay                         # point-in-time backtest, labeled REPLAY
+uv run marginbench markets nightly --ledger ../ledger     # one night: observe, settle, score, issue
+scripts/test.sh                                           # the suite through testonce, with a receipt
+```
+
+The forward leaderboard is `LEADERBOARD.md` on the `markets-ledger` branch. The replay is in `results/markets/replay/REPLAY.md`.
+
 ## Why a proxy can diverge from value, in principle
 
 A proxy is a function of what is observed early. Value depends on what happens later, including things the proxy cannot see. The two diverge when (1) the objective is misaligned, (2) state is only partly observed, (3) the policy's model is wrong, (4) the planning horizon is short, (5) actions change what gets measured (closing without verification suppresses callbacks), (6) actions change future workload (unresolved repairs come back), (7) consequences are delayed or rare (severe losses, contract terminations), and (8) the contract decides who pays (owners pay invoices; operators pay credits and negligent-loss shares). MarginBench can switch each mechanism off and measure what changes. It never assumes a reversal; it estimates one.

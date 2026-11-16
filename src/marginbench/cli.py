@@ -196,3 +196,60 @@ def audit(results: str = typer.Option(..., "--results")) -> None:
 
 if __name__ == "__main__":
     app()
+
+
+markets_app = typer.Typer(add_completion=False, help="Track M: real-market forecasts committed before outcomes")
+app.add_typer(markets_app, name="markets")
+MARKETS_CFG = str(REPO_ROOT / "configs" / "markets.yaml")
+
+
+def _markets_now(now: Optional[str]):
+    import datetime as dt
+
+    from marginbench.markets import tape
+
+    return tape.parse_iso(now) if now else dt.datetime.now(dt.timezone.utc)
+
+
+@markets_app.command("nightly")
+def markets_nightly(
+    ledger_dir: str = typer.Option(..., "--ledger", help="public ledger directory (the markets-ledger branch)"),
+    config: str = typer.Option(MARKETS_CFG, "--config"),
+    private: Optional[str] = typer.Option(None, "--private", help="private ledger with private forecasts"),
+    now: Optional[str] = typer.Option(None, "--now", help="UTC ISO time, for tests and replays of a night"),
+) -> None:
+    """Observe, settle, score, issue, publish: one night of Track M (docs/TRACK-M.md)."""
+    from marginbench.markets import nightly
+
+    cfg = yaml.safe_load(Path(config).read_text())
+    r = nightly.run(cfg, ledger_dir, _markets_now(now), private=private)
+    typer.echo(json.dumps({k: r[k] for k in ("at", "holds", "notes", "written")}, indent=2))
+    raise typer.Exit(4 if r["holds"] else 0)
+
+
+@markets_app.command("replay")
+def markets_replay(
+    out: str = typer.Option("results/markets/replay", "--out"),
+    config: str = typer.Option(MARKETS_CFG, "--config"),
+) -> None:
+    """Point-in-time backtest of every baseline. Labeled REPLAY: never forward evidence."""
+    from marginbench.markets import nightly
+
+    cfg = yaml.safe_load(Path(config).read_text())
+    nightly.replay(cfg, out, _markets_now(None))
+    typer.echo((Path(out) / "REPLAY.md").read_text())
+
+
+@markets_app.command("commit")
+def markets_commit(
+    file: str = typer.Option(..., "--file", help="private forecasts (JSON lines, tape v1)"),
+    ledger_dir: str = typer.Option(..., "--ledger"),
+    now: Optional[str] = typer.Option(None, "--now"),
+) -> None:
+    """Record the public commitment (hash, who, what, when) of each private forecast."""
+    from marginbench.markets import ledger, tape
+
+    at = tape.utc_iso(_markets_now(now))
+    rows = [tape.commitment(tape.validate_forecast(f), at) for f in ledger.read(Path(file).parent, Path(file).stem)]
+    n = ledger.append(ledger_dir, "commitments", rows, key=lambda r: r["forecast_id"])
+    typer.echo(f"{n} new commitments of {len(rows)}")
