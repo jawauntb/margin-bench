@@ -1,0 +1,31 @@
+_doc: >
+  Track M (docs/TRACK-M.md). Every key is optional and null turns its feature off: a null
+  forecaster issues nothing, score null scores pairs but states no gate, replay null refuses the
+  replay command. Thresholds here are proposed, not findings (DECISIONS D-50).
+version: 1
+universe: [SPY, QQQ, IWM, DIA, TLT, GLD, "^VIX"]
+data:
+  history_range: 5y          # one Yahoo chart call per symbol per night
+  settle_buffer_min: 20      # a session is final this many minutes after its 16:00 ET close
+tasks:
+  ret1d:
+    _doc: next-session total log return, as quantiles at these levels
+    symbols: [SPY, QQQ, IWM, DIA, TLT, GLD]
+    levels: [0.025, 0.05, 0.1, 0.25, 0.5, 0.75, 0.9, 0.95, 0.975]
+forecasters:
+  rw20: {kind: rw, window: 20}
+  ewma94: {kind: ewma, lambda: 0.94, warmup: 60}
+  garch11: {kind: garch11, window: 750}
+  vix: {kind: implied, index: "^VIX", symbols: [SPY]}
+reference: rw20
+compare:
+  - [vix, garch11]           # does a cheap model beat the market's own forecast on SPY?
+score:
+  _doc: hvega SPEC 12.3's gate. min_n null states no gate (collecting forever).
+  min_n: 30
+  ci: 0.90
+  block: 5
+  draws: 2000
+replay:
+  _doc: point-in-time backtest over the last N sessions; labeled REPLAY, never forward evidence
+  sessions: 500
