@@ -24,6 +24,8 @@ _FC_FIELDS = (
     "inputs_sha256", "visibility",
 )
 _UNHASHED = ("id", "recorded_at")
+_OPTIONAL = ("window",)  # hashed when present; a row without it keeps its v1 id
+WINDOW_TYPES = ("point", "bar", "mixed", "unknown")
 
 
 class EnvelopeError(ValueError):
@@ -51,7 +53,7 @@ def _check(row: dict[str, Any], fields: tuple[str, ...], what: str) -> None:
     missing = [f for f in fields if f not in row]
     if missing:
         raise EnvelopeError(f"{what} missing {missing}")
-    extra = sorted(set(row) - set(fields) - set(_UNHASHED))
+    extra = sorted(set(row) - set(fields) - set(_UNHASHED) - set(_OPTIONAL))
     if extra:
         raise EnvelopeError(f"{what} has unknown fields {extra}")
     if row["v"] != VERSION:
@@ -65,11 +67,14 @@ def _check(row: dict[str, Any], fields: tuple[str, ...], what: str) -> None:
 def observation(
     *, kind: str, source: str, producer: str, symbol: str | None, observed_at: str,
     payload: dict[str, Any], visibility: str = "public", recorded_at: str | None = None,
+    window: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     row: dict[str, Any] = {
         "v": VERSION, "kind": kind, "source": source, "producer": producer, "symbol": symbol,
         "observed_at": observed_at, "visibility": visibility, "payload": payload,
     }
+    if window is not None:
+        row["window"] = window
     parse_iso(observed_at)
     row["id"] = content_id(row)
     if recorded_at is not None:
@@ -78,9 +83,31 @@ def observation(
     return row
 
 
+def validate_window(w: Any) -> dict[str, Any]:
+    """The time frame a value covers (docs/TRACK-M.md section 2): ``point`` (a scalar true at observed_at), ``bar``
+    (candles of ``interval`` from ``start`` to ``end``), ``mixed`` (parts under ``by``) or ``unknown``. Same rule as
+    hvega.tape.envelope.validate_window."""
+    if not isinstance(w, dict) or w.get("type") not in WINDOW_TYPES:
+        raise EnvelopeError(f"window must be a dict with type in {WINDOW_TYPES}: {w!r}")
+    if w["type"] == "bar":
+        if not isinstance(w.get("interval"), str) or not w["interval"]:
+            raise EnvelopeError("a bar window names its interval")
+        for k in ("start", "end"):
+            if w.get(k) is not None:
+                parse_iso(w[k])
+    if w["type"] == "mixed":
+        if not isinstance(w.get("by"), dict) or not w["by"]:
+            raise EnvelopeError("a mixed window lists its parts under 'by'")
+        for v in w["by"].values():
+            validate_window(v)
+    return w
+
+
 def validate_observation(row: dict[str, Any]) -> dict[str, Any]:
     _check(row, _OBS_FIELDS, "observation")
     parse_iso(row["observed_at"])
+    if "window" in row:
+        validate_window(row["window"])
     return row
 
 

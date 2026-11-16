@@ -67,3 +67,12 @@ def test_commitment_reveals_only_the_hash():
     c = tape.commitment(fc, "2026-11-13T22:01:00Z")
     assert c["forecast_id"] == fc["id"]
     assert "quantiles" not in c and "levels" not in c and "inputs_sha256" not in c
+
+
+def test_window_optional_hashed_and_validated():
+    plain = _obs()
+    bar = _obs(window={"type": "bar", "interval": "1d", "start": "2026-11-13T14:30:00Z", "end": "2026-11-13T21:00:00Z"})
+    assert "window" not in plain and bar["id"] != plain["id"]
+    for bad in ({"type": "candle"}, {"type": "bar"}, {"type": "mixed", "by": {}}):
+        with pytest.raises(tape.EnvelopeError):
+            _obs(window=bad)

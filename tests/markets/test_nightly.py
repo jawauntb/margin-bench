@@ -105,3 +105,13 @@ def test_private_forecast_scored_only_with_commitment(tmp_path):
 def test_replay_null_is_off(tmp_path):
     with pytest.raises(ValueError, match="replay off"):
         nightly.replay({**CFG, "replay": None}, tmp_path, _close_of(499), fetcher(500))
+
+
+def test_bars_are_one_day_candles_open_to_close_dividends_points():
+    from marginbench.markets import yahoo
+
+    obs = yahoo.observations("AAA", fetcher(500)("AAA", "5y"), _close_of(499), 20)
+    b = [o for o in obs if o["kind"] == "bar.daily"][-1]
+    assert b["window"]["type"] == "bar" and b["window"]["interval"] == "1d"
+    assert b["window"]["start"] == b["payload"]["open_at"] and b["window"]["end"] == b["observed_at"]
+    assert [o["window"] for o in obs if o["kind"] == "dividend"] == [{"type": "point"}]
