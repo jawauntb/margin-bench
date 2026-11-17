@@ -1,0 +1,21 @@
+{
+  "at": "2026-11-17T21:48:17Z",
+  "code_commit": "af402d79fa820cd26fb64112ecf924f19a209276",
+  "config_sha256": "275a133b9f7a8fd7fd84340ffe95836f6b60041b5747f79f12355d9dddf8295b",
+  "files": {
+    "commitments.jsonl": "6aaf9ec38ad277cd0c1c64e66c25738702d0ce2aa4d6835c0ffe3bbcff28f134",
+    "forecasts.jsonl": "de244befa1eb3035740c86437db886d620ad62077918cd38480b9f6cc050aef7",
+    "outcomes.jsonl": "fc72b31e5f8d0d5836e2ec72da1907f089589332b008896e03b34da5902f44ab",
+    "scores.jsonl": "ff38df63fa08c27d87e0dda9d5a568b676073e0dfd4cd3e14107ea9d0f4d2df3"
+  },
+  "holds": {},
+  "notes": [],
+  "observations": 8962,
+  "observations_sha256": "1a8499950eb111edd997dcc06ed2803ef34e177aecf95b8a701938424a6b5e07",
+  "v": 1,
+  "written": {
+    "forecasts": 19,
+    "outcomes": 6,
+    "scores": 25
+  }
+}

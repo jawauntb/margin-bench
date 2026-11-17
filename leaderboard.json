@@ -1,4 +1,161 @@
 {
   "reference": "rw20",
-  "tasks": {}
+  "tasks": {
+    "ret1d": {
+      "evidence": [
+        {
+          "challenger": "ewma94",
+          "ci90_bp": null,
+          "first": "2026-11-17",
+          "incumbent": "rw20",
+          "last": "2026-11-17",
+          "mean_diff_bp": 1.0340721259806667,
+          "n": 1,
+          "objective": "quantile score (lower is better)",
+          "state": "collecting",
+          "task": "ret1d",
+          "text": "n 1 < 30"
+        },
+        {
+          "challenger": "garch11",
+          "ci90_bp": null,
+          "first": "2026-11-17",
+          "incumbent": "rw20",
+          "last": "2026-11-17",
+          "mean_diff_bp": 0.25444249103879896,
+          "n": 1,
+          "objective": "quantile score (lower is better)",
+          "state": "collecting",
+          "task": "ret1d",
+          "text": "n 1 < 30"
+        },
+        {
+          "challenger": "hvega-har-fhs",
+          "ci90_bp": null,
+          "first": "2026-11-17",
+          "incumbent": "rw20",
+          "last": "2026-11-17",
+          "mean_diff_bp": -0.04959031104680735,
+          "n": 1,
+          "objective": "quantile score (lower is better)",
+          "state": "collecting",
+          "task": "ret1d",
+          "text": "n 1 < 30"
+        },
+        {
+          "challenger": "vix",
+          "ci90_bp": null,
+          "first": "2026-11-17",
+          "incumbent": "rw20",
+          "last": "2026-11-17",
+          "mean_diff_bp": 0.06566038286571346,
+          "n": 1,
+          "objective": "quantile score (lower is better)",
+          "state": "collecting",
+          "task": "ret1d",
+          "text": "n 1 < 30"
+        },
+        {
+          "challenger": "garch11",
+          "ci90_bp": null,
+          "first": "2026-11-17",
+          "incumbent": "vix",
+          "last": "2026-11-17",
+          "mean_diff_bp": 0.41123109885579484,
+          "n": 1,
+          "objective": "quantile score (lower is better)",
+          "state": "collecting",
+          "task": "ret1d",
+          "text": "n 1 < 30"
+        }
+      ],
+      "table": [
+        {
+          "coverage": {
+            "0.50": 0.0,
+            "0.80": 1.0,
+            "0.90": 1.0,
+            "0.95": 1.0
+          },
+          "forecaster": "vix",
+          "invalid": 0,
+          "n": 1,
+          "qs_bp": 39.82646609397793,
+          "skill_vs_ref": 0.0016459484280394938,
+          "symbols": 1,
+          "visibility": [
+            "public"
+          ]
+        },
+        {
+          "coverage": {
+            "0.50": 0.5,
+            "0.80": 0.8333333333333334,
+            "0.90": 1.0,
+            "0.95": 1.0
+          },
+          "forecaster": "ewma94",
+          "invalid": 0,
+          "n": 6,
+          "qs_bp": 42.014521290655296,
+          "skill_vs_ref": 0.02402104328874666,
+          "symbols": 6,
+          "visibility": [
+            "public"
+          ]
+        },
+        {
+          "coverage": {
+            "0.50": 0.5,
+            "0.80": 0.8333333333333334,
+            "0.90": 1.0,
+            "0.95": 1.0
+          },
+          "forecaster": "garch11",
+          "invalid": 0,
+          "n": 6,
+          "qs_bp": 42.79415092559715,
+          "skill_vs_ref": 0.005910587799611373,
+          "symbols": 6,
+          "visibility": [
+            "public"
+          ]
+        },
+        {
+          "coverage": {
+            "0.50": 0.5,
+            "0.80": 1.0,
+            "0.90": 1.0,
+            "0.95": 1.0
+          },
+          "forecaster": "rw20",
+          "invalid": 0,
+          "n": 6,
+          "qs_bp": 43.04859341663595,
+          "skill_vs_ref": null,
+          "symbols": 6,
+          "visibility": [
+            "public"
+          ]
+        },
+        {
+          "coverage": {
+            "0.50": 0.5,
+            "0.80": 0.6666666666666666,
+            "0.90": 0.8333333333333334,
+            "0.95": 1.0
+          },
+          "forecaster": "hvega-har-fhs",
+          "invalid": 0,
+          "n": 6,
+          "qs_bp": 43.098183727682766,
+          "skill_vs_ref": -0.0011519612398681388,
+          "symbols": 6,
+          "visibility": [
+            "private"
+          ]
+        }
+      ]
+    }
+  }
 }
