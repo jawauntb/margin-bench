@@ -1,0 +1,42 @@
+{
+  "at": "2026-11-17T14:33:00Z",
+  "branch": "claude/zen-galileo-0ocgsc",
+  "exit": 0,
+  "files": {
+    "tests/boundary/test_boundary.py": "pass",
+    "tests/integration/test_outcome_paths.py": "pass",
+    "tests/integration/test_parallel.py": "pass",
+    "tests/integration/test_policies.py": "pass",
+    "tests/markets/test_nightly.py": "pass",
+    "tests/markets/test_score_settle.py": "pass",
+    "tests/markets/test_tape.py": "pass",
+    "tests/property/test_properties.py": "pass",
+    "tests/reproducibility/test_reproducibility.py": "pass",
+    "tests/statistical/test_statistics.py": "pass",
+    "tests/unit/test_capacity.py": "pass",
+    "tests/unit/test_config.py": "pass",
+    "tests/unit/test_event_ordering.py": "pass",
+    "tests/unit/test_hashing.py": "pass",
+    "tests/unit/test_ledger.py": "pass",
+    "tests/unit/test_lifecycle.py": "pass",
+    "tests/unit/test_mechanisms.py": "pass",
+    "tests/unit/test_metrics.py": "pass",
+    "tests/unit/test_randomness.py": "pass"
+  },
+  "head": "d5d6af74fb3cc7436272358da6fc885af2c2fbad",
+  "mode": "testonce",
+  "passed": true,
+  "plain_passed": null,
+  "python": "3.11.18",
+  "reason": null,
+  "skip_rule": "a file is skipped only when every input it read, every program it ran and every environment variable is byte-identical to a recorded pass (testonce, proved in Lean 4)",
+  "testonce": "4f03e9e80ad3562a2f4f5699ea10546fa5b10d1b",
+  "totals": {
+    "failed": 0,
+    "files": 19,
+    "ran": 19,
+    "skipped": 0
+  },
+  "tree_state_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "v": 1
+}
