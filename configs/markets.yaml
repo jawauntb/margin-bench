@@ -20,6 +20,8 @@ forecasters:
 reference: rw20
 compare:
   - [vix, garch11]           # does a cheap model beat the market's own forecast on SPY?
+  - [vix, hvega-har-fhs]     # does hvega beat the market's own forecast on SPY? (private forecaster, scores public)
+  - [hvega-har-norm, hvega-har-fhs]  # hvega's control: same volatility, normal tails; isolates the tail model
 score:
   _doc: hvega SPEC 12.3's gate. min_n null states no gate (collecting forever).
   min_n: 30
