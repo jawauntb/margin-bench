@@ -52,15 +52,17 @@ Canonical JSON is `marginbench.hashing.canonical_json` (sorted keys, no whitespa
 3. **Issue:** each forecaster forecasts the next session from data up to the last final session. Nothing is issued during a regular session, because such a forecast would be invalid.
 4. **Publish:** `leaderboard.json` and `LEADERBOARD.md` are rebuilt from `scores.jsonl`, and a receipt is written to `receipts/<date>.json` (code commit, config hash, observation-set hash, file hashes, holds, counts).
 
-The public ledger lives on the `markets-ledger` branch of this repo: append-only `forecasts`, `commitments`, `outcomes` and `scores` (JSON lines), plus the derived leaderboard and receipts. Raw Yahoo bars are not stored here (DECISIONS D-49). The durable raw tape lives on hvega's private `tape` branch.
+The public ledger lives on the `markets-ledger` branch of this repo: append-only `forecasts`, `commitments`, `outcomes` and `scores` (JSON lines), plus the derived leaderboard and receipts. Raw Yahoo bars are not stored here (DECISIONS D-49). The durable raw tape lives on hvega's private `tape-ledger` branch (`tape/<service>/<day>/part-NNN.jsonl.gz`).
 
 `marginbench markets replay` runs the same baselines point-in-time over the last N sessions. Its inputs contain no hindsight, but nothing in it was committed in advance, so it is labeled REPLAY and is never forward evidence. Its role is to calibrate expectations and test the pipeline.
 
 ## 5. How hvega enters
 
-1. hvega writes its forecasts as Forecast rows with `visibility: private` on its private `tape` branch.
-2. Before the target opens, it publishes their commitments: `marginbench markets commit --file F --ledger DIR`.
-3. The nightly runs with `--private` pointing at hvega's tape, and scores them next to the baselines. Only the score rows (forecast id, QS, hits) become public.
+hvega's forecaster is `hvega forecast` (HVega `src/hvega/forecaster.py`): `hvega-har-fhs`, plus the control `hvega-har-norm`. The nightly runner does this after the close each weekday:
+
+1. Run `hvega forecast --dir <trackm-private worktree>`. It appends Forecast rows with `visibility: private` to `forecasts.jsonl` and pushes them to hvega's private `trackm-private` branch, append-only with first write wins.
+2. Publish their commitments before the target opens: `marginbench markets commit --file <dir>/forecasts.jsonl --ledger <markets-ledger>`. Only `forecast_id`, who, what and when go public.
+3. Score them next to the baselines: `scripts/markets_nightly.sh --private <dir>`. Only the score rows (forecast id, QS, hits) become public.
 4. The paired evidence row (`leaderboard.json` → `evidence`) is the input to hvega's 12.3 gate. A parameter changes in hvega only when that row says `pass`.
 
 ## 6. What this cannot show
