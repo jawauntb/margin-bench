@@ -8,34 +8,47 @@
           "ci90_bp": null,
           "first": "2026-11-17",
           "incumbent": "rw20",
-          "last": "2026-11-17",
-          "mean_diff_bp": 1.0340721259806667,
-          "n": 1,
+          "last": "2026-11-18",
+          "mean_diff_bp": 0.5364563781309485,
+          "n": 2,
           "objective": "quantile score (lower is better)",
           "state": "collecting",
           "task": "ret1d",
-          "text": "n 1 < 30"
+          "text": "n 2 < 30"
         },
         {
           "challenger": "garch11",
           "ci90_bp": null,
           "first": "2026-11-17",
           "incumbent": "rw20",
-          "last": "2026-11-17",
-          "mean_diff_bp": 0.25444249103879896,
-          "n": 1,
+          "last": "2026-11-18",
+          "mean_diff_bp": 0.528995461754929,
+          "n": 2,
           "objective": "quantile score (lower is better)",
           "state": "collecting",
           "task": "ret1d",
-          "text": "n 1 < 30"
+          "text": "n 2 < 30"
         },
         {
           "challenger": "hvega-har-fhs",
           "ci90_bp": null,
           "first": "2026-11-17",
           "incumbent": "rw20",
-          "last": "2026-11-17",
-          "mean_diff_bp": -0.04959031104680735,
+          "last": "2026-11-18",
+          "mean_diff_bp": -1.4266537542360747,
+          "n": 2,
+          "objective": "quantile score (lower is better)",
+          "state": "collecting",
+          "task": "ret1d",
+          "text": "n 2 < 30"
+        },
+        {
+          "challenger": "hvega-har-norm",
+          "ci90_bp": null,
+          "first": "2026-11-18",
+          "incumbent": "rw20",
+          "last": "2026-11-18",
+          "mean_diff_bp": -3.989097222816427,
           "n": 1,
           "objective": "quantile score (lower is better)",
           "state": "collecting",
@@ -47,21 +60,47 @@
           "ci90_bp": null,
           "first": "2026-11-17",
           "incumbent": "rw20",
-          "last": "2026-11-17",
-          "mean_diff_bp": 0.06566038286571346,
-          "n": 1,
+          "last": "2026-11-18",
+          "mean_diff_bp": -1.2787263898652257,
+          "n": 2,
           "objective": "quantile score (lower is better)",
           "state": "collecting",
           "task": "ret1d",
-          "text": "n 1 < 30"
+          "text": "n 2 < 30"
         },
         {
           "challenger": "garch11",
           "ci90_bp": null,
           "first": "2026-11-17",
           "incumbent": "vix",
-          "last": "2026-11-17",
-          "mean_diff_bp": 0.41123109885579484,
+          "last": "2026-11-18",
+          "mean_diff_bp": 3.3031526806228295,
+          "n": 2,
+          "objective": "quantile score (lower is better)",
+          "state": "collecting",
+          "task": "ret1d",
+          "text": "n 2 < 30"
+        },
+        {
+          "challenger": "hvega-har-fhs",
+          "ci90_bp": null,
+          "first": "2026-11-17",
+          "incumbent": "vix",
+          "last": "2026-11-18",
+          "mean_diff_bp": 5.035352939032408,
+          "n": 2,
+          "objective": "quantile score (lower is better)",
+          "state": "collecting",
+          "task": "ret1d",
+          "text": "n 2 < 30"
+        },
+        {
+          "challenger": "hvega-har-fhs",
+          "ci90_bp": null,
+          "first": "2026-11-18",
+          "incumbent": "hvega-har-norm",
+          "last": "2026-11-18",
+          "mean_diff_bp": 1.1853800253910853,
           "n": 1,
           "objective": "quantile score (lower is better)",
           "state": "collecting",
@@ -72,16 +111,16 @@
       "table": [
         {
           "coverage": {
-            "0.50": 0.0,
+            "0.50": 0.5,
             "0.80": 1.0,
             "0.90": 1.0,
             "0.95": 1.0
           },
           "forecaster": "vix",
           "invalid": 0,
-          "n": 1,
-          "qs_bp": 39.82646609397793,
-          "skill_vs_ref": 0.0016459484280394938,
+          "n": 2,
+          "qs_bp": 36.86975658210964,
+          "skill_vs_ref": -0.03592833314906043,
           "symbols": 1,
           "visibility": [
             "public"
@@ -91,14 +130,14 @@
           "coverage": {
             "0.50": 0.5,
             "0.80": 0.8333333333333334,
-            "0.90": 1.0,
-            "0.95": 1.0
+            "0.90": 0.9166666666666666,
+            "0.95": 0.9166666666666666
           },
           "forecaster": "ewma94",
           "invalid": 0,
-          "n": 6,
-          "qs_bp": 42.014521290655296,
-          "skill_vs_ref": 0.02402104328874666,
+          "n": 12,
+          "qs_bp": 48.7548748279822,
+          "skill_vs_ref": 0.010883381824031903,
           "symbols": 6,
           "visibility": [
             "public"
@@ -108,14 +147,14 @@
           "coverage": {
             "0.50": 0.5,
             "0.80": 0.8333333333333334,
-            "0.90": 1.0,
-            "0.95": 1.0
+            "0.90": 0.9166666666666666,
+            "0.95": 0.9166666666666666
           },
           "forecaster": "garch11",
           "invalid": 0,
-          "n": 6,
-          "qs_bp": 42.79415092559715,
-          "skill_vs_ref": 0.005910587799611373,
+          "n": 12,
+          "qs_bp": 48.762335744358225,
+          "skill_vs_ref": 0.010732018162441563,
           "symbols": 6,
           "visibility": [
             "public"
@@ -124,14 +163,14 @@
         {
           "coverage": {
             "0.50": 0.5,
-            "0.80": 1.0,
-            "0.90": 1.0,
+            "0.80": 0.9166666666666666,
+            "0.90": 0.9166666666666666,
             "0.95": 1.0
           },
           "forecaster": "rw20",
           "invalid": 0,
-          "n": 6,
-          "qs_bp": 43.04859341663595,
+          "n": 12,
+          "qs_bp": 49.291331206113156,
           "skill_vs_ref": null,
           "symbols": 6,
           "visibility": [
@@ -143,13 +182,30 @@
             "0.50": 0.5,
             "0.80": 0.6666666666666666,
             "0.90": 0.8333333333333334,
-            "0.95": 1.0
+            "0.95": 0.9166666666666666
           },
           "forecaster": "hvega-har-fhs",
           "invalid": 0,
+          "n": 12,
+          "qs_bp": 50.71798496034922,
+          "skill_vs_ref": -0.028943299345486936,
+          "symbols": 6,
+          "visibility": [
+            "private"
+          ]
+        },
+        {
+          "coverage": {
+            "0.50": 0.5,
+            "0.80": 0.6666666666666666,
+            "0.90": 0.8333333333333334,
+            "0.95": 0.8333333333333334
+          },
+          "forecaster": "hvega-har-norm",
+          "invalid": 0,
           "n": 6,
-          "qs_bp": 43.098183727682766,
-          "skill_vs_ref": -0.0011519612398681388,
+          "qs_bp": 59.52316621840678,
+          "skill_vs_ref": -0.07183153143583229,
           "symbols": 6,
           "visibility": [
             "private"
